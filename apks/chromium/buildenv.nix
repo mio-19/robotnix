@@ -10,7 +10,6 @@ buildFHSEnv {
   targetPkgs = pkgs: with pkgs; [
     # Stuff verified to be needed in chromium
     jdk8
-    glibc_multi.dev # Needs unistd.h
     libkrb5.dev # Needs headers
     libkrb5
     ncurses5

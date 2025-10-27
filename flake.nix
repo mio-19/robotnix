@@ -25,12 +25,12 @@
     nixosModule = import ./nixos; # Contains all robotnix nixos modules
     nixosModules.attestation-server = import ./nixos/attestation-server/module.nix;
 
-    packages.x86_64-linux = {
+    packages.aarch64-darwin = {
       manual = (import ./docs { inherit pkgs; }).manual;
       gitRepo = pkgs.gitRepo;
     };
 
-    devShells.x86_64-linux = rec {
+    devShells.aarch64-darwin = rec {
       default = pkgs.mkShell {
         name = "robotnix-scripts";
         nativeBuildInputs = with pkgs; [

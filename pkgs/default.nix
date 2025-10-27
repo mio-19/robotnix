@@ -9,10 +9,10 @@
 
 let
   inherit (inputs) nixpkgs androidPkgs;
-in nixpkgs.legacyPackages.x86_64-linux.appendOverlays [
+in nixpkgs.legacyPackages.aarch64-darwin.appendOverlays [
   (self: super: {
-    androidPkgs.packages = androidPkgs.packages.x86_64-linux;
-    androidPkgs.sdk = androidPkgs.sdk.x86_64-linux;
+    androidPkgs.packages = androidPkgs.packages.aarch64-darwin;
+    androidPkgs.sdk = androidPkgs.sdk.aarch64-darwin;
   })
   (import ./overlay.nix { inherit inputs; })
 ]

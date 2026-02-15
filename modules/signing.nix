@@ -322,10 +322,12 @@ in
             ];
           }
           .${cfg.avb.mode}
-          ++ lib.optionals ((config.androidVersion >= 10) && (cfg.avb.mode != "verity_only")) [
-            "--avb_system_other_key $KEYSDIR/${config.device}/avb.pem"
-            "--avb_system_other_algorithm ${algorithm}"
-          ];
+          ++ lib.optionals
+            ((config.androidVersion >= 10) && (cfg.avb.mode != "verity_only") && config.stateVersion == "1")
+            [
+              "--avb_system_other_key $KEYSDIR/${config.device}/avb.pem"
+              "--avb_system_other_algorithm ${algorithm}"
+            ];
 
         keyMappings =
           {

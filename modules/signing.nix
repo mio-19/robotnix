@@ -138,7 +138,7 @@ in
             "vbmeta_chained"
             "vbmeta_chained_v2"
           ];
-          default = "vbmeta_chained";
+          default = if lib.versionAtLeast config.stateVersion "2" then "vbmeta_simple" else "vbmeta_chained";
           description = "Mode of AVB signing to use.";
         };
 

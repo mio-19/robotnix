@@ -38,14 +38,11 @@ let
     ;
 
   lineageBranchToAndroidVersion = {
-    "19.0" = 12;
-    "19.1" = 12;
     "20.0" = 13;
     "21.0" = 14;
-    "22.0" = 15;
-    "22.1" = 15;
     "22.2" = 15;
     "23.0" = 16;
+    "23.2" = 16;
   };
   deviceMetadata = lib.importJSON ./devices.json;
   supportedDevices = attrNames deviceMetadata;

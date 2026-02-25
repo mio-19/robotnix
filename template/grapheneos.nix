@@ -15,5 +15,5 @@
   # an additional sandbox path to your Nix config.
   ccache.enable = true;
 
-  stateVersion = "2";
+  stateVersion = "3";
 }

@@ -14,8 +14,12 @@
       (enum [
         "1"
         "2"
+        "3"
       ]);
-    default = "2";
+    # also bump in:
+    # - docs/default.nix
+    # - templates/*.nix
+    default = "3";
     description = ''
       Analogously to the NixOS option `system.stateVersion`, this option
       tells the robotnix build what kind of state to expect to the device.
@@ -32,7 +36,7 @@
           ${description}
 
           If you are currently creating a configuration from scratch to be newly
-          flashed onto your device, use the most recent one, i.e. `stateVersion = "2";`.
+          flashed onto your device, use the most recent one, i.e. `stateVersion = "3";`.
 
           If you have flashed your device before `stateVersion` was introduced,
           use `stateVersion = "1";`.

@@ -10,7 +10,7 @@ let
   eval = import ../default.nix {
     inherit pkgs;
     configuration = {
-      stateVersion = "2";
+      stateVersion = "3";
     };
   };
 

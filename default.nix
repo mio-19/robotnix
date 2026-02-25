@@ -47,9 +47,6 @@ let
         #./flavors/vanilla/11/kernel
         #./flavors/vanilla/12
         #./flavors/waydroid
-        ./modules/10
-        ./modules/11
-        ./modules/12
         ./modules/13
         ./modules/15
         ./modules/16

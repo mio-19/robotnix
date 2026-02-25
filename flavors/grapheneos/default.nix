@@ -163,8 +163,6 @@
               "build/make/target/product/security/gmscompat_lib" = "${config.device}/gmscompat_lib";
             })
             (lib.mkIf (lib.versionAtLeast config.grapheneos.release "2026021200") {
-              "build/make/target/product/security/sdk_sandbox" = "${config.device}/sdk_sandbox";
-              "build/make/target/product/security/nfc" = "${config.device}/nfc";
               "build/make/target/product/security/bluetooth" = "${config.device}/bluetooth";
             })
           ];

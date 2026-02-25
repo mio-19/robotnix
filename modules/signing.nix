@@ -278,6 +278,8 @@ in
           "build/make/target/product/security/media" = "${config.device}/media";
           "build/make/target/product/security/shared" = "${config.device}/shared";
           "build/make/target/product/security/platform" = "${config.device}/platform";
+          "build/make/target/product/security/sdk_sandbox" = "${config.device}/sdk_sandbox";
+          "build/make/target/product/security/nfc" = "${config.device}/nfc";
         }
         // lib.optionalAttrs (config.androidVersion >= 10) {
           "build/make/target/product/security/networkstack" = "${config.device}/networkstack";

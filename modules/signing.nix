@@ -317,13 +317,14 @@ in
       extraApks = builtins.listToAttrs (
         map (name: {
           name = "${name}.apex";
-          value = name;
+          value = if lib.versionAtLeast config.stateVersion "3" then "${config.device}/releasekey" else name;
         }) cfg.apex.packageNames
       );
       extraApexPayloadKeys = builtins.listToAttrs (
         map (name: {
           name = "${name}.apex";
-          value = "${name}.pem";
+          value =
+            if lib.versionAtLeast config.stateVersion "3" then "${config.device}/avb.pem" else "${name}.pem";
         }) cfg.apex.packageNames
       );
 

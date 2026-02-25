@@ -435,7 +435,9 @@ in
       cd "$1"
 
       KEYS=( ${toString keysToGenerate} )
-      APEX_KEYS=( ${lib.optionalString config.signing.apex.enable (toString config.signing.apex.packageNames)} )
+      ${lib.optionalString (!lib.versionAtLeast config.stateVersion "3") ''
+        APEX_KEYS=( ${lib.optionalString config.signing.apex.enable (toString config.signing.apex.packageNames)} )
+      ''}
 
       RETVAL=0
       MISSING_KEYS=0
@@ -447,12 +449,14 @@ in
         fi
       done
 
-      for key in "''${APEX_KEYS[@]}"; do
-        if [[ ! -e "$key".pem ]]; then
-          echo "Missing $key APEX AVB key"
-          MISSING_KEYS=1
-        fi
-      done
+      ${lib.optionalString (!lib.versionAtLeast config.stateVersion "3") ''
+        for key in "''${APEX_KEYS[@]}"; do
+          if [[ ! -e "$key".pem ]]; then
+            echo "Missing $key APEX AVB key"
+            MISSING_KEYS=1
+          fi
+        done
+      ''}
 
       if [[ ! -e "${config.device}/avb.pem" ]]; then
         echo "Missing Device AVB key"

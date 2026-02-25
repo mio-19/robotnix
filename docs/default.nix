@@ -9,7 +9,9 @@ with pkgs.lib;
 let
   eval = import ../default.nix {
     inherit pkgs;
-    configuration = { };
+    configuration = {
+      stateVersion = "2";
+    };
   };
 
   robotnixOptionsDoc = pkgs.nixosOptionsDoc {

@@ -79,6 +79,7 @@ let
         ./modules/resources.nix
         ./modules/signing.nix
         ./modules/source.nix
+        ./modules/state-version.nix
         ./modules/webview.nix
       ];
     }

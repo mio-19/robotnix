@@ -389,7 +389,9 @@ in
         export PATH=${lib.getBin pkgs.openssl}/bin:${keyTools}/bin:$PATH
 
         KEYS=( ${toString keysToGenerate} )
-        APEX_KEYS=( ${lib.optionalString config.signing.apex.enable (toString config.signing.apex.packageNames)} )
+        ${lib.optionalString (!lib.versionAtLeast config.stateVersion "3") ''
+          APEX_KEYS=( ${lib.optionalString config.signing.apex.enable (toString config.signing.apex.packageNames)} )
+        ''}
 
         mkdir -p "${config.device}"
 
@@ -404,15 +406,17 @@ in
           fi
         done
 
-        for key in "''${APEX_KEYS[@]}"; do
-          if [[ ! -e "$key".pem ]]; then
-            echo "Generating $key APEX AVB key"
-            openssl genrsa -out "$key".pem 4096
-            avbtool extract_public_key --key "$key".pem --output "$key".avbpubkey
-          else
-            echo "Skipping generating $key APEX key since it is already exists"
-          fi
-        done
+        ${lib.optionalString (!lib.versionAtLeast config.stateVersion "3") ''
+          for key in "''${APEX_KEYS[@]}"; do
+            if [[ ! -e "$key".pem ]]; then
+              echo "Generating $key APEX AVB key"
+              openssl genrsa -out "$key".pem 4096
+              avbtool extract_public_key --key "$key".pem --output "$key".avbpubkey
+            else
+              echo "Skipping generating $key APEX key since it is already exists"
+            fi
+          done
+        ''}
 
         if [[ ! -e "${config.device}/avb.pem" ]]; then
           echo "Generating Device AVB key"

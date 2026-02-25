@@ -72,6 +72,7 @@ let
         ./modules/release.nix
         ./modules/resources.nix
         ./modules/signing.nix
+        ./modules/legacy-key-mappings.nix
         ./modules/source.nix
         ./modules/state-version.nix
         ./modules/webview.nix

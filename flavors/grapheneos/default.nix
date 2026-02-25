@@ -167,15 +167,8 @@
             })
           ];
 
-          # Extra packages that should use releasekey
           extraApks = {
-            "OsuLogin.apk" = "${config.device}/releasekey";
-            "ServiceWifiResources.apk" = "${config.device}/releasekey";
             "Bluetooth.apk" = "${config.device}/bluetooth";
-            "com.android.appsearch.apk.apk" = "${config.device}/releasekey";
-            "HealthConnectBackupRestore.apk" = "${config.device}/releasekey";
-            "HealthConnectController.apk" = "${config.device}/releasekey";
-            "FederatedCompute.apk" = "${config.device}/releasekey";
           };
         };
 

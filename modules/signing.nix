@@ -160,6 +160,12 @@ in
         assertion = (builtins.length cfg.prebuiltImages) != 0 -> config.androidVersion == 12;
         message = "The --prebuilt-image patch is only applied to Android 12";
       }
+      {
+        assertion = (lib.versionAtLeast config.stateVersion "3") -> config.signing.avb.size == 4096;
+        message = ''
+          Starting with stateVersion = "3", signing.avb.size must be set to 4096.
+        '';
+      }
     ];
 
     signing.apex.enable = mkIf (config.androidVersion >= 10) (mkDefault true);

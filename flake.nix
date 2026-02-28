@@ -2,9 +2,12 @@
   description = "Build Android (AOSP) using Nix";
 
   inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs/nixos-25.05";
+    nixpkgs.url = "github:NixOS/nixpkgs/nixos-25.11";
 
-    androidPkgs.url = "github:tadfisher/android-nixpkgs/stable";
+    androidPkgs = {
+      url = "github:tadfisher/android-nixpkgs/stable";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
 
     flake-compat.url = "github:nix-community/flake-compat";
 

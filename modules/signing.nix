@@ -335,8 +335,6 @@ in
       signTargetFilesArgs = cfg.avbFlags ++ cfg.apkFlags ++ cfg.apexFlags ++ cfg.extraFlags;
     };
 
-    otaArgs = [ "-k ${config.source.dirs."build/make".src}/target/product/security/testkey" ];
-
     build.generateKeysScript =
       let
         # Get a bunch of utilities to generate keys

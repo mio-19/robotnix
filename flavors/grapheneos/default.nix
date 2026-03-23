@@ -162,14 +162,7 @@
             (lib.mkIf (lib.versionAtLeast config.grapheneos.release "2025102300") {
               "build/make/target/product/security/gmscompat_lib" = "${config.device}/gmscompat_lib";
             })
-            (lib.mkIf (lib.versionAtLeast config.grapheneos.release "2026021200") {
-              "build/make/target/product/security/bluetooth" = "${config.device}/bluetooth";
-            })
           ];
-
-          extraApks = {
-            "Bluetooth.apk" = "${config.device}/bluetooth";
-          };
         };
 
         # Leave the existing auditor in the build--just in case the user wants to

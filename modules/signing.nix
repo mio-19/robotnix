@@ -288,6 +288,7 @@ in
           "build/make/target/product/security/media" = "${config.device}/media";
           "build/make/target/product/security/shared" = "${config.device}/shared";
           "build/make/target/product/security/platform" = "${config.device}/platform";
+          "build/make/target/product/security/bluetooth" = "${config.device}/bluetooth";
           "build/make/target/product/security/sdk_sandbox" = "${config.device}/sdk_sandbox";
           "build/make/target/product/security/nfc" = "${config.device}/nfc";
           "build/make/target/product/security/networkstack" = "${config.device}/networkstack";
@@ -318,6 +319,7 @@ in
           "OsuLogin.apk" = "${config.device}/releasekey";
           "ServiceWifiResources.apk" = "${config.device}/releasekey";
           "WifiDialog.apk" = "${config.device}/releasekey";
+          "Bluetooth.apk" = "${config.device}/bluetooth";
         });
       extraApexPayloadKeys = builtins.listToAttrs (
         map (name: {

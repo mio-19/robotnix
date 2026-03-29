@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+real_nix_prefetch_git="${REAL_NIX_PREFETCH_GIT:-/nix/store/0a7326j0l4lhqkdwgwv9hx37jfz9i4fr-nix-prefetch-git-26.05/bin/nix-prefetch-git}"
+
+json="$("$real_nix_prefetch_git" "$@")"
+
+python -c '
+import datetime
+import json
+import sys
+
+data = json.loads(sys.stdin.read())
+date = data.get("date")
+if isinstance(date, str):
+    data["date"] = int(datetime.datetime.fromisoformat(date).timestamp())
+print(json.dumps(data))
+' <<<"$json"

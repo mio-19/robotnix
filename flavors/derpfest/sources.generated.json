@@ -1,0 +1,586 @@
+[
+  {
+    "path": "art",
+    "type": "github",
+    "owner": "DerpFest-AOSP",
+    "repo": "android_art",
+    "rev": "a7e67077ec602c06b5973ad1f8bfa3256cb30b20",
+    "sha256": "0sgz9y7j6ym1fsfni87kjfxbknbyrppa3wfhra2hphys9fipcf56"
+  },
+  {
+    "path": "bionic",
+    "type": "github",
+    "owner": "DerpFest-AOSP",
+    "repo": "android_bionic",
+    "rev": "6c5bbfb93e415998683026a6bae2d16c57767f5b",
+    "sha256": "1nhk0q3vqx68bjkywgjscggr2m2ik5w21kxm3lqyrxr9m082jdbv"
+  },
+  {
+    "path": "bootable/deprecated-ota",
+    "type": "github",
+    "owner": "DerpFest-AOSP",
+    "repo": "android_bootable_deprecated-ota",
+    "rev": "06e32ab2c09f94f8a123019c9adc42ad70c26e17",
+    "sha256": "1qfjl2v96igcy22gvvsab17bvcqkcadfdbcd1rxv7dwqp4a8lb9f"
+  },
+  {
+    "path": "bootable/recovery",
+    "type": "github",
+    "owner": "DerpFest-AOSP",
+    "repo": "android_bootable_recovery",
+    "rev": "75c5debb0e8e065a1ad38aa31484e44e465e15ed",
+    "sha256": "0ij0970r82nvfi8ndfxdd66k5rzsjmdmfgqcr2ysd7la1p9lvmvd"
+  },
+  {
+    "path": "build/make",
+    "type": "github",
+    "owner": "DerpFest-AOSP",
+    "repo": "android_build",
+    "rev": "16dd946b8305e1bb270362771aca3d8dff3e9c89",
+    "sha256": "11lxqm05dwkqczgz5rdcg5fw3plh51zm8v2y2l2y1mlm3zhk7gyi"
+  },
+  {
+    "path": "build/soong",
+    "type": "github",
+    "owner": "DerpFest-AOSP",
+    "repo": "android_build_soong",
+    "rev": "afc803b370b2aabfda1ce08628d9e259cb2767fa",
+    "sha256": "1pg1w1xs1c5lwgynsd7sq9lcyqr8wfnqx8bl6i64kibi71dl784x"
+  },
+  {
+    "path": "external/bouncycastle",
+    "type": "github",
+    "owner": "DerpFest-AOSP",
+    "repo": "android_external_bouncycastle",
+    "rev": "1d411dd06c6caffe37a084881836fc92ed06c5ec",
+    "sha256": "0wmy11cb9bpdqn40ljidkcxi1dcbra56kfvzvq1k9msahwhwd8j1"
+  },
+  {
+    "path": "external/e2fsprogs",
+    "type": "github",
+    "owner": "DerpFest-AOSP",
+    "repo": "android_external_e2fsprogs",
+    "rev": "7770116a244e96de9672eb8b7a8a1b44ba40ec91",
+    "sha256": "1mdv0rd6f60nnrfkca8ciz678fycxismpn0n9skr7wr08w9c61ca"
+  },
+  {
+    "path": "external/FadingEdgeLayout",
+    "type": "github",
+    "owner": "DerpFest-AOSP",
+    "repo": "external_FadingEdgeLayout",
+    "rev": "0165827a1c0c7076faa236fb01dcd5f877595ecf",
+    "sha256": "1vacy6kxrd8kv4sqs9l7sn8pfs90br2551ivnpfnwmfhy15hqi44"
+  },
+  {
+    "path": "device/lineage/sepolicy",
+    "type": "github",
+    "owner": "DerpFest-AOSP",
+    "repo": "android_device_derpfest_sepolicy",
+    "rev": "02c04bdcb5aa56e84ae9e0e189490a1061ad2927",
+    "sha256": "04wg4klgkjsn8fafi6c0c09qmcg0l2schcaxfp3fybcjgl30qb0c"
+  },
+  {
+    "path": "frameworks/av",
+    "type": "github",
+    "owner": "DerpFest-AOSP",
+    "repo": "android_frameworks_av",
+    "rev": "266ab94cc4a5f56ee018b8d86519a1c088b904eb",
+    "sha256": "1idpkrascsmjxnd0l7kvv6wyx1x87bzh77svxja6vx2p9087svji"
+  },
+  {
+    "path": "frameworks/base",
+    "type": "github",
+    "owner": "DerpFest-AOSP",
+    "repo": "android_frameworks_base",
+    "rev": "8b71c5433baf1bbe94c4f056795951b44dac5b15",
+    "sha256": "0mjwfwdi19qr23qy8364yqjz8viywmplbca33sk4av0ddj3yx0xi"
+  },
+  {
+    "path": "frameworks/libs/systemui",
+    "type": "github",
+    "owner": "DerpFest-AOSP",
+    "repo": "android_frameworks_libs_systemui",
+    "rev": "69eeab244adb9d9e45cdfa4c81d45ca8d7996d6b",
+    "sha256": "00avhc30yrdhp5gmhblc0hmw3wbqinyqijn5p6l0v5rdyypgzcjq"
+  },
+  {
+    "path": "frameworks/native",
+    "type": "github",
+    "owner": "DerpFest-AOSP",
+    "repo": "android_frameworks_native",
+    "rev": "8adae39db952dccee1435d2df30403895c10f960",
+    "sha256": "1rkas12gd83cf0jlackybl6shpkva5qqivnylfwrcm1gaz418mjy"
+  },
+  {
+    "path": "frameworks/opt/telephony",
+    "type": "github",
+    "owner": "DerpFest-AOSP",
+    "repo": "android_frameworks_opt_telephony",
+    "rev": "f63db88f7cf738e18695cbebf9ec6337e17e5115",
+    "sha256": "0134zjbp2q2jr3d50ikd3111yl270ydv2aqyi3ypa7irflp2wd33"
+  },
+  {
+    "path": "hardware/lineage/compat",
+    "type": "github",
+    "owner": "DerpFest-AOSP",
+    "repo": "android_hardware_lineage_compat",
+    "rev": "bbb296cd854c996a01cdfedf8006d375293378a3",
+    "sha256": "19l9kl213rj3lcqiv0yp73rsp8r55kpgaszq4m2jiphwrpil1091"
+  },
+  {
+    "path": "hardware/interfaces",
+    "type": "github",
+    "owner": "DerpFest-AOSP",
+    "repo": "android_hardware_interfaces",
+    "rev": "c7caf8f8460726ce0721b1a1dd1b6abb3365cfd3",
+    "sha256": "19yp9ym05sc848akc04mc0if6hk101sd5s8z762pp4n0kfdyb83z"
+  },
+  {
+    "path": "hardware/qcom/wlan",
+    "type": "github",
+    "owner": "DerpFest-AOSP",
+    "repo": "android_hardware_qcom_wlan",
+    "rev": "5ed33f4da64a62d5d220b36c6ae61f1e74af18fc",
+    "sha256": "16svsd7gqhnk4jbg5xi542n11jwsp2758fd5aj8j0wrwn35i4d91"
+  },
+  {
+    "path": "kernel/configs",
+    "type": "github",
+    "owner": "DerpFest-AOSP",
+    "repo": "android_kernel_configs",
+    "rev": "38af439b0349045069f6a0bd52bc2b1443556778",
+    "sha256": "0smd6gya9074x38qbmj3zwqasxpg37v4xwv46wg0iv6acvn0mg9h"
+  },
+  {
+    "path": "lineage-sdk",
+    "type": "github",
+    "owner": "DerpFest-AOSP",
+    "repo": "android_lineage-sdk",
+    "rev": "91432f26199a7c12a95c5461f27cbe532faddbbc",
+    "sha256": "1q6vzifnsq27pyx41x16my4p047ij2xkdn864980a2c69zf1y1ka"
+  },
+  {
+    "path": "packages/apps/Aperture",
+    "type": "github",
+    "owner": "DerpFest-AOSP",
+    "repo": "android_packages_apps_Aperture",
+    "rev": "34e2d242525463e376d201da6fb019e814760d53",
+    "sha256": "0k1gyzgcqflx9wwsyamkird44g5w56f5zfl5ix5kayrn5iby6cx9"
+  },
+  {
+    "path": "packages/apps/CarrierConfig",
+    "type": "github",
+    "owner": "DerpFest-AOSP",
+    "repo": "android_packages_apps_CarrierConfig",
+    "rev": "82b4e2979a95a7961424c09bd9d02bda10b91c0a",
+    "sha256": "11x041hkvj6p2xr0s102cw6r2nyk1mbga0pm188dhdh2a7hjfaaj"
+  },
+  {
+    "path": "packages/apps/ColumbusService",
+    "type": "github",
+    "owner": "DerpFest-AOSP",
+    "repo": "android_packages_apps_ColumbusService",
+    "rev": "7dfd4a8be956e503be394ec791ad13e84156f1a5",
+    "sha256": "1021mpxmf8wf88ri5pyjligq3qhjchz4yy6z7xi33rfq2njzgx2p"
+  },
+  {
+    "path": "packages/apps/Settings/DerpFestCustomizations",
+    "type": "github",
+    "owner": "DerpFest-AOSP",
+    "repo": "android_packages_apps_DerpFestCustomizations",
+    "rev": "a4c37f214ec511b538e8b0559916f41f4ba7b729",
+    "sha256": "1lh9bvrhrcbxksr6c2c4lpkdd36yh4zq6s7qc1cvnp0zljxikk2q"
+  },
+  {
+    "path": "packages/apps/DerpWalls",
+    "type": "github",
+    "owner": "DerpFest-AOSP",
+    "repo": "packages_apps_DerpWalls",
+    "rev": "1305e2e77f70bdb1374419a893158c7923b407e0",
+    "sha256": "1m44hqhjhvflyl3qq07lb6jbmj5gyn5iq7r5cjjv23rgcqraxl6y"
+  },
+  {
+    "path": "packages/apps/DocumentsUI",
+    "type": "github",
+    "owner": "DerpFest-AOSP",
+    "repo": "android_packages_apps_DocumentsUI",
+    "rev": "fd6a9d5f7dada347b398a61cf0d1ea417a3f356b",
+    "sha256": "0fw74mc4ki57f65q7885s8j3kwaqv0ah10hd0i8y0kq25xgqxqxn"
+  },
+  {
+    "path": "packages/apps/FaceUnlock",
+    "type": "github",
+    "owner": "DerpFest-AOSP",
+    "repo": "android_packages_apps_FaceUnlock",
+    "rev": "a654c85ced960bc6988bbd544771b054b884b658",
+    "sha256": "15g2lwk5h36lb440kbkgl75iv22zli2wryn3rxzj50khq3pi9v4a"
+  },
+  {
+    "path": "packages/apps/GameSpace",
+    "type": "github",
+    "owner": "DerpFest-AOSP",
+    "repo": "android_packages_apps_GameSpace",
+    "rev": "0b0b469b3008d0a30302e58eb473624c8615567b",
+    "sha256": "1cs3mgcnvz9cc9h9d71jlynw9jwv36ckl6asrzqixvfbsm5s2v0j"
+  },
+  {
+    "path": "packages/apps/Launcher3",
+    "type": "github",
+    "owner": "DerpFest-AOSP",
+    "repo": "android_packages_apps_DerpLauncher",
+    "rev": "cafceef9c4beda1e3d63b4fb5cf02befb53ab360",
+    "sha256": "0vrlfi2wvw5rhg76qgcmg0rlf64ndginl392l9dkplwc84z6m6s1"
+  },
+  {
+    "path": "packages/apps/LineageParts",
+    "type": "github",
+    "owner": "DerpFest-AOSP",
+    "repo": "android_packages_apps_LineageParts",
+    "rev": "9bf930cf852b1059cec832b6d1e416bfbffeb739",
+    "sha256": "14m35xczq6kacz3pxzvkf4y2pzm003vnfn4rqwj0jwhi11124wkn"
+  },
+  {
+    "path": "packages/apps/LMOFreeform",
+    "type": "github",
+    "owner": "DerpFest-AOSP",
+    "repo": "android_packages_apps_LMOFreeform",
+    "rev": "3d24792ea446cb1c9b9e5541ce865f03fa1113d2",
+    "sha256": "1mjb40czr4hxfwzvsaars2xndl3ms37cxwlkn4hxqmi4n7wdfpcp"
+  },
+  {
+    "path": "packages/apps/ManagedProvisioning",
+    "type": "github",
+    "owner": "DerpFest-AOSP",
+    "repo": "android_packages_apps_ManagedProvisioning",
+    "rev": "29f3b0730fa0f439e1bd853cc77b7b6c476e8ff0",
+    "sha256": "1bfcmm9534lkf8hzlqkfkjg97nrkzp4zpr6nj4mf0b4qsd8kzhhj"
+  },
+  {
+    "path": "packages/apps/MikuUILyricsStubDummy",
+    "type": "github",
+    "owner": "DerpFest-AOSP",
+    "repo": "packages_apps_MikuUILyricsStubDummy",
+    "rev": "06f468267e976767bb344b54ad4674298bdd00c2",
+    "sha256": "09g3nhqsi1hgahps0ibqh45dcxl7dlvvlmy2fw0i1jw6xl0lcc30"
+  },
+  {
+    "path": "packages/apps/OmniStyle",
+    "type": "github",
+    "owner": "DerpFest-AOSP",
+    "repo": "packages_apps_OmniStyle",
+    "rev": "7586a306654a6e60f6346904f3082ea2d5873ca1",
+    "sha256": "1kmsg44dbzlf9zmiy5q0dv9bcb3inyk18x51dpn42mhf9lk43mhy"
+  },
+  {
+    "path": "packages/apps/Panic",
+    "type": "github",
+    "owner": "DerpFest-AOSP",
+    "repo": "packages_apps_Panic",
+    "rev": "babdb8e13e7543c9583f37adecd9b4a20dc1c6f7",
+    "sha256": "14cii21409rs22i463wyci3bz8g9q3y49871czkndm994606ms9y"
+  },
+  {
+    "path": "packages/apps/Prospect",
+    "type": "github",
+    "owner": "DerpFest-AOSP",
+    "repo": "android_packages_apps_Prospect",
+    "rev": "013145fecf8cd7b8bfc5f512914262f2b8bc8685",
+    "sha256": "0ra287jcsfkhwl6r9llqpgn00z0zc1qqzfakspvl4lld2bypm37x"
+  },
+  {
+    "path": "packages/apps/Ripple",
+    "type": "github",
+    "owner": "DerpFest-AOSP",
+    "repo": "packages_apps_Ripple",
+    "rev": "1e1a1b02e57a036befc20d2c22b62435c1d2923c",
+    "sha256": "0mjvixrc9jwyqr3js6vi08ld11sgqdr9iddirk1jl9mjjs7aylk8"
+  },
+  {
+    "path": "packages/apps/Settings",
+    "type": "github",
+    "owner": "DerpFest-AOSP",
+    "repo": "android_packages_apps_Settings",
+    "rev": "c16953e28ce63719b9cd04ecb7a339e280371d22",
+    "sha256": "0jzkpmzh5ngdps2970qzfkb6kbv3ch66p6p678s9kzvvr9g1fmji"
+  },
+  {
+    "path": "packages/apps/SettingsIntelligence",
+    "type": "github",
+    "owner": "DerpFest-AOSP",
+    "repo": "android_packages_apps_SettingsIntelligence",
+    "rev": "7f34367fa5c87dcf327406ca11c76d9261a1cbde",
+    "sha256": "1chriw9jpnviv7mv4gc3bbramqj57kyln9ngkh4ipz6wn80zskbi"
+  },
+  {
+    "path": "packages/apps/SetupWizard",
+    "type": "github",
+    "owner": "DerpFest-AOSP",
+    "repo": "android_packages_apps_SetupWizard",
+    "rev": "46b285c12c680cd8902e93dd638ce1a0d5d0ae1d",
+    "sha256": "13h54rl7yivpd39hnmcwy52z1vvph6ln0wc08c8savs60sgzzdp4"
+  },
+  {
+    "path": "packages/apps/ThemePicker",
+    "type": "github",
+    "owner": "DerpFest-AOSP",
+    "repo": "android_packages_apps_ThemePicker",
+    "rev": "376b7381b20ecf31e59cc600ab74cda35d991504",
+    "sha256": "05mkjfbz52n2jk662075yr36575vpylkg2vh9dyb9r13q230dr3k"
+  },
+  {
+    "path": "packages/apps/Updater",
+    "type": "github",
+    "owner": "DerpFest-AOSP",
+    "repo": "android_packages_apps_Updater",
+    "rev": "e9f91a4cc915df48334353955c83171b5697dcf9",
+    "sha256": "0s1qwrrid35xnrcfj93ypq737kxz8lbqr4c9pxpgih57ny193xqf"
+  },
+  {
+    "path": "packages/apps/WallpaperPicker2",
+    "type": "github",
+    "owner": "DerpFest-AOSP",
+    "repo": "android_packages_apps_WallpaperPicker2",
+    "rev": "78b6b718af30e72b53d9facdbe96f4093356056f",
+    "sha256": "0jnwl7x9ajd64p4i6gmrichxv4y40cbgcdxrnzp5zkjkdl0rsiid"
+  },
+  {
+    "path": "packages/modules/Connectivity",
+    "type": "github",
+    "owner": "DerpFest-AOSP",
+    "repo": "android_packages_modules_Connectivity",
+    "rev": "b73770f9c16e3daa3a36966d9fe17a6d4fee6f42",
+    "sha256": "1r99085yd6kq4dybwkhg40a3wc5c6ircamj8is3diniqmi6f4nk1"
+  },
+  {
+    "path": "packages/modules/Bluetooth",
+    "type": "github",
+    "owner": "DerpFest-AOSP",
+    "repo": "android_packages_modules_Bluetooth",
+    "rev": "88bf22221e128a756f3eb4496a157dcbcdc2305f",
+    "sha256": "0cc5s4ax18qaspg12qxby8cmdcazqgl1ah7z8x5ri9yni9374fin"
+  },
+  {
+    "path": "packages/modules/Wifi",
+    "type": "github",
+    "owner": "DerpFest-AOSP",
+    "repo": "android_packages_modules_Wifi",
+    "rev": "ffbce17c95a85064a48524397c0ecbaf639cce2e",
+    "sha256": "0f8v0pgsy8ks5mvycdxdcn7ymxga6sf8frnz0w4jvhwi874k34kb"
+  },
+  {
+    "path": "packages/providers/DownloadProvider",
+    "type": "github",
+    "owner": "DerpFest-AOSP",
+    "repo": "android_packages_providers_DownloadProvider",
+    "rev": "c6fc9f35dcacc05a918198ab52daba5f9834aa46",
+    "sha256": "1k8zkgvsis5vz4jswfc3ngcs23w139zgw8rp5lm3gx8c7d80f2y3"
+  },
+  {
+    "path": "packages/services/DeviceAsWebcam",
+    "type": "github",
+    "owner": "DerpFest-AOSP",
+    "repo": "android_packages_services_DeviceAsWebcam",
+    "rev": "259ff0d014b54247286651efc635d4aafaa4900f",
+    "sha256": "0zqmq04cf5g4hhk4vhixdrlsrqjqy5kshv2b1s86asn9l6hwhpi9"
+  },
+  {
+    "path": "packages/services/SmartSpace",
+    "type": "github",
+    "owner": "DerpFest-AOSP",
+    "repo": "android_packages_services_SmartSpace",
+    "rev": "a0c17024586133cafa8b7e142c24f2fcde8846e8",
+    "sha256": "09zzp4qngxxfx6fymh57ghmjb63ymhhi4ihkdsp804pdj23v2s64"
+  },
+  {
+    "path": "packages/services/Telecomm",
+    "type": "github",
+    "owner": "DerpFest-AOSP",
+    "repo": "android_packages_services_Telecomm",
+    "rev": "d9267d493ce3502735040022df94730e9561846c",
+    "sha256": "0gxzw2gxjj93ij8d1vgpd3n7ysfvay0yazjap8accfzcs7jabl52"
+  },
+  {
+    "path": "packages/services/Telephony",
+    "type": "github",
+    "owner": "DerpFest-AOSP",
+    "repo": "android_packages_services_Telephony",
+    "rev": "a8fc24f198820fdaa79e2acce59e90a951ff8da4",
+    "sha256": "071g146k7zk4szbii8a4jci7vhwyvz81md67w2lqs2blc7a3vv22"
+  },
+  {
+    "path": "system/apex",
+    "type": "github",
+    "owner": "DerpFest-AOSP",
+    "repo": "android_system_apex",
+    "rev": "ca108f32cd3d4f540e68cd845431d06aa3042336",
+    "sha256": "0damjk5dsxgrcygl1cjzib47326mv73ra5z9l4p7vjc8drblzlm6"
+  },
+  {
+    "path": "system/bpf",
+    "type": "github",
+    "owner": "DerpFest-AOSP",
+    "repo": "android_system_bpf",
+    "rev": "5115376b7e298b40ae96932a70da432860a0b47b",
+    "sha256": "1p1mpgci302vdqkacgc3yph6sc2jcm4ak3d7x92wwxdgl621nn6m"
+  },
+  {
+    "path": "system/core",
+    "type": "github",
+    "owner": "DerpFest-AOSP",
+    "repo": "android_system_core",
+    "rev": "89c2f26434ac95d49893b1604492525c23ccc5e4",
+    "sha256": "1vlyxhdlll9vaz7m04b1g40864wlbbiycqawzdhhamypfdi1fzhd"
+  },
+  {
+    "path": "system/keymaster",
+    "type": "github",
+    "owner": "DerpFest-AOSP",
+    "repo": "android_system_keymaster",
+    "rev": "9a4d09fe742e434af0961832a053ad62b9b03d93",
+    "sha256": "07jjfq57k7swx2rqfymhgd10wwv00aq4lgzixhqbnws2dqqpjnbl"
+  },
+  {
+    "path": "system/libhidl",
+    "type": "github",
+    "owner": "DerpFest-AOSP",
+    "repo": "android_system_libhidl",
+    "rev": "0cd6e82ac6180312e949eb36aa41ec5cf9cbc7cd",
+    "sha256": "1hpnsakj56z4jm0dig259sq0s06bzbzj52f2rbid28wi3zjznk98"
+  },
+  {
+    "path": "system/security",
+    "type": "github",
+    "owner": "DerpFest-AOSP",
+    "repo": "android_system_security",
+    "rev": "fba2c87f3276633c3e6fd641a5daa10fa833687b",
+    "sha256": "1ijpqik1ycsh0wa3iai8w1zyscw2y9m45bh6j957x19l9zbhkrxf"
+  },
+  {
+    "path": "system/sepolicy",
+    "type": "github",
+    "owner": "DerpFest-AOSP",
+    "repo": "android_system_sepolicy",
+    "rev": "fb83519333fa5134d647eec41398624160e31cee",
+    "sha256": "02wsdvvxi3p58lwng465adpqbch82krffqngh8k2m3q6v27k8x4x"
+  },
+  {
+    "path": "system/update_engine",
+    "type": "github",
+    "owner": "DerpFest-AOSP",
+    "repo": "android_system_update_engine",
+    "rev": "433e741782074faf0b00c439d178ecfbe5682f32",
+    "sha256": "0qcn0ibh4m19k98nlv04l4r7c8739i9frmf9w22j5dvpr7xgqs2p"
+  },
+  {
+    "path": "vendor/certification",
+    "type": "github",
+    "owner": "DerpFest-AOSP",
+    "repo": "android_vendor_certification",
+    "rev": "35b3e14280612b98bd1b083a64c7d5e88045d005",
+    "sha256": "02c12v2q0wrw2gp0qq6mzam9dhxp6mzyrz3afv2jm1h5yaawcdnj"
+  },
+  {
+    "path": "vendor/lineage",
+    "type": "github",
+    "owner": "DerpFest-AOSP",
+    "repo": "android_vendor_derpfest",
+    "rev": "2545e38a77958c53568839e9c83a6dc2f2ad7ea1",
+    "sha256": "1v5b0n9anb98gczd97vpig3jsaiw8v7s81rzpcyy1vdxrgvgjjk4"
+  },
+  {
+    "path": "vendor/fontage",
+    "type": "github",
+    "owner": "DerpFest-AOSP",
+    "repo": "vendor_fontage",
+    "rev": "2fa9e589d10a0c95d784db5d5589b5f723fd1d8a",
+    "sha256": "1y8dvnfxxfg8drwj2cqmiizjdmyx18lnmi24f5vwg7dba5q6pv59"
+  },
+  {
+    "path": "vendor/google/prebuilt",
+    "type": "gitlab",
+    "owner": "DerpFest",
+    "repo": "vendor_google_prebuilt",
+    "rev": "c9316cf46c4c5e1bdfba9bcdbe41cf189e9c504d",
+    "sha256": "1nvsisxfx42x40xs08gqcclj58x1zwqrkkfmmadb8rbdv3v2c7cd"
+  },
+  {
+    "path": "vendor/google/gms",
+    "type": "gitlab",
+    "owner": "DerpFest",
+    "repo": "vendor_google_gms",
+    "rev": "9680a5a3a993984b2c410e1f22b0f2203daa9619",
+    "sha256": "175g6v7y4yd3qfl51yxz5hiz2cm8nap9m9zjj2x3305pxj9xlkbk"
+  },
+  {
+    "path": "vendor/google/pixel",
+    "type": "github",
+    "owner": "DerpFest-AOSP",
+    "repo": "vendor_google_pixel",
+    "rev": "f596a208ffc2f152eedc7e8d290a46645adfdfae",
+    "sha256": "0w162j68mfbih1nzy4r86zy8ljvvfmbfcbarbj93kkl0alcana0a"
+  },
+  {
+    "path": "vendor/overlay",
+    "type": "github",
+    "owner": "DerpFest-AOSP",
+    "repo": "android_vendor_overlay",
+    "rev": "886204f9ae3cf3f97937107f825f557286d46f1d",
+    "sha256": "1i3w6yjimn4y2lw88l1f1fr49ir54klj3cw85zx2v059jzms9fa3"
+  },
+  {
+    "path": "vendor/support",
+    "type": "github",
+    "owner": "DerpFest-AOSP",
+    "repo": "android_vendor_support",
+    "rev": "26181cf661003e1d6e8a00f1a58fd784c6c7e0d7",
+    "sha256": "0ly58nw9zx2ixqzgkvqr7329z29r8fpn9f787291d317dhpbyirb"
+  },
+  {
+    "path": "device/oneplus/enchilada",
+    "type": "github",
+    "owner": "LineageOS",
+    "repo": "android_device_oneplus_enchilada",
+    "rev": "11af130c3356ae736b16fd788a1070d9a1e3fad9",
+    "sha256": "0rdvcy03rzbigs2qp5yrqv3c080nzh26kpli83im6wvqdxf4ffhs"
+  },
+  {
+    "path": "device/oneplus/sdm845-common",
+    "type": "github",
+    "owner": "LineageOS",
+    "repo": "android_device_oneplus_sdm845-common",
+    "rev": "ed71e26a59ddca84832c6b0a9c2e2079198fcd2a",
+    "sha256": "0jg06b5nxf6m3jad1d6jpdhbk5g92i20ppxw9qp0g6wgfgm8ssp9"
+  },
+  {
+    "path": "hardware/oneplus",
+    "type": "github",
+    "owner": "LineageOS",
+    "repo": "android_hardware_oneplus",
+    "rev": "9eb41e6263fd9ba37fa137d9a6052991620c2340",
+    "sha256": "1iw5zkqbz64qp1w5zlm4829kbv31acvfh6pwwafihs0d9ipx0gzw"
+  },
+  {
+    "path": "kernel/oneplus/sdm845",
+    "type": "github",
+    "owner": "LineageOS",
+    "repo": "android_kernel_oneplus_sdm845",
+    "rev": "2e921a892c03b8a17b4d82e9b24c2b3aa775c870",
+    "sha256": "0jfbggsr1q2wlfc7qlcg38kz08qmgs57f184xi6f5ri7s6plshr4"
+  },
+  {
+    "path": "vendor/oneplus/enchilada",
+    "type": "github",
+    "owner": "TheMuppets",
+    "repo": "proprietary_vendor_oneplus_enchilada",
+    "rev": "2dedc8d1099e0b4d3e507c0049ee9bdcf12d77f0",
+    "sha256": "0bqcniw5x9s8sb34bj51mpc911yp5lm6afah2k5qa000klhlf3sg"
+  },
+  {
+    "path": "vendor/oneplus/sdm845-common",
+    "type": "github",
+    "owner": "TheMuppets",
+    "repo": "proprietary_vendor_oneplus_sdm845-common",
+    "rev": "3d6b72f093ccfb99e8bfc17af204441b6e6322aa",
+    "sha256": "026fqf71yqhpslfw0lbhhych61pvj1s1s7akxniniapy1rvazbj1"
+  }
+]

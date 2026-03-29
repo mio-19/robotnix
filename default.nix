@@ -39,6 +39,7 @@ let
         )
         configuration
         #./flavors/anbox
+        ./flavors/derpfest
         ./flavors/grapheneos
         ./flavors/lineageos
         #./flavors/vanilla

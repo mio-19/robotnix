@@ -46,6 +46,13 @@ lib.listToAttrs (
       device = "FP4";
       flavor = "lineageos";
     }
+    {
+      device = "enchilada";
+      flavor = "derpfest";
+      androidVersion = 16;
+      release = "bp2a";
+      stateVersion = "3";
+    }
 
     # { device="x86_64";     flavor="anbox"; }
     # { device="arm64";      flavor="anbox"; }

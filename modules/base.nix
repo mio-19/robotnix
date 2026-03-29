@@ -68,6 +68,7 @@ in
       type = types.nullOr (
         types.enum [
           "lineageos"
+          "derpfest"
           "grapheneos"
         ]
       );

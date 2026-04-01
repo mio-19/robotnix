@@ -220,7 +220,7 @@ in
         (lib.mkIf (config.flavor != "grapheneos") [
           ./0001-sign_target_files_apks-guard-against-usage-of-test-A.patch
         ])
-        ([
+        (lib.mkIf (config.androidVersion >= 16) [
           ./0001-sign_target_files_apks-Add-pkmd-CLI-args.patch
           ./0002-releasetools-Use-apksigner-for-most-APK-and-APEX-sig.patch
           ./0003-releasetools-add-pkcs11_mode-cli-flag.patch
@@ -228,7 +228,7 @@ in
           ./0005-signapk-add-keyStorePinFile-option.patch
         ])
       ];
-      "tools/apksig".patches = [
+      "tools/apksig".patches = lib.mkIf (config.androidVersion >= 16) [
         # Add alignment override option like signapk
         (pkgs.fetchpatch {
           url = "https://gitlab.com/CalyxOS/platform_tools_apksig/-/commit/5275610e05b5010c9f8bc07d0b65b99dbf130942.patch";

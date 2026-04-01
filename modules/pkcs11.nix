@@ -168,6 +168,10 @@ in
           assertion = lib.versionAtLeast config.stateVersion "3";
           message = ''PKCS#11 signing requires a stateVersion of at least "3".'';
         }
+        {
+          assertion = config.androidVersion >= 16;
+          message = "PKCS#11 signing requires an Android version of at least 16.";
+        }
       ];
 
       signing = {

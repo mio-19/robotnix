@@ -311,12 +311,8 @@ in
               echo Building incremental OTA zip
               ${otaScript {
                 targetFiles = signedTargetFilesName;
-                prevTargetFiles =
-                  "${config.device}-target_files"
-                  + lib.optionalString (config.androidVersion < 14) "-$PREV_BUILDNUMBER.zip";
-                out = "${config.device}-incremental${
-                  lib.optionalString (config.androidVersion < 14) "-$PREV_BUILDNUMBER-${config.buildNumber}"
-                }.zip";
+                prevTargetFiles = "${config.device}-signed_target_files-$PREV_BUILDNUMBER.zip";
+                out = "${config.device}-incremental-$PREV_BUILDNUMBER-${config.buildNumber}.zip";
                 signOta = true;
               }}
             fi

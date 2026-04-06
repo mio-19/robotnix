@@ -3,7 +3,7 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>Remote Attestation - Robotnix</title>
+        <title>Signing - Robotnix</title>
 
 
         <!-- Custom HTML head -->
@@ -12,33 +12,33 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#ffffff">
 
-        <link rel="icon" href="../favicon-de23e50b.svg">
-        <link rel="shortcut icon" href="../favicon-8114d1fc.png">
-        <link rel="stylesheet" href="../css/variables-8adf115d.css">
-        <link rel="stylesheet" href="../css/general-2459343d.css">
-        <link rel="stylesheet" href="../css/chrome-ae938929.css">
-        <link rel="stylesheet" href="../css/print-9e4910d8.css" media="print">
+        <link rel="icon" href="favicon-de23e50b.svg">
+        <link rel="shortcut icon" href="favicon-8114d1fc.png">
+        <link rel="stylesheet" href="css/variables-8adf115d.css">
+        <link rel="stylesheet" href="css/general-2459343d.css">
+        <link rel="stylesheet" href="css/chrome-ae938929.css">
+        <link rel="stylesheet" href="css/print-9e4910d8.css" media="print">
 
         <!-- Fonts -->
-        <link rel="stylesheet" href="../fonts/fonts-9644e21d.css">
+        <link rel="stylesheet" href="fonts/fonts-9644e21d.css">
 
         <!-- Highlight.js Stylesheets -->
-        <link rel="stylesheet" id="mdbook-highlight-css" href="../highlight-493f70e1.css">
-        <link rel="stylesheet" id="mdbook-tomorrow-night-css" href="../tomorrow-night-4c0ae647.css">
-        <link rel="stylesheet" id="mdbook-ayu-highlight-css" href="../ayu-highlight-3fdfc3ac.css">
+        <link rel="stylesheet" id="mdbook-highlight-css" href="highlight-493f70e1.css">
+        <link rel="stylesheet" id="mdbook-tomorrow-night-css" href="tomorrow-night-4c0ae647.css">
+        <link rel="stylesheet" id="mdbook-ayu-highlight-css" href="ayu-highlight-3fdfc3ac.css">
 
         <!-- Custom theme stylesheets -->
 
 
         <!-- Provide site root and default themes to javascript -->
         <script>
-            const path_to_root = "../";
+            const path_to_root = "";
             const default_light_theme = "light";
             const default_dark_theme = "navy";
-            window.path_to_searchindex_js = "../searchindex-aeb4db28.js";
+            window.path_to_searchindex_js = "searchindex-aeb4db28.js";
         </script>
         <!-- Start loading toc.js asap -->
-        <script src="../toc-ca3cf735.js"></script>
+        <script src="toc-ca3cf735.js"></script>
     </head>
     <body>
     <div id="mdbook-help-container">
@@ -105,7 +105,7 @@
             <!-- populated by js -->
             <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
             <noscript>
-                <iframe class="sidebar-iframe-outer" src="../toc.html"></iframe>
+                <iframe class="sidebar-iframe-outer" src="toc.html"></iframe>
             </noscript>
             <div id="mdbook-sidebar-resize-handle" class="sidebar-resize-handle">
                 <div class="sidebar-resize-indicator"></div>
@@ -140,7 +140,7 @@
                     <h1 class="menu-title">Robotnix</h1>
 
                     <div class="right-buttons">
-                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
                             <span class=fa-svg id="print-button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M128 0C92.7 0 64 28.7 64 64v96h64V64H354.7L384 93.3V160h64V93.3c0-17-6.7-33.3-18.7-45.3L400 18.7C388 6.7 371.7 0 354.7 0H128zM384 352v32 64H128V384 368 352H384zm64 32h32c17.7 0 32-14.3 32-32V256c0-35.3-28.7-64-64-64H64c-35.3 0-64 28.7-64 64v96c0 17.7 14.3 32 32 32H64v64c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V384zm-16-88c-13.3 0-24-10.7-24-24s10.7-24 24-24s24 10.7 24 24s-10.7 24-24 24z"/></svg></span>
                         </a>
 
@@ -175,92 +175,153 @@
                 <div id="mdbook-content" class="content">
                     <main>
                         <!--
-SPDX-FileCopyrightText: 2020 Daniel Fullmer and robotnix contributors
+SPDX-FileCopyrightText: 2026 cyclopentane and robotnix contributors
 SPDX-License-Identifier: MIT
 -->
-<h1 id="set-up-remote-attestation"><a class="header" href="#set-up-remote-attestation">Set up remote attestation</a></h1>
-<p>GrapheneOS has created an Auditor app, as well as a Remote Attestation service, which “use hardware-based security features to validate the identity of a device along with authenticity and integrity of the operating system.
-See the <a href="https://attestation.app/about">About page</a> for additional details.</p>
-<p>Robotnix patches the Auditor app and Remote Attestation service to allow for using the user-created keys.
-This makes the app (and also the Android build itself) depend on information derived from the device signing key(s).
-The current code in robotnix only works with a single custom device type.
-E.g. the attestation service cannot handle robotnix-customized versions of both <code>crosshatch</code> and <code>sunfish</code>.
-Future improvements may allow the Auditor app and attestation service to work with multiple custom robotnix devices.</p>
-<h2 id="android-side"><a class="header" href="#android-side">Android side</a></h2>
-<ol>
-<li>
-<p>You can enable the Auditor app in the configuration:</p>
-<pre><code class="language-nix">{
-  signing.enable = true;
-  signing.keyStorePath = "/dev/shm/android-keys";
-
-  apps = {
-    auditor.enable = true;
-    auditor.domain = "attestation.example.com";
-  };
-}
+<h1 id="signing"><a class="header" href="#signing">Signing</a></h1>
+<p>AOSP builds are cryptographically signed to prevent unauthorised tampering with system components. Roughly speaking, there are three ways builds are signed:</p>
+<ul>
+<li>Android Verified Boot (AVB) signatures: The bootloader verifies the integrity of the system partitions via partition hashes and hashtrees before the Linux kernel is booted.</li>
+<li>Individual APK signatures: Every APK is signed with some key, and Android only permits you to update an app with a new APK if the new APK is signed with the same key as the old one.</li>
+<li>OTA signatures: The OTA zips distributed via update servers are signed, and the system updater app and the recovery system check the signatures before allowing you to apply an upgrade.</li>
+</ul>
+<p>In a normal AOSP build process, the components are first signed with so-called “test keys”, which are publicly known and committed to the AOSP source repositories.
+Then, as soon as the target files are built, the developer has the option to re-sign the components with their own “release keys”, which must be kept secret.
+This happens via the <code>sign_target_files_apks</code> tool.</p>
+<h2 id="generating-signing-keys"><a class="header" href="#generating-signing-keys">Generating signing keys</a></h2>
+<p>You can generate your own set of release keys with the <code>generateKeysScript</code> build target:</p>
+<pre><code class="language-shell">$ nix build .#robotnixConfigurations.foo.generateKeysScript --out-link generate-keys-script
+$ ./generate-keys-script my-keys/
+$ tree my-keys/
+my-keys
+└── tegu
+    ├── avb.pem
+    ├── avb_pkmd.bin
+    ├── avb.pub
+    ├── avb.x509.pem
+    ├── bluetooth.pk8
+    ├── bluetooth.x509.pem
+    ├── gmscompat_lib.pk8
+    ├── gmscompat_lib.x509.pem
+    ├── media.pk8
+    ├── media.x509.pem
+    ├── networkstack.pk8
+    ├── networkstack.x509.pem
+    ├── nfc.pk8
+    ├── nfc.x509.pem
+    ├── platform.pk8
+    ├── platform.x509.pem
+    ├── releasekey.pk8
+    ├── releasekey.x509.pem
+    ├── sdk_sandbox.pk8
+    ├── sdk_sandbox.x509.pem
+    ├── shared.pk8
+    └── shared.x509.pem
 </code></pre>
-<p>You also need to have signing enabled during build time because the Auditor
-app needs to know its own signing key during build.</p>
-</li>
-<li>
-<p>That’s it from the Android side.  Note that the custom Auditor app will be
-named “Robotnix Auditor”.  When you build GrapheneOS the normal Auditor app
-will still be there in case you’d like to.</p>
-</li>
-</ol>
-<h2 id="server-side"><a class="header" href="#server-side">Server side</a></h2>
-<ol>
-<li>
-<p>Before we begin we have to obtain the fingerprint of the custom Auditor app
-and the AVB fingerprint.  To get the Auditor app fingerprint, we simply use
-OpenSSL to extract the fingerprint of the signing certificate:</p>
-<pre><code class="language-console">$ openssl x509 -noout -fingerprint -sha256 -in keys/auditor.x509.pem | awk -F '=' '{gsub(/:/,""); print $2}'
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+<h2 id="signing-releases"><a class="header" href="#signing-releases">Signing releases</a></h2>
+<p>In robotnix, however, we can’t simply do so within the main build process, since the release keys are inaccessible within the Nix sandbox, and importing them into the Nix store would make them world-readable.
+Thus, we split the build process into two parts:
+The bulk of the build process that doesn’t involve any secrets is done within the Nix sandbox.
+Then, the very last step of signing the build with your own release keys is done outside of the Nix sandbox:
+Robotnix provides a build target called <code>releaseScript</code>, which is a Bash script that can be pointed at your release keys directory.
+When <code>releaseScript</code> is being run, it uses the unsigned target files that have previously been built in the Nix sandbox and your release keys to generate signed release files:</p>
+<pre><code class="language-console">$ nix build .#robotnixConfigurations.foo.releaseScript --out-link release-script
+$ ./release-script my-keys/
+$ ll tegu-*
+-rw-r--r-- 1 c5h10 users 1741206178 Mar 22 20:02 tegu-factory-2026032000.zip
+-rw-r--r-- 1 c5h10 users 1688149504 Mar 22 20:01 tegu-img-2026032000.zip
+-rw-r--r-- 1 c5h10 users 1310723050 Mar 22 20:01 tegu-ota_update-2026032000.zip
+-rw------- 1 c5h10 users 3369654024 Mar 22 19:58 tegu-signed_target_files-2026032000.zip
 </code></pre>
-<p>The AVB fingerprint is a bit more tricky.  I own a Pixel 4a (sunfish) and
-on this device the AVB fingerprint is simply the SHA256 hash of the AVB
-key, but this is not the case on other devices.  Check the Auditor source
-code for details.</p>
-<pre><code class="language-console">$ sha256sum keys/sunfish/avb_pkmd.bin | awk '{print toupper($1)}'
-BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
-</code></pre>
-</li>
-<li>
-<p>Now you can import robotnix in your NixOS configuration with the
-aforementioned fingerprints.</p>
-<pre><code class="language-nix">{ config, lib, pkgs, ... }:
+<p>You can then either flash them via USB, or upload them to an update server to update your device over-the-air.</p>
+<h2 id="pkcs11-signing"><a class="header" href="#pkcs11-signing">PKCS#11 signing</a></h2>
+<p>Robotnix also allows you to sign your releases with keys residing on a PKCS#11 hardware token, such as an HSM or a YubiKey.
+The token needs to have enough keyslots (~10) to accomodate all of the needed keys.
+It is <strong>not</strong> permissible to reduce the number of keys by mapping multiple key aliases to a single key, since Android uses the certificate of an app to determine its SELinux context.</p>
+<p>In order to set up PKCS#11 signing, the token must contain pairs of keys (<code>CKA_CLASS = CKO_PRIVATE_KEY</code>) and certificates (<code>CKA_CLASS = CKO_CERTIFICATE</code>) with the same ID (<code>CKA_ID</code> attribute), respectively.
+This is due to how the Java Sun PKCS#11 keystore provider maps PKCS#11 keys to Java key aliases <sup class="footnote-reference" id="fr-1-1"><a href="#footnote-1">1</a></sup>.</p>
+<p>Then, specify the PKCS#11 module, and the key and certificate labels (<code>CKA_LABEL</code> attribute) via the <code>signing.pkcs11</code> module:</p>
+<pre><code class="language-nix">{ pkgs, ... }:
 {
-  imports = [
-    ((builtins.fetchTarball {
-      name = "robotnix";
-      # Replace the git revision and sha256 with ones referring to a recent commit
-      url =
-        "https://github.com/danielfullmer/robotnix/archive/61b91d145f0b08cf0d4d73fb1d7ba74b9899b788.zip";
-      sha256 = "1dihmdw5w891jq2fm7mcx30ydjjd33ggbb60898841x5pzjx6ynv";
-    }) + "/nixos")
-  ];
-
-  services.attestation-server = {
-    enable = true;
-    domain = "attestation.example.com";
-    device = "sunfish";
-    signatureFingerprint = "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA";
-    avbFingerprint = "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB";
-    #disableAccountCreation = true; # optionally uncomment after creating your account
-    #nginx.enableACME = true; # optionally uncomment if you want to use Let's Encrypt for HTTPS
-  };
+    signing.pkcs11 = {
+        enable = true;
+        module = "${pkgs.yubico-piv-tool}/bin/libykcs11.so";
+        privateKeyLabels = {
+            "${config.device}/releasekey" = "Private key for Retired Key 1";
+            "${config.device}/media" = "Private key for Retired Key 2";
+            "${config.device}/shared" = "Private key for Retired Key 3";
+            "${config.device}/platform" = "Private key for Retired Key 4";
+            [...]
+        };
+        certificateLabels = {
+            "${config.device}/releasekey" = "X.509 Certificate for Retired Key 1";
+            "${config.device}/media" = "X.509 Certificate for Retired Key 2";
+            "${config.device}/shared" = "X.509 Certificate for Retired Key 3";
+            "${config.device}/platform" = "X.509 Certificate for Retired Key 4";
+            [...]
+        };
+    };
 }
 </code></pre>
+<p>The keys directory must contain all the public keys, certificates and AVB public key metadata blobs it also contains in the non-PKCS#11 case.</p>
+<p>Then, build and run <code>releaseScript</code> with the parameters <code>&lt;keysdir&gt; &lt;prev-buildnumber&gt; &lt;pin-file&gt;</code>, where <code>&lt;pin-file&gt;</code> is a file that contains the PKCS#11 token PIN:</p>
+<pre><code class="language-console">$ nix build .#robotnixConfigurations.foo.releaseScript --out-link release-script
+$ tree my-keys/
+my-keys
+└── tegu
+    ├── avb_pkmd.bin
+    ├── avb.pub
+    ├── avb.x509.pem
+    ├── bluetooth.x509.pem
+    ├── gmscompat_lib.x509.pem
+    ├── media.x509.pem
+    ├── networkstack.x509.pem
+    ├── nfc.x509.pem
+    ├── platform.x509.pem
+    ├── releasekey.x509.pem
+    ├── sdk_sandbox.x509.pem
+    └── shared.x509.pem
+$ PIN_FILE=$(mktemp)
+$ echo -n "123456" &gt; $PIN_FILE
+$ ./release-script my-keys/ "2026021200" "$PIN_FILE"
+</code></pre>
+<p>If you do not want to build an incremental OTA, specify <code>""</code> as the previous build ID.</p>
+<h2 id="yubikey-piv-preset"><a class="header" href="#yubikey-piv-preset">YubiKey PIV preset</a></h2>
+<p>Robotnix provides a PKCS#11 preset for the YubiKey PIV mode:</p>
+<pre><code class="language-nix">{
+    signing.pkcs11 = {
+        enable = true;
+        presets.yubikey-piv.enable = true;
+    };
+}
+</code></pre>
+<p>This will set the required <code>module</code>, <code>certificateLabels</code> and <code>privateKeyLabels</code> options.
+By default, it maps the AOSP signing keys to the “retired”<sup class="footnote-reference" id="fr-2-1"><a href="#footnote-2">2</a></sup> PIV keyslots.
+You can change the default keyslot mapping via <code>signing.pkcs11.presets.yubikey-piv.slotMap</code>.</p>
+<p>To generate the required signing keys on your yubikey and place the public keys in your keys directory, run the <code>yubikeyGenerateKeysScript</code> target:</p>
+<pre><code class="language-console">$ nix build .#robotnixConfigurations.foo.yubikeyGenerateKeysScript --out-link yubikey-generate-keys-script
+$ ./yubikey-generate-keys-script my-keys/
+</code></pre>
+<p>You can also export the public keys from your YubiKey after they have already been created:</p>
+<pre><code class="language-console">$ nix build .#robotnixConfigurations.foo.yubikeyExportCertificatesScript --out-link yubikey-export-certificates-script
+$ ./yubikey-export-certificates-script my-keys/
+</code></pre>
+<p>Alternatively, you can also import pre-existing keys (the ones generated with <code>generateKeysScript</code>) into your YubiKey.
+This is mainly useful if you want to provision multiple YubiKeys with the same keys as a backup.</p>
+<pre><code class="language-console">$ nix build .#robotnixConfigurations.foo.yubikeyImportKeysScript --out-link yubikey-import-keys-script
+$ ./yubikey-import-keys-script my-keys/
+</code></pre>
+<p>Then, you can run <code>releaseScript</code> as described above.</p>
+<hr>
+<ol class="footnote-definition">
+<li id="footnote-1">
+<p>https://docs.oracle.com/javase/8/docs/technotes/guides/security/p11guide.html#KeyStoreRestrictions <a href="#fr-1-1">↩</a></p>
 </li>
-<li>
-<p>Register and optionally disable account creation.  The start the “Robotnix
-Auditor” app on your phone and open the menu (three dots).  Choose “Enable
-remote verification” and scan the QR code on your attestation server.</p>
-</li>
-<li>
-<p>The attestation server keeps its state in <code>/var/lib/private/attestation</code>.
-<strong>Make periodic backups!</strong></p>
+<li id="footnote-2">
+<p>These key slots are called “retired” for legacy reason - originally, the PIV standard was made for personal identity cards holding four keys, each named after a purpose such as authentication, encryption, or signing.
+The PIV standard also specifies 20 so-called “retired key” slots meant to store old keys from past key rotations.
+However, from a technical point of view, there is nothing “retired” about them - they are fully usable, and they are not going to be removed in the future.
+As the keys we need wouldn’t fit into the four main key slots, we use the retired key slots instead. <a href="#fr-2-1">↩</a></p>
 </li>
 </ol>
 
@@ -268,11 +329,11 @@ remote verification” and scan the QR code on your attestation server.</p>
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
                         <!-- Mobile navigation buttons -->
-                            <a rel="prev" href="../modules/browsers.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                            <a rel="prev" href="building.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                                 <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></span>
                             </a>
 
-                            <a rel="next prefetch" href="../modules/prebuilt.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                            <a rel="next prefetch" href="installation.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                                 <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></span>
                             </a>
 
@@ -282,11 +343,11 @@ remote verification” and scan the QR code on your attestation server.</p>
             </div>
 
             <nav class="nav-wide-wrapper" aria-label="Page navigation">
-                    <a rel="prev" href="../modules/browsers.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                    <a rel="prev" href="building.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                         <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></span>
                     </a>
 
-                    <a rel="next prefetch" href="../modules/prebuilt.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                    <a rel="next prefetch" href="installation.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                         <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></span>
                     </a>
             </nav>
@@ -306,13 +367,13 @@ remote verification” and scan the QR code on your attestation server.</p>
         </script>
 
 
-        <script src="../elasticlunr-ef4e11c1.min.js"></script>
-        <script src="../mark-09e88c2c.min.js"></script>
-        <script src="../searcher-c2a407aa.js"></script>
+        <script src="elasticlunr-ef4e11c1.min.js"></script>
+        <script src="mark-09e88c2c.min.js"></script>
+        <script src="searcher-c2a407aa.js"></script>
 
-        <script src="../clipboard-1626706a.min.js"></script>
-        <script src="../highlight-abc7f01d.js"></script>
-        <script src="../book-a0b12cfe.js"></script>
+        <script src="clipboard-1626706a.min.js"></script>
+        <script src="highlight-abc7f01d.js"></script>
+        <script src="book-a0b12cfe.js"></script>
 
         <!-- Custom JS scripts -->
 

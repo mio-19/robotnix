@@ -282,7 +282,7 @@
         "copyfiles": [],
         "repo_ref": {
           "repo_url": "https://github.com/GrapheneOS/platform_build_release",
-          "revision": "da5f9ffa9d3981934ed9739ef96e538f74d9bd58",
+          "revision": "22fabecd1b817290779bb32b016e11065bb7a3ed",
           "fetch_lfs": true,
           "fetch_submodules": false
         },
@@ -293,10 +293,10 @@
         "active": true
       },
       "lock": {
-        "commit": "da5f9ffa9d3981934ed9739ef96e538f74d9bd58",
-        "nix_hash": "sha256-45Afz5IRM8Cn/vTavPHIvF+hgfzYAxfdaw6O0eqfXDM=",
-        "path": "/nix/store/3y2dr76nl9fs7h3jpcqwl5khlj373j66-platform_build_release-da5f9ff",
-        "date": 1772666363
+        "commit": "22fabecd1b817290779bb32b016e11065bb7a3ed",
+        "nix_hash": "sha256-0FgLL4+l4EyPFU/LmpfCFW4jisjHVxp51Wht1N2/bkw=",
+        "path": "/nix/store/mhxkg49x7jf75yyswc0yihhv90qdiqy3-platform_build_release-22fabec",
+        "date": 1775651655
       }
     },
     "build/soong": {
@@ -3991,7 +3991,7 @@
         "copyfiles": [],
         "repo_ref": {
           "repo_url": "https://github.com/GrapheneOS/platform_external_dng_sdk",
-          "revision": "a974e7201ec9f327b3a39c1916c559722b9a78fd",
+          "revision": "89b176b1ecc4df60821fd0cd4fe2f2350dd3aa72",
           "fetch_lfs": true,
           "fetch_submodules": false
         },
@@ -4002,10 +4002,10 @@
         "active": true
       },
       "lock": {
-        "commit": "a974e7201ec9f327b3a39c1916c559722b9a78fd",
-        "nix_hash": "sha256-BaBFILd6Dzr/Bxwq5E/pnHj6VVM9BeTmzJmJ98hrcyY=",
-        "path": "/nix/store/5yaks7dqnijs9107mp04yyxbkdxv96dc-platform_external_dng_sdk-a974e72",
-        "date": 1772481185
+        "commit": "89b176b1ecc4df60821fd0cd4fe2f2350dd3aa72",
+        "nix_hash": "sha256-HpL8jmmkAm6sJyjdJMkNfWVzV0KYwirvZOV+oeJ0h2s=",
+        "path": "/nix/store/m2aakasz1b4jl4i851rsjl32shmk6min-platform_external_dng_sdk-89b176b",
+        "date": 1775506673
       }
     },
     "external/dnsmasq": {
@@ -16214,7 +16214,7 @@
         "copyfiles": [],
         "repo_ref": {
           "repo_url": "https://github.com/GrapheneOS/platform_frameworks_base",
-          "revision": "91afab26fe770d37287d90769c7c27861b1c2096",
+          "revision": "22e9320b827bb6f595fc7e987ac4d1fe5707739f",
           "fetch_lfs": true,
           "fetch_submodules": false
         },
@@ -16225,10 +16225,10 @@
         "active": true
       },
       "lock": {
-        "commit": "91afab26fe770d37287d90769c7c27861b1c2096",
-        "nix_hash": "sha256-lcWS/CHW52P+VluUZodGZU6Z77coQ9L3Wu9qw3trAeU=",
-        "path": "/nix/store/jnzw1vfazp2mf9al4z0mip69qgq9zi9s-platform_frameworks_base-91afab2",
-        "date": 1775230038
+        "commit": "22e9320b827bb6f595fc7e987ac4d1fe5707739f",
+        "nix_hash": "sha256-7lTvxPt5gH1Sg9eRn7JglDB43ctTwrcExV94nOIWQms=",
+        "path": "/nix/store/178paij8kp16kfzi7rcpzysic684xlii-platform_frameworks_base-22e9320",
+        "date": 1775506680
       }
     },
     "frameworks/compile/libbcc": {
@@ -19657,7 +19657,7 @@
         "copyfiles": [],
         "repo_ref": {
           "repo_url": "https://github.com/GrapheneOS/platform_packages_apps_Launcher3",
-          "revision": "41a7fe2bc111eac05548da2958707c2784298ab6",
+          "revision": "98c6d98b0cce3a1ce500ba2d4242c420b21dcc95",
           "fetch_lfs": true,
           "fetch_submodules": false
         },
@@ -19668,10 +19668,10 @@
         "active": true
       },
       "lock": {
-        "commit": "41a7fe2bc111eac05548da2958707c2784298ab6",
-        "nix_hash": "sha256-OtNAUg9oEK07A9WhVNEYpGpQncDhPr8SDs8V24+hsZs=",
-        "path": "/nix/store/g96yj5wzkdrcnnm49lc8x0kyjr4mx14w-platform_packages_apps_Launcher3-41a7fe2",
-        "date": 1773094169
+        "commit": "98c6d98b0cce3a1ce500ba2d4242c420b21dcc95",
+        "nix_hash": "sha256-9e2l32WwOEMWvh13C3zOUEn5B6L2xH2FSWYIjNTQ2Rw=",
+        "path": "/nix/store/kgakvhdp4jbmliak3sbpr0v2rp8vbgmy-platform_packages_apps_Launcher3-98c6d98",
+        "date": 1775417946
       }
     },
     "packages/apps/LogViewer": {
@@ -20119,7 +20119,7 @@
         "copyfiles": [],
         "repo_ref": {
           "repo_url": "https://github.com/GrapheneOS/platform_packages_apps_Settings",
-          "revision": "9f343cf50b706a90a8f126282a425b0a72751a7f",
+          "revision": "826089f4e79b4c4a1079a0d60454c508a015fa9f",
           "fetch_lfs": true,
           "fetch_submodules": false
         },
@@ -20130,10 +20130,10 @@
         "active": true
       },
       "lock": {
-        "commit": "9f343cf50b706a90a8f126282a425b0a72751a7f",
-        "nix_hash": "sha256-MaPfVAQyWjbnOTeETubGXseZgke6HMO3TaR5IQtsHB4=",
-        "path": "/nix/store/kywvb8z8mynr02jl69gpvlwr2y4dmcm5-platform_packages_apps_Settings-9f343cf",
-        "date": 1773842041
+        "commit": "826089f4e79b4c4a1079a0d60454c508a015fa9f",
+        "nix_hash": "sha256-BnUs1Mgf8e+JWGuSDrrZnspV5sMpHeI2SNVcU1A9AyA=",
+        "path": "/nix/store/pna2cnl0npb50vhjcqkjw8ikh6vkajsq-platform_packages_apps_Settings-826089f",
+        "date": 1775651444
       }
     },
     "packages/apps/SettingsIntelligence": {
@@ -20550,7 +20550,7 @@
         "copyfiles": [],
         "repo_ref": {
           "repo_url": "https://github.com/GrapheneOS/platform_packages_apps_Updater",
-          "revision": "2d85d08528d49bb199f26c0002551051d3b66f7f",
+          "revision": "6b1f34c3d42e37ff432c5d9eaae4b9a3965e6939",
           "fetch_lfs": true,
           "fetch_submodules": false
         },
@@ -20561,10 +20561,10 @@
         "active": true
       },
       "lock": {
-        "commit": "2d85d08528d49bb199f26c0002551051d3b66f7f",
-        "nix_hash": "sha256-C83wIHGTiSERyCjI/BNZIMyjpgZ9qjegfgXiAtQTR/I=",
-        "path": "/nix/store/v3qz3r68cagq7lryji6n2zfzk5xg3b79-platform_packages_apps_Updater-2d85d08",
-        "date": 1772978217
+        "commit": "6b1f34c3d42e37ff432c5d9eaae4b9a3965e6939",
+        "nix_hash": "sha256-Exq0qPjhpuyxhN+/y8AHyf+crI/qMphKSY78i9CiRB4=",
+        "path": "/nix/store/lg9zmhsj6i67gccha770rg1k9phwhg8r-platform_packages_apps_Updater-6b1f34c",
+        "date": 1775319666
       }
     },
     "packages/apps/WallpaperPicker2": {
@@ -24000,7 +24000,7 @@
         "copyfiles": [],
         "repo_ref": {
           "repo_url": "https://github.com/GrapheneOS/platform_prebuilts_qemu-kernel",
-          "revision": "17b5a32c22de98fee7b8c2ca0e24b288c81a3636",
+          "revision": "c39b7eded4bedfa2d06ff23e51ff5e234aad9b65",
           "fetch_lfs": true,
           "fetch_submodules": false
         },
@@ -24011,10 +24011,10 @@
         "active": true
       },
       "lock": {
-        "commit": "17b5a32c22de98fee7b8c2ca0e24b288c81a3636",
-        "nix_hash": "sha256-uMr9mslPojidOvyQhPfL6aLMx0hwPJi2r/niTLQTJ/o=",
-        "path": "/nix/store/bkzrnk4vid0v41yanlrfvgylcykhmkdk-platform_prebuilts_qemu-kernel-17b5a32",
-        "date": 1774842235
+        "commit": "c39b7eded4bedfa2d06ff23e51ff5e234aad9b65",
+        "nix_hash": "sha256-vMhW5iUIXYbiZp2L4kTDbxoGAzxf+LijoewBMFmGQJY=",
+        "path": "/nix/store/vqjn7jgg7qd9m088bg176h8asqzrcq9h-platform_prebuilts_qemu-kernel-c39b7ed",
+        "date": 1775654328
       }
     },
     "prebuilts/r8": {
@@ -28110,7 +28110,7 @@
         "copyfiles": [],
         "repo_ref": {
           "repo_url": "https://github.com/GrapheneOS/adevtool",
-          "revision": "8ae3141d1e0e6f93b49f4b06d785ea5e7462d42c",
+          "revision": "54822d74e1f8b246789ba1ec6191eefbce2d7a54",
           "fetch_lfs": true,
           "fetch_submodules": false
         },
@@ -28121,10 +28121,10 @@
         "active": true
       },
       "lock": {
-        "commit": "8ae3141d1e0e6f93b49f4b06d785ea5e7462d42c",
-        "nix_hash": "sha256-hb5RdGH1b8MJExljGZAfzHHKU6f3e8jjFPnLmssR3Gg=",
-        "path": "/nix/store/55283hk0wz4dvf1s9cwh6spgi71sga4c-adevtool-8ae3141",
-        "date": 1775223405
+        "commit": "54822d74e1f8b246789ba1ec6191eefbce2d7a54",
+        "nix_hash": "sha256-03LMTjV4yKu3CcbNC6yCIUPf+gEXxdlohFYQVoT/xdc=",
+        "path": "/nix/store/l666dqmffckcbslhcmr6afvkaivh8s5k-adevtool-54822d7",
+        "date": 1775651889
       }
     },
     "vendor/state": {

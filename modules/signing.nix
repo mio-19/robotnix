@@ -58,8 +58,10 @@ in
       # is, indeed, still 4096 bit.
       # TODO generate APK keys directly with openssl + sane Nix abstractions
       apkKeySize = mkOption {
-        default = 4096;
-        type = types.enum [ 4096 ];
+        type = types.enum [
+          2048
+          4096
+        ];
         internal = true;
         description = '''';
       };
@@ -322,6 +324,11 @@ in
     );
 
     signing = {
+      # Do not override - this only changes the value in verifyKeysScript, but
+      # not the hardcoded value in make_key.
+      # TODO saner Nix abstractions
+      apkKeySize = lib.mkForce (if config.flavor == "grapheneos" then 4096 else 2048);
+
       avbFlags =
         {
           vbmeta_simple = [
@@ -554,7 +561,7 @@ in
         fi
         KEYSIZE=$(openssl x509 -in "$key.x509.pem" -text -noout | grep "Public-Key" | tr -d '(' | awk '{ print $2 }')
         if [ "$KEYSIZE" != ${toString config.signing.apkKeySize} ]; then
-          echo "APK certificate $key has wrong size ($KEYSIZE bits), but ${toString config.signing.avb.size} were expected."
+          echo "APK certificate $key has wrong size ($KEYSIZE bits), but ${toString config.signing.apkKeySize} were expected."
           RETVAL=1
         fi
       done

@@ -2931,10 +2931,10 @@
         "active": true
       },
       "lock": {
-        "commit": "c144fac2439c1188e9dacbe9eba05374b8a53e84",
-        "nix_hash": "sha256-Id6o6pORKV40fgY6rNIO7PPU4XXwDNvGWcfUC6CCTTY=",
-        "path": "/nix/store/x7d7qf824v4v8yzk0nqmm0nwp4qnwblv-android_device_lenovo_zippo-c144fac",
-        "date": 1765810904
+        "commit": "dddccd646eb8575818c6c20c9906a9d3bc465810",
+        "nix_hash": "sha256-ECT2wDy7/SpkhgKxq1XVeyrR6oEdzmdmddsqvTzXrWE=",
+        "path": "/nix/store/sjx5fz1c2ylhnnczz2w56rphf9zx2kfk-android_device_lenovo_zippo-dddccd6",
+        "date": 1775688772
       }
     },
     "device/lge/timelm": {
@@ -2988,10 +2988,10 @@
         "active": true
       },
       "lock": {
-        "commit": "e196e860286178d2ef85a66255d3b3a4233aa7b1",
-        "nix_hash": "sha256-Nz7hOfQ6U9ZQ0CrDS58L8LRFHb7R34GMSDtKQ1yGeX8=",
-        "path": "/nix/store/8hzmgxp0c1fqqrqndlyk7ry80j1r5ka3-android_device_lineage_atv-e196e86",
-        "date": 1741820207
+        "commit": "9be7336035b8823fff3fbcacdcfb0205d039dd2b",
+        "nix_hash": "sha256-vxiLJEvl7TaBZd1rjnchg+W9sa+rAqo8TUWhw+DJw/Y=",
+        "path": "/nix/store/xwbiimqx4ph812sh6lvkag6hi587vif1-android_device_lineage_atv-9be7336",
+        "date": 1776124385
       }
     },
     "device/lineage/car": {
@@ -12242,10 +12242,10 @@
         "active": true
       },
       "lock": {
-        "commit": "b9cadca6725a422f40eba569980534a989876909",
-        "nix_hash": "sha256-GAgDKbrD/ud7BPk+WDBkqYUcaFNawQ7aJ7E3P58H7s0=",
-        "path": "/nix/store/n5p9by4abzh8v6l92agh3h0kv9dffndj-android_external_chromium-webview_patches-b9cadca",
-        "date": 1774108542
+        "commit": "520f1e5ef0924ad15f5de07731b33de55a20699d",
+        "nix_hash": "sha256-RwO64cEygUhIW5rX1AgUEJbZMlMCJyeT1YsiGGkyJi0=",
+        "path": "/nix/store/k0axp33wc5jyb5m747y3rjnqyzzim351-android_external_chromium-webview_patches-520f1e5",
+        "date": 1776305603
       }
     },
     "external/chromium-webview/prebuilt/arm": {
@@ -12269,10 +12269,10 @@
         "active": true
       },
       "lock": {
-        "commit": "30f362bd392fbfd8e5779bf90621d2e1a7331b22",
-        "nix_hash": "sha256-o1j6aUwC0/YPC5o/jGP4kLnNYBnvNJXadgKz8AxiPPg=",
-        "path": "/nix/store/bby914c0ika1bjdyg4k91103b8fqi68z-android_external_chromium-webview_prebuilt_arm-30f362b",
-        "date": 1774225490
+        "commit": "67198c39b7d35aee3782510f0c5958e29fa854b2",
+        "nix_hash": "sha256-5qjryY3Afmmj2ZiYFrqcvV0BnzNE4VcnPVlr+GupP7k=",
+        "path": "/nix/store/3jkbd9nrc9nzzxil1zc4di7bgds3cnbm-android_external_chromium-webview_prebuilt_arm-67198c3",
+        "date": 1776425558
       }
     },
     "external/chromium-webview/prebuilt/arm64": {
@@ -12296,10 +12296,10 @@
         "active": true
       },
       "lock": {
-        "commit": "61a5fb3419dadda30f6edb4891dee24d89c7e372",
-        "nix_hash": "sha256-rO7MCHPmffz7q3QmkZRBxfk74LWy9Z8RA+rWdUNlJkw=",
-        "path": "/nix/store/j2414l3q0db63a1h996ab2lkx9pyls2l-android_external_chromium-webview_prebuilt_arm64-61a5fb3",
-        "date": 1774226049
+        "commit": "ccf33f20553681c7cea4be44eeb9ca1e18eab165",
+        "nix_hash": "sha256-TOstsPH3U6UPZMn9EBqX+uFwb8kWXZt0giMwtY2Reik=",
+        "path": "/nix/store/997j50bv9yc36hb6f9f0dcx5xbhdcvyr-android_external_chromium-webview_prebuilt_arm64-ccf33f2",
+        "date": 1776425969
       }
     },
     "external/chromium-webview/prebuilt/x86": {
@@ -12323,10 +12323,10 @@
         "active": true
       },
       "lock": {
-        "commit": "8e3d19287e29d88c2234a9334ef30e8b7a69baa4",
-        "nix_hash": "sha256-bF9Gbmb2TOAEtdj3h41O8mIsxhiqI9LBKwwtoPsPRl8=",
-        "path": "/nix/store/fw23nxghn85i4f46wqq99s6cixrryl6y-android_external_chromium-webview_prebuilt_x86-8e3d192",
-        "date": 1774225501
+        "commit": "f54d51eab88d72086a3942f760e8d4b2957e84b3",
+        "nix_hash": "sha256-kBePS/he/f1TZgQT3rKDYXjgJTNaHpmX5TzaN3WOnSw=",
+        "path": "/nix/store/510v5gy6cwvi3655s85q08a09g1m6aar-android_external_chromium-webview_prebuilt_x86-f54d51e",
+        "date": 1776425579
       }
     },
     "external/chromium-webview/prebuilt/x86_64": {
@@ -12350,10 +12350,10 @@
         "active": true
       },
       "lock": {
-        "commit": "63a226c7fe6c65a2c195cb099241245bf3ca3a70",
-        "nix_hash": "sha256-UrvNxTvbLnrgLcrgDSqgpagnoQgZ38COhUrUxA4qCpo=",
-        "path": "/nix/store/wp34n7dfkd58bkdirr1aqy2994ppd591-android_external_chromium-webview_prebuilt_x86_64-63a226c",
-        "date": 1774226124
+        "commit": "7de8908702bfcb3307ad703b76ab9675d5a78954",
+        "nix_hash": "sha256-3xoo7wUWfUbguPESKhl+WDz/S3AyrSxvZZYT0AV8s6M=",
+        "path": "/nix/store/x2f1mwwlkglcqyn5wfjajs0dlvyw4h93-android_external_chromium-webview_prebuilt_x86_64-7de8908",
+        "date": 1776426001
       }
     },
     "external/chromiumos-config": {
@@ -34785,10 +34785,10 @@
         "active": true
       },
       "lock": {
-        "commit": "e48c07932bfcf24f8156310677f1b9b5937a78ac",
-        "nix_hash": "sha256-kANf+hIebFbguy2ohvK0SPex848okA2rilv6khSQrwM=",
-        "path": "/nix/store/g2vpk35x51cwg7389zaa9hlrqv0ann0x-charter-e48c079",
-        "date": 1771363033
+        "commit": "207031ea8f98f8e9a6f7b675d0d0b278725bb342",
+        "nix_hash": "sha256-H6KpG4BMpC3MImFEM1X8MOm8unuYGEuas3ar+Yq30gU=",
+        "path": "/nix/store/mll1shj673bz59zd6fhnvwmj5yh260r5-charter-207031e",
+        "date": 1776379172
       }
     },
     "lineage/contributors-cloud-generator": {
@@ -34839,10 +34839,10 @@
         "active": true
       },
       "lock": {
-        "commit": "a7b8261e61ec90e2679ccb0c5b116fdd937e2a36",
-        "nix_hash": "sha256-V2UXlPme2MxEh9LngKQ4ZDA0I0ipLj9lRHfqroDqp/U=",
-        "path": "/nix/store/ih260ljhlb3fvah5lnas6dsjk98yimpq-cm_crowdin-a7b8261",
-        "date": 1774977649
+        "commit": "e13e093a997df720427380fb7a64fab76c6e4438",
+        "nix_hash": "sha256-9sEthJvFqTF9ZcTbD/TgxXkYdKbmwxGuIKbK6FZasRg=",
+        "path": "/nix/store/ydh8cwirkjkjlrj4pa4lm07xb02g3x21-cm_crowdin-e13e093",
+        "date": 1775861864
       }
     },
     "lineage/hudson": {
@@ -34866,10 +34866,10 @@
         "active": true
       },
       "lock": {
-        "commit": "8938a3ae129da743fb81ae7fd487a2bfab7f664a",
-        "nix_hash": "sha256-7TPfjUXhF/B27UMFmyVJdKPT3re3l1cYm6eyQg49UEY=",
-        "path": "/nix/store/8bz2i3p7dghd9586fyi47bb14a3cz84x-hudson-8938a3a",
-        "date": 1775386356
+        "commit": "57d43ce02f13c07860c806f190b6c217810ede2e",
+        "nix_hash": "sha256-59v7J5nhAGdFX2OM6Gz23E6WWVjMgMD/FIjfPFJj35g=",
+        "path": "/nix/store/wjr1ra9nrrcmzwfbgp7dssw4wn9i8lqw-hudson-57d43ce",
+        "date": 1776468649
       }
     },
     "lineage/mirror": {
@@ -34893,10 +34893,10 @@
         "active": true
       },
       "lock": {
-        "commit": "4f5f70ff6fff9834ff245367429804f21aa7e629",
-        "nix_hash": "sha256-mBGxwQATaKfT4OD+RZqIW63FKKcXk7UatUGurTU3fTQ=",
-        "path": "/nix/store/ijl0z9dak1vbwb8pqyrbrisa57sbw9di-mirror-4f5f70f",
-        "date": 1775037688
+        "commit": "dd6b1a0102302b15ec7cb6adab5fed75d6ea6d1f",
+        "nix_hash": "sha256-T2oc/79kdQ0kdtkW0ovte2ouuPffDmB6K+IKXUa/K38=",
+        "path": "/nix/store/ls8alz4mlwqanfv3pyjz0v6rjqyri5d3-mirror-dd6b1a0",
+        "date": 1776463289
       }
     },
     "lineage/scripts": {
@@ -34920,10 +34920,10 @@
         "active": true
       },
       "lock": {
-        "commit": "a73d39d811f6df2561e3bad6b262e8f9d9ce603c",
-        "nix_hash": "sha256-8isnwqaSr4GKIRmDD8B1lyo8zlcsKquEu/oJdnWC9/o=",
-        "path": "/nix/store/2xrmkk588vx5r6nia2yi55p3i5wb7wh9-scripts-a73d39d",
-        "date": 1774815526
+        "commit": "c37e7fa448205e725e60cbb412da3f474c8c5269",
+        "nix_hash": "sha256-w6AwpD+iI5JxkqgcEDSMlmLTpN4D0MCV0ZxAHU2+P/Y=",
+        "path": "/nix/store/v3mhr30sihrrr69b2p6jw1x4di3zdhlc-scripts-c37e7fa",
+        "date": 1776534355
       }
     },
     "lineage/website": {
@@ -45241,10 +45241,10 @@
         "active": true
       },
       "lock": {
-        "commit": "9160664dc46ada21503e4e2fc2ebbd40b517e0ca",
-        "nix_hash": "sha256-22GRifAZOJtfTZBRhNfCa9opVfXtADbrelogA6daq+E=",
-        "path": "/nix/store/2gmg4ny3fcggv7h60jmsdh84glzdw6ph-android_vendor_apn-9160664",
-        "date": 1775295869
+        "commit": "f418ba7a30fb9d51f0c056405022b33281c190be",
+        "nix_hash": "sha256-evRBG4hbdmWtKxI/fbqNVaJmewHBJaBxH0hc/aH3Wzo=",
+        "path": "/nix/store/fv40n8jz241743h5g8psmv0fgzc00kb8-android_vendor_apn-f418ba7",
+        "date": 1776383860
       }
     },
     "vendor/asus/sake": {
@@ -46198,10 +46198,10 @@
         "active": true
       },
       "lock": {
-        "commit": "b5707068b4768e0a0d043f68d71414396f3b5951",
-        "nix_hash": "sha256-AzlpoU5gPmx4sPxc0dasPTljflzWlPuh8acSKuZzXsA=",
-        "path": "/nix/store/xbv7n3qbpy80yp4wavqvziahki6cw7dx-proprietary_vendor_lenovo_zippo-b570706",
-        "date": 1743687641
+        "commit": "864aae3537dd98b622e228389e64e4f2e5fa5c6b",
+        "nix_hash": "sha256-UmgSh3NFwVKGCKuX1jIMxEAikGXgsTVRoOi73j/YVWI=",
+        "path": "/nix/store/mkcv60ixxnncvrwalg3phf1ihiz1ab0z-proprietary_vendor_lenovo_zippo-864aae3",
+        "date": 1775688443
       }
     },
     "vendor/lge/timelm": {
@@ -46253,10 +46253,10 @@
         "active": true
       },
       "lock": {
-        "commit": "0213a1eaeb8b87626a9305f9e33745849d700852",
-        "nix_hash": "sha256-cTbm3QZI460QK53L75VL50BCHKkRDL93K2qE10uXpiY=",
-        "path": "/nix/store/7bingkfp0945rzgjwhqvcla5apbywszp-android_vendor_lineage-0213a1e",
-        "date": 1772399137
+        "commit": "bfd03a4f251030055ea86950c5492aa767331b0a",
+        "nix_hash": "sha256-9DXKXap5XTVHTx0Tcqe7bd+Hn3O9Dj2m/oselk4ywQs=",
+        "path": "/nix/store/yr1qqsw3zzanyiy1j393sk1k7hgvn78n-android_vendor_lineage-bfd03a4",
+        "date": 1776392043
       }
     },
     "vendor/motorola/avatrn": {
@@ -48141,10 +48141,10 @@
         "active": true
       },
       "lock": {
-        "commit": "13c36b7681799e6c5929ecaf952d07fe44afe9f9",
-        "nix_hash": "sha256-9QyB5kh2uzjUAp2e03VQszL+YMiv0lgtqn65/OI2fec=",
-        "path": "/nix/store/hl2bhzvzbcb82m0gyqy8ikdgi5pyv5py-proprietary_vendor_oneplus_dodge-13c36b7",
-        "date": 1769159684
+        "commit": "28c09369337baad1849c087f4550d7b23671012e",
+        "nix_hash": "sha256-K8eO3aus49eXmH7rLlBAeq5l6MjRCkY35LXPxFvmv5k=",
+        "path": "/nix/store/1i6xfr1qnk3v4yxw93h7lrl21s4znnxb-proprietary_vendor_oneplus_dodge-28c0936",
+        "date": 1775684157
       }
     },
     "vendor/oneplus/dre": {

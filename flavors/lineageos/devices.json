@@ -4439,6 +4439,21 @@
     "default_branch": "lineage-23.2",
     "period": "W"
   },
+  "dm1q": {
+    "name": "dm1q",
+    "vendor": "samsung",
+    "build_type": "userdebug",
+    "branches": {
+      "lineage-23.2": {
+        "repo_url": "https://github.com/LineageOS/android_device_samsung_dm1q",
+        "revision": "refs/heads/lineage-23.2",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      }
+    },
+    "default_branch": "lineage-23.2",
+    "period": "W"
+  },
   "dodge": {
     "name": "dodge",
     "vendor": "oneplus",
@@ -10772,6 +10787,21 @@
     "default_branch": "lineage-23.2",
     "period": "W"
   },
+  "pdx245": {
+    "name": "pdx245",
+    "vendor": "sony",
+    "build_type": "userdebug",
+    "branches": {
+      "lineage-23.2": {
+        "repo_url": "https://github.com/LineageOS/android_device_sony_pdx245",
+        "revision": "refs/heads/lineage-23.2",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      }
+    },
+    "default_branch": "lineage-23.2",
+    "period": "W"
+  },
   "pdx257": {
     "name": "pdx257",
     "vendor": "sony",
@@ -11412,6 +11442,21 @@
       },
       "lineage-23.2": {
         "repo_url": "https://github.com/LineageOS/android_device_motorola_pstar",
+        "revision": "refs/heads/lineage-23.2",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      }
+    },
+    "default_branch": "lineage-23.2",
+    "period": "W"
+  },
+  "pyrite": {
+    "name": "pyrite",
+    "vendor": "osom",
+    "build_type": "userdebug",
+    "branches": {
+      "lineage-23.2": {
+        "repo_url": "https://github.com/LineageOS/android_device_osom_pyrite",
         "revision": "refs/heads/lineage-23.2",
         "fetch_lfs": true,
         "fetch_submodules": false
@@ -13479,6 +13524,21 @@
       }
     },
     "default_branch": "lineage-23.2",
+    "period": "W"
+  },
+  "trident": {
+    "name": "trident",
+    "vendor": "smartisan",
+    "build_type": "userdebug",
+    "branches": {
+      "lineage-22.2": {
+        "repo_url": "https://github.com/LineageOS/android_device_smartisan_trident",
+        "revision": "refs/heads/lineage-22.2",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      }
+    },
+    "default_branch": "lineage-22.2",
     "period": "W"
   },
   "troika": {

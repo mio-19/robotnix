@@ -55,6 +55,7 @@
         "U" = 14;
         "A" = 15;
         "B" = 16;
+        "C" = 17;
       };
 
       phoneDevices = lib.importJSON ./devices.json;
@@ -138,8 +139,8 @@
             (config.device != null) && !(elem config.device supportedDevices)
           ) "${config.device} is not a supported device for GrapheneOS")
           ++ (optional (
-            !(elem config.androidVersion [ 16 ])
-          ) "Unsupported androidVersion (!= 16) for GrapheneOS");
+            !(elem config.androidVersion [ 17 ])
+          ) "Unsupported androidVersion (!= 17) for GrapheneOS");
       }
       {
         apps.seedvault.includedInFlavor = mkDefault true;

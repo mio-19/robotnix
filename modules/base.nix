@@ -508,7 +508,7 @@ in
                   # Fail early if the product was not selected properly
                   test -n "$TARGET_PRODUCT" || exit 1
 
-                  export NINJA_ARGS="-j$NIX_BUILD_CORES ${toString ninjaArgs}"
+                  export NINJA_ARGS="-j $NIX_BUILD_CORES ${toString ninjaArgs}"
                   ${preBuild}
                   ${lib.optionalString (makeTargets != [ ]) "m ${toString makeTargets} | cat"}
                   ${postBuild}

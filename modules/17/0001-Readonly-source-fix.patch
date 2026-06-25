@@ -1,0 +1,69 @@
+From 7a43e469d6266f67cb6f3aba37bd990d5806a123 Mon Sep 17 00:00:00 2001
+From: Daniel Fullmer <danielrf12@gmail.com>
+Date: Sun, 17 May 2020 00:42:48 -0400
+Subject: [PATCH] Readonly source fix
+
+Have CopyFile just always set u+w on copied files. Fixes a bunch of
+issues that would be too difficult to track down otherwise. HACK
+
+Change-Id: Ic905ab7c3c41f013fc70c92b375f5dc41d5cf586
+---
+ core/definitions.mk      | 4 ++++
+ tools/libhost/CopyFile.c | 4 ++--
+ 2 files changed, 6 insertions(+), 2 deletions(-)
+
+diff --git a/core/definitions.mk b/core/definitions.mk
+index ad70366183..9427dd5387 100644
+--- a/core/definitions.mk
++++ b/core/definitions.mk
+@@ -3268,6 +3268,7 @@ define copy-file-to-target
+ @mkdir -p $(dir $@)
+ $(hide) rm -f $@
+ $(hide) cp "$<" "$@"
++$(hide) chmod u+w "$@"
+ endef
+ 
+ # Same as copy-file-to-target, but assume file is a licenes metadata file,
+@@ -3287,6 +3288,7 @@ define copy-file-to-target-with-cp
+ @mkdir -p $(dir $@)
+ $(hide) rm -f $@
+ $(hide) cp -p "$<" "$@"
++$(hide) chmod u+w "$@"
+ endef
+ 
+ # The same as copy-file-to-target, but don't preserve
+@@ -3295,6 +3297,7 @@ define copy-file-to-new-target
+ @mkdir -p $(dir $@)
+ $(hide) rm -f $@
+ $(hide) cp $< $@
++$(hide) chmod u+w "$@"
+ endef
+ 
+ # The same as copy-file-to-new-target, but use the local
+@@ -3303,6 +3306,7 @@ define copy-file-to-new-target-with-cp
+ @mkdir -p $(dir $@)
+ $(hide) rm -f $@
+ $(hide) cp $< $@
++$(hide) chmod u+w "$@"
+ endef
+ 
+ # The same as copy-file-to-new-target, but preserve symlinks. Symlinks are
+diff --git a/tools/libhost/CopyFile.c b/tools/libhost/CopyFile.c
+index f9bda86fd1..44b36e4bdf 100644
+--- a/tools/libhost/CopyFile.c
++++ b/tools/libhost/CopyFile.c
+@@ -180,9 +180,9 @@ static int setPermissions(const char* dst, const struct stat* pSrcStat, unsigned
+         /*
+          * Set the permissions.
+          */
+-        if (chmod(dst, pSrcStat->st_mode & ~(S_IFMT)) != 0) {
++        if (chmod(dst, (pSrcStat->st_mode | S_IWUSR) & ~(S_IFMT)) != 0) {
+             DBUG(("---   unable to set perms on '%s' to 0%o: %s\n",
+-                dst, pSrcStat->st_mode & ~(S_IFMT), strerror(errno)));
++                dst, (pSrcStat->st_mode | S_IWUSR) & ~(S_IFMT), strerror(errno)));
+         }
+ #ifndef _WIN32
+         /*
+-- 
+2.50.1
+

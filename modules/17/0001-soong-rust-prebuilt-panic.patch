@@ -1,0 +1,14 @@
+--- a/cc/prebuilt.go
++++ b/cc/prebuilt.go
+@@ -242,7 +242,10 @@
+ }
+ 
+ func (p *prebuiltLibraryLinker) prebuiltSrcs(ctx android.BaseModuleContext) []string {
+-	sanitize := ctx.Module().(*Module).sanitize
++	var sanitize *sanitize
++	if ccMod, ok := ctx.Module().(*Module); ok {
++		sanitize = ccMod.sanitize
++	}
+ 	srcs := p.properties.Srcs.GetOrDefault(ctx, nil)
+ 	srcs = append(srcs, srcsForSanitizer(sanitize, p.properties.Sanitized)...)
+ 	if p.static() {

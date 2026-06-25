@@ -479,7 +479,7 @@ in
                     )}
                     PATH=${
                       fakeGit config.source.dirs."vendor/adevtool".rev
-                    }/bin:$PATH vendor/adevtool/bin/run generate-all --noVerify -d ${lib.concatStringsSep " " config.adevtool.devices}
+                    }/bin:$PATH vendor/adevtool/bin/run generate-all --noVerify -d ${lib.concatStringsSep " " config.adevtool.devices} || { echo "ADEVTOOL FAILED!"; cat out_adevtool_deps/error.log; cat out_adevtool_deps/soong.log; exit 1; }
 
                     # Rename the vendor RROs. This is necessary such that they don't
                     # conflict with our own RROs (such as the one automatically

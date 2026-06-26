@@ -619,26 +619,6 @@ in
 
         fixOtaTools =
           src:
-          let
-            # apexer hardcodes absolute paths like /bin/cp that do not exist on NixOS.
-            apexerFhsWrapperTemplate = pkgs.writeText "apexer-fhs-wrapper.sh" ''
-              #!${pkgs.bash}/bin/bash
-              set -euo pipefail
-              ROBOTNIX_FHS=$(mktemp -d)
-              trap 'rm -rf "$ROBOTNIX_FHS"' EXIT
-              mkdir -p "$ROBOTNIX_FHS/bin" "$ROBOTNIX_FHS/usr/bin"
-              ln -sf ${pkgs.coreutils}/bin/cp "$ROBOTNIX_FHS/bin/cp"
-              ln -sf ${pkgs.coreutils}/bin/ls "$ROBOTNIX_FHS/bin/ls"
-              ln -sf ${pkgs.util-linux}/bin/fallocate "$ROBOTNIX_FHS/usr/bin/fallocate"
-              export ROBOTNIX_FHS
-              exec ${pkgs.util-linux}/bin/unshare -m -r ${pkgs.bash}/bin/bash -c '
-                mount --bind "$ROBOTNIX_FHS/bin" /bin
-                mount --bind "$ROBOTNIX_FHS/usr/bin" /usr/bin
-                trap "umount /bin /usr/bin 2>/dev/null || true" EXIT
-                exec @out@/bin/apexer.bin "$@"
-              ' _ "$@"
-            '';
-          in
           pkgs.stdenv.mkDerivation {
             name = "ota-tools";
             inherit src;
@@ -669,12 +649,6 @@ in
               + ''
                 mkdir -p $out
                 cp --reflink=auto -r * $out/
-                if [ -f $out/bin/apexer ]; then
-                  mv $out/bin/apexer $out/bin/apexer.bin
-                  cp ${apexerFhsWrapperTemplate} $out/bin/apexer
-                  substituteInPlace $out/bin/apexer --replace-fail '@out@' $out
-                  chmod +x $out/bin/apexer
-                fi
               ''
               + lib.optionalString (config.androidVersion <= 10) ''
                 ln -s $out/releasetools/sign_target_files_apks.py $out/bin/sign_target_files_apks

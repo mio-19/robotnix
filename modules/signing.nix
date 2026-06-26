@@ -401,6 +401,7 @@ in
         })
         // (lib.optionalAttrs (lib.versionAtLeast config.stateVersion "3" && config.androidVersion >= 17) {
           "TelecomServiceResources.apk" = "${config.device}/releasekey";
+          "TelecomUi.apk" = "${config.device}/releasekey";
         });
       extraApexPayloadKeys = builtins.listToAttrs (
         map (name: {

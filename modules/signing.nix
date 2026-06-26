@@ -399,7 +399,7 @@ in
           "WifiDialog.apk" = "${config.device}/releasekey";
           "Bluetooth.apk" = "${config.device}/bluetooth";
         })
-        // (lib.optionalAttrs (lib.versionAtLeast config.stateVersion "3" && config.androidVersion >= 16) {
+        // (lib.optionalAttrs (lib.versionAtLeast config.stateVersion "3" && config.androidVersion >= 17) {
           "TelecomServiceResources.apk" = "${config.device}/releasekey";
         });
       extraApexPayloadKeys = builtins.listToAttrs (

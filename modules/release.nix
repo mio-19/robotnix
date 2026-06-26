@@ -31,6 +31,7 @@ let
     let
       deps = with pkgs; [
         otaTools
+        coreutils
         openssl
         jre_headless
         zip

@@ -16,10 +16,6 @@ lib.mkIf (config.androidVersion == 17) {
     "build/soong".patches = [
       ./0001-soong-rust-prebuilt-panic.patch
     ];
-
-    "system/apex".patches = [
-      ./apexer-use-tool-path-for-host-binaries.patch
-    ];
   };
 
   # In https://android.googlesource.com/platform/build/+/322b51b245bc70bcbbd5538d40dd47c45565b67f,

@@ -28,7 +28,10 @@ let
         chmod -R u+w $out
         cd $out/vendor/adevtool
         patch -p1 < ${
-          if lib.versionAtLeast tag "2025111800" then
+          if lib.versionAtLeast tag "2026081500" then
+            # adevtool 0775e8a replaced isGrapheneOsImage() with isGrapheneOS
+            ./adevtool-show-metadata-json-after-2026081500.patch
+          else if lib.versionAtLeast tag "2025111800" then
             ./adevtool-show-metadata-json-after-2025111800.patch
           else
             ./adevtool-show-metadata-json.patch

@@ -1,5 +1,5 @@
 {
-  "fetch_completed": false,
+  "fetch_completed": true,
   "entries": {
     "art": {
       "project": {
@@ -23652,7 +23652,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "4192576c02f73eeac2e705cd6604cd3079969605",
+        "nix_hash": "sha256-4vq30yaIOI0BV40KdRxSJVjJf2moqi6PQDr0XCWwLuk=",
+        "path": "/nix/store/q7f1488ajyib7bw2ra7mxyfwxsr0vmak-gradle-plugin-4192576",
+        "date": 1765326216
+      }
     },
     "prebuilts/jdk/jdk21": {
       "project": {
@@ -23675,7 +23680,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "ef5bcc92586b839ae3dbacc154127092fa4002ec",
+        "nix_hash": "sha256-DIN2UlKd3ZtZBkfwRi3gAsS9C/cgB7oKneo6spbBfdc=",
+        "path": "/nix/store/6pn8lb18sx236qzv7jqpkdh4jryz7a6g-jdk21-ef5bcc9",
+        "date": 1729323644
+      }
     },
     "prebuilts/jdk/jdk25": {
       "project": {
@@ -23698,7 +23708,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "0a0a50fd543600bc4a28f8731f6fd3a07a838c13",
+        "nix_hash": "sha256-VPFYIH1A7w+MdPD9tSLJQqfsQH+rDfNcYhMo+wBPCsE=",
+        "path": "/nix/store/z5h6xhimhg8z9a658540lqblr8nsby1l-jdk25-0a0a50f",
+        "date": 1774740379
+      }
     },
     "prebuilts/jdk/jdk8": {
       "project": {
@@ -23720,7 +23735,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "6cd518be7a7147ed5b1053edfbf66379bf5a45f9",
+        "nix_hash": "sha256-fs+QKWk2K6vr13s5q4V5AJhTIKHlgwzIQ4PshF8m9uo=",
+        "path": "/nix/store/ns9bpzf42rc0l7gcavf86xh5bnz57k65-jdk8-6cd518b",
+        "date": 1696271403
+      }
     },
     "prebuilts/ktlint": {
       "project": {
@@ -23743,7 +23763,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "618c0e2bee4f545e49307b8a8e72a9ae4944632f",
+        "nix_hash": "sha256-arN6ejzuwXqILu1+CacLkmZQU9xQaVy38StlxCU0AOc=",
+        "path": "/nix/store/bmrg941d6hi1gpccwa2fdbmschhv682f-ktlint-618c0e2",
+        "date": 1774567500
+      }
     },
     "prebuilts/manifest-merger": {
       "project": {
@@ -23765,7 +23790,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "93603b6f7483f14666f74f67977794a3a8fc1594",
+        "nix_hash": "sha256-TwnPI7ccr1xLRYv05ck4imWNq6YjFG8oYF8u8nlVqEU=",
+        "path": "/nix/store/n86il4w7pnzxyi4qxmg1vadc4hxaiknh-manifest-merger-93603b6",
+        "date": 1733167267
+      }
     },
     "prebuilts/maven_repo/bumptech": {
       "project": {
@@ -23788,7 +23818,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "509a65c09c81464e0d1a29d9d7d6d0ab3cec8655",
+        "nix_hash": "sha256-TrxTCo//Oayv9Xoi2wN//qhTcxi4bgTStfRR3QbNN2w=",
+        "path": "/nix/store/42ib73j9ihx4w1fx8vp6qsrxl6s7s3sv-bumptech-509a65c",
+        "date": 1735553239
+      }
     },
     "prebuilts/misc": {
       "project": {
@@ -23811,7 +23846,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "be7c3a630b5dc5eb3260035d77a81b2f322754f8",
+        "nix_hash": "sha256-am1KB4cjzYjMYi7VUoONO7UfXNdyvyYv1T0dUkFIBMw=",
+        "path": "/nix/store/djsqll4zyz6rkbjl6i3gfda2apbljb0h-misc-be7c3a6",
+        "date": 1773789904
+      }
     },
     "prebuilts/ndk": {
       "project": {
@@ -23833,7 +23873,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "07e4c9cedacc5d60276ab061f52684f57d7dc87e",
+        "nix_hash": "sha256-PeHckhkHOpUmeyVoYNK4Wpwo5RsAQ70A7HA33oYcuSo=",
+        "path": "/nix/store/m3cka1p7rzcc31b63h2xr7bdh00y6h8s-ndk-07e4c9c",
+        "date": 1760938485
+      }
     },
     "prebuilts/qemu-kernel": {
       "project": {
@@ -23855,7 +23900,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "dbdc98fa63e48f661e76aaf0363e91ecd753ac2a",
+        "nix_hash": "sha256-VfAbOlcURzaIdezMmwEuHf50NNMsL3XxfgzWl4LNaB4=",
+        "path": "/nix/store/7195bb475ggvj78b52m5j75ajn4c6jz8-platform_prebuilts_qemu-kernel-dbdc98f",
+        "date": 1789426212
+      }
     },
     "prebuilts/r8": {
       "project": {
@@ -23878,7 +23928,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "65fe8f9f5c6769d35f91fe67b786b767a2db5249",
+        "nix_hash": "sha256-FKP+xvZ9c7zMOcZD5dpsci7AHGrojOfBc/JGiPydOtg=",
+        "path": "/nix/store/0sg9rzddw47yvjp2xzrrcid4qbb4svd9-r8-65fe8f9",
+        "date": 1774661295
+      }
     },
     "prebuilts/remoteexecution-client": {
       "project": {
@@ -23900,7 +23955,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "9158169c8c48a3f16dae517b8a44318ce3e0890a",
+        "nix_hash": "sha256-R08SNM0ZhTyOPzSEkdw/34AG1ojLvv6FjNp8/yTS2BU=",
+        "path": "/nix/store/9sw96m1w1kgjfrw9x5hx60apc6ha9x3p-remoteexecution-client-9158169",
+        "date": 1772764008
+      }
     },
     "prebuilts/runtime": {
       "project": {
@@ -23922,7 +23982,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "8953fb3c61fef029312cba7bf2dcf0b1ec50523a",
+        "nix_hash": "sha256-5HEJOlZVOQfUExpmuplIniXIFPWOZSexCtEaUZgjoOk=",
+        "path": "/nix/store/f0759qp8pm41iaj12kjj42rhwjhl3ywx-runtime-8953fb3",
+        "date": 1772584112
+      }
     },
     "prebuilts/rust": {
       "project": {
@@ -23944,7 +24009,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "8e6eb737e844d18c50bfbee8f212f76755e04b24",
+        "nix_hash": "sha256-Nf0S/TtZw0ziPSiypVSQQtz5G6T7YtcVK4x+NNQh4OE=",
+        "path": "/nix/store/47a5gdl0bffnzs85rs7p6vb8gnhg1ml9-rust-8e6eb73",
+        "date": 1765175115
+      }
     },
     "prebuilts/rust-toolchain/linux-musl-x86": {
       "project": {
@@ -23966,7 +24036,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "401e0a9eaa7af8efaea9ea1ab129196b74b89847",
+        "nix_hash": "sha256-LWPqjiDNKV/EDrXyRccn/ja+DbrqMPHd6R6OyKsqpoE=",
+        "path": "/nix/store/mhjdvb80wcdx56a40phkplv3yfkg2gd3-linux-musl-x86-401e0a9",
+        "date": 1772677904
+      }
     },
     "prebuilts/rust-toolchain/linux-x86": {
       "project": {
@@ -23988,7 +24063,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "fa2b1777b1f5c0471bb54ad4026feb1f6e94ea70",
+        "nix_hash": "sha256-h6jMIY6WIUBu+vhz4D71nbx5lCpMTFYaumLFrz8pZkc=",
+        "path": "/nix/store/jkbnyvx84p2a7zdhprgm4mc0mdzwn5ai-linux-x86-fa2b177",
+        "date": 1773963355
+      }
     },
     "prebuilts/sdk": {
       "project": {
@@ -24011,7 +24091,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "0f07e8d60ab0aba46129e427101f96ba459a95c1",
+        "nix_hash": "sha256-G2+ebNpUBmHwykcxUC5uA+4l5YYLlP7f0dILDT5ezS0=",
+        "path": "/nix/store/v2dbnzvclnilv4magzlnvpkdljhgb6zh-sdk-0f07e8d",
+        "date": 1777603443
+      }
     },
     "prebuilts/siso": {
       "project": {
@@ -24033,7 +24118,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "41809b921e1888ff851d1094459b1a6875e7f155",
+        "nix_hash": "sha256-ShvPolzss78rpei9ek4ny7Yf8uS/Qca+8hWwHK6P9dM=",
+        "path": "/nix/store/2px4d7v9drs94qivdiwkvigh2q57iwpr-siso-41809b9",
+        "date": 1774661297
+      }
     },
     "prebuilts/tools": {
       "project": {
@@ -24057,7 +24147,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "b157d1c3bff39161f34ccc44dffbe9568f3bece2",
+        "nix_hash": "sha256-+j90YwIum7hCMI6xa5VZrOr7XADHDpLzCpTeaHrc36I=",
+        "path": "/nix/store/kfgs8ahmz47sgb7lwzw0xahjgjd3rvb5-tools-b157d1c",
+        "date": 1774481402
+      }
     },
     "prebuilts/vndk/v31": {
       "project": {
@@ -24079,7 +24174,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "1a059a5a203352d3e0c2fd3ccff5719cc37fc340",
+        "nix_hash": "sha256-Pa1H5SqNfzALOQZzQKXngsQ4Vgdu598ZzQnbshTmKpk=",
+        "path": "/nix/store/7sbhawbhr72v3wj01d79w56586xbncxj-v31-1a059a5",
+        "date": 1672653276
+      }
     },
     "prebuilts/vndk/v32": {
       "project": {
@@ -24101,7 +24201,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "e1ba8043f8368220b412c18ee8392850ab009aae",
+        "nix_hash": "sha256-8LFe2GWIP7yhET3L3MNXthlK8Lb7RXzbI38/Cqz23Ds=",
+        "path": "/nix/store/mcwi4zz1svrw2czdzbzzxdrggydyfcrb-v32-e1ba804",
+        "date": 1672648609
+      }
     },
     "prebuilts/vndk/v33": {
       "project": {
@@ -24123,7 +24228,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "3e8438a4ff535f8f25445527ea70cb71c10e7b18",
+        "nix_hash": "sha256-xiwPNFn/WMbXbCNsNHJ9zOpdTMwSd3PcvQ96jv3VaPo=",
+        "path": "/nix/store/6axaclysp1d1d7qndfdzjkf1jdw3xsp0-v33-3e8438a",
+        "date": 1760939384
+      }
     },
     "prebuilts/vndk/v34": {
       "project": {
@@ -24145,7 +24255,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "c6a2527f4e03a89896f9d44331bc6fe91f679aab",
+        "nix_hash": "sha256-6dd27A0JiOMCsuYNHQnP/kRnBHo1CktyWQ79Xa0wYp4=",
+        "path": "/nix/store/hlf1jj41d4wnazmal575i61an9h2z3qk-v34-c6a2527",
+        "date": 1760937579
+      }
     },
     "script": {
       "project": {
@@ -24165,7 +24280,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "09d651841b55e42b9cee7392f0ce29ebda8c8fb5",
+        "nix_hash": "sha256-SzTranp9gGvVfx6sALIJ8KF+b98lkHMz4k23uvbRGf4=",
+        "path": "/nix/store/fx608lrx8syxf8hinx9x9xxyrpfwvcpj-script-09d6518",
+        "date": 1790426671
+      }
     },
     "sdk": {
       "project": {
@@ -24188,7 +24308,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "4d155d6c08932904384ba2f5198dcc984e32501b",
+        "nix_hash": "sha256-fbYDI5MktDvNj45PFEyqka9kdAjDhq4K9wQBPJt/RY8=",
+        "path": "/nix/store/0cj17z8m9an2hw60950nlci8qasfr6k1-sdk-4d155d6",
+        "date": 1738762995
+      }
     },
     "system/acpi/bert_collector": {
       "project": {
@@ -24210,7 +24335,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "37df48ddb5ae549805048bb857533bcfb137aafe",
+        "nix_hash": "sha256-F01gA4PaYInvE15eoO7UIyxOYa9oBx2w3HKwBYnLEag=",
+        "path": "/nix/store/0nrr6ad6g5lgfpgi7q32gvlb1g7jqbzg-bert_collector-37df48d",
+        "date": 1748973138
+      }
     },
     "system/apex": {
       "project": {
@@ -24232,7 +24362,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "ce2bb9f710183c864040401d859874b5723e44d8",
+        "nix_hash": "sha256-U8+GyLOAaUtbLgb6UmrDKyNmslwbRz4Oyoo1Yn5zJu8=",
+        "path": "/nix/store/xf4p3c1pc5gccc4firxgxpy2i7i9f20l-apex-ce2bb9f",
+        "date": 1774567517
+      }
     },
     "system/authgraph": {
       "project": {
@@ -24254,7 +24389,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "ee8b48b5344dd3a50eae5a87cdc1f46b7afd4263",
+        "nix_hash": "sha256-IEm85uyW2tdPlf8dKSDrbKWvm+fXBeAyps/HBJUtKfc=",
+        "path": "/nix/store/7plrg0ifl2yn09xkg34z57k1p0vn2ac3-authgraph-ee8b48b",
+        "date": 1769041580
+      }
     },
     "system/bpf": {
       "project": {
@@ -24276,7 +24416,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "d68a263039127dc709114802395e57537a02babf",
+        "nix_hash": "sha256-JQdfD+lzI3P9AxfKw2Z9J2EUTvFEzwDXlQhmreP7tqw=",
+        "path": "/nix/store/32lwh7w0zllg04fzvygr8v69bzrcgnm2-bpf-d68a263",
+        "date": 1774481416
+      }
     },
     "system/bpfprogs": {
       "project": {
@@ -24298,7 +24443,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "60f086effe11d1afb248ff3c9a2a780b66a34506",
+        "nix_hash": "sha256-X6uC9ofIzIA/jjQRNYaj4YtjCBjp0zhm8dd9SxEYMo4=",
+        "path": "/nix/store/b6njcqna5p18ak375h7fnpnia6g630dk-bpfprogs-60f086e",
+        "date": 1772065745
+      }
     },
     "system/ca-certificates": {
       "project": {
@@ -24320,7 +24470,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "14ad6bb8aa3bc482a8dc147b15d8bb7a4110db15",
+        "nix_hash": "sha256-hzlwsdtmfbqs8m6eg9xVtr3enB0fj4aKXSzNQCOOB9g=",
+        "path": "/nix/store/s43plq6zlp8gz3zi4kgkfc8p9g0vrc2i-platform_system_ca-certificates-14ad6bb",
+        "date": 1779365122
+      }
     },
     "system/chre": {
       "project": {
@@ -24342,7 +24497,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "17b4a35a8c2b9f27e7f1b382b7d714aced928ce4",
+        "nix_hash": "sha256-9PXN/dGImfI8ycktku1ESjgl4GG20y/qembNciNzTS4=",
+        "path": "/nix/store/afyg1cyn1qxnhsbqi85w6n2b7d11rs6z-chre-17b4a35",
+        "date": 1774740442
+      }
     },
     "system/connectivity/wificond": {
       "project": {
@@ -24364,7 +24524,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "fefad78738af9d9753bb0acbafcf458691f8627c",
+        "nix_hash": "sha256-8siq09VARmDRSxavMO9np/sy/5ULgGyMZK2MzXmkHEA=",
+        "path": "/nix/store/kabljz45d4877mch3nj9wvzyv749w4sk-wificond-fefad78",
+        "date": 1772503483
+      }
     },
     "system/core": {
       "project": {
@@ -24386,7 +24551,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "322ff5129d865a5e8d958667e6c63ac943449493",
+        "nix_hash": "sha256-xh/3Bcmk+cPkxG+i2QSvSjCvMEmkuPy8DA0kHhTOVQw=",
+        "path": "/nix/store/4x6bl8bx9irlagqrs7wiyl1brj357syb-platform_system_core-322ff51",
+        "date": 1790355253
+      }
     },
     "system/dmesgd": {
       "project": {
@@ -24408,7 +24578,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "635120841f515b63fe0ab0451ac9b17fb7d8cca6",
+        "nix_hash": "sha256-jvKzVOpK3HxNzHcTFC9QH+oiE0CIW664pAxRUZofrw8=",
+        "path": "/nix/store/jqf2qlir9vcmih8asnvdx3fh4v4hcjqh-dmesgd-6351208",
+        "date": 1746033745
+      }
     },
     "system/extras": {
       "project": {
@@ -24430,7 +24605,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "5b8e9ee4f15faa60218b08bb09abae41e1f6bd0e",
+        "nix_hash": "sha256-aX2vEakw99oiSy9UkszCbF0LjZqES1EWOZ+BIXZxqQs=",
+        "path": "/nix/store/frx2s20yy2imqq7mv1lidiszvaglyry2-platform_system_extras-5b8e9ee",
+        "date": 1779365093
+      }
     },
     "system/fs/casefolding_remover": {
       "project": {
@@ -24452,7 +24632,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "827aad0d89d0615bcdebc3dd93d1e8ae1c19f36d",
+        "nix_hash": "sha256-cNQOVUMUhrqTEZlrpqmcYBk2VbwdQ2xDn9bShHKnJLU=",
+        "path": "/nix/store/ih4j3nxxailr5pvqzxnslgycjncdab36-casefolding_remover-827aad0",
+        "date": 1762381282
+      }
     },
     "system/fs/fs_mgr": {
       "project": {
@@ -24474,7 +24659,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "f2de922569ca66e25406e93efa20d79c0b0d1aed",
+        "nix_hash": "sha256-o7DF2GPU60wevwGv2eNOSnC/r96AM21Dr5PNAH9iZLU=",
+        "path": "/nix/store/rl63vacc3gqd3j1q1yq31z7q6ckfj5r3-platform_system_fs_fs_mgr-f2de922",
+        "date": 1788985510
+      }
     },
     "system/gatekeeper": {
       "project": {
@@ -24496,7 +24686,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "5b5e75b5bda9fccbc3132e9624cb25286babdaac",
+        "nix_hash": "sha256-mr6XSq046S6wgetPlJOQkDMZLW7DUQgI+UZhe2qJSFU=",
+        "path": "/nix/store/xjllzp9298vfr80642pkr2q8ydj9n4fl-gatekeeper-5b5e75b",
+        "date": 1773192684
+      }
     },
     "system/gsid": {
       "project": {
@@ -24518,7 +24713,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "35a92d40f529b605fad8ff622691e76901044cc8",
+        "nix_hash": "sha256-0I9DYMjUvbQrFwUoN+U0+7TSWDkcPRWWf60Jt/g9ego=",
+        "path": "/nix/store/ywdib3yjm6swijcvclm9v9d8g7cvgyxk-gsid-35a92d4",
+        "date": 1773876499
+      }
     },
     "system/hardware/interfaces": {
       "project": {
@@ -24541,7 +24741,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "9c3469aa3d4aeec5b2bc8e8ae8fdb4437dab4edb",
+        "nix_hash": "sha256-48CE6vVli5wuh8e1lL7Bxcz9Hup2Y8OOkTLToSwggeE=",
+        "path": "/nix/store/1v0ylsc99rgw19k9f0cy613hc1k42rrr-interfaces-9c3469a",
+        "date": 1775798715
+      }
     },
     "system/hwservicemanager": {
       "project": {
@@ -24563,7 +24768,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "60271965cf6b055ed82b2e1ae0bf74b2c34a6af2",
+        "nix_hash": "sha256-tlqOxOrXNJFuj+oSI4jdUFqyjgZLchCuu2G76zPEVLY=",
+        "path": "/nix/store/jcyjpdhips1yikch3bcswfhxg127hvaf-hwservicemanager-6027196",
+        "date": 1769653904
+      }
     },
     "system/incremental_delivery": {
       "project": {
@@ -24585,7 +24795,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "6b853f9e5703a8c90648f82850a3a01d9763e619",
+        "nix_hash": "sha256-4VRrSYrTee8Q7hNmlhvqUpgg+tOkvjms7SjdfTk7bJo=",
+        "path": "/nix/store/7cjjh679glmf0lydmcf3b0844myg5d47-incremental_delivery-6b853f9",
+        "date": 1773703671
+      }
     },
     "system/keymaster": {
       "project": {
@@ -24607,7 +24822,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "f9007833c668b90f0c0f9b78808788cb86275113",
+        "nix_hash": "sha256-Rixusbhl5eV3s6dXhfWUTOZN/PA0WpfiFVMZjvY4Ssw=",
+        "path": "/nix/store/2q26zb4av8cynn10mq6cksn18w5kgkfr-keymaster-f900783",
+        "date": 1776826817
+      }
     },
     "system/keymint": {
       "project": {
@@ -24629,7 +24849,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "cfeefc94bf8c4f19d19dca193d376a1fc05e8e3e",
+        "nix_hash": "sha256-4QdU8z8yt75fOQRmiUm+wqWGwZ002EXYlM6Lg+Xgv9c=",
+        "path": "/nix/store/igm527abq684m7x536ziwjp4hxwafwkz-keymint-cfeefc9",
+        "date": 1773192689
+      }
     },
     "system/lfi": {
       "project": {
@@ -24651,7 +24876,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "53ce7565563d70a205f48b20feb75415a51fc037",
+        "nix_hash": "sha256-8op1xTD/QJm93DIty/iOAy++JZEuQ4mD28QSzOiuR4I=",
+        "path": "/nix/store/sk973ni1gcpim2pfkp823z63ph1l1ynv-lfi-53ce756",
+        "date": 1774063629
+      }
     },
     "system/libartpalette": {
       "project": {
@@ -24673,7 +24903,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "9d680186fa4f024111b271feedb5cd7156768902",
+        "nix_hash": "sha256-twEM2ZqU9nbSGgBuZroPHrM3Wdek5WdXPWGRM08kLfU=",
+        "path": "/nix/store/hvqw2p9ciqvd0a2y8zvkbcrbblnajm9s-libartpalette-9d68018",
+        "date": 1746727318
+      }
     },
     "system/libbase": {
       "project": {
@@ -24695,7 +24930,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "fef4173e19d97cd4b4fc09a06bccbf800d0d3937",
+        "nix_hash": "sha256-KAvh8BsJ0gW6eDvEkOy/Bgt4Y8PUIKe2TJEgFFUB12M=",
+        "path": "/nix/store/sq1lp6znsvw1bbl8y034kz04n2si511c-libbase-fef4173",
+        "date": 1774063631
+      }
     },
     "system/libcppbor": {
       "project": {
@@ -24717,7 +24957,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "2f12c70f4d829342814df74ab97412ad25735ef5",
+        "nix_hash": "sha256-sLhvx7GC2G4HaXecN6c+6SjiaAoYyTKlNmi5VR2FyZY=",
+        "path": "/nix/store/zznn8s5nc51mrs9bsxbd0wvbllwd0cfq-libcppbor-2f12c70",
+        "date": 1774740464
+      }
     },
     "system/libfmq": {
       "project": {
@@ -24739,7 +24984,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "5b93165b1c0ea2ba6e5339f0a5eca01d0e036561",
+        "nix_hash": "sha256-yHReefdaSsUR8aFJq0kcWyKhLQCmWVp7OjDpTOcMI6o=",
+        "path": "/nix/store/1f66gk3ar7akcm697mi2pzncrkdzqi00-platform_system_libfmq-5b93165",
+        "date": 1788985530
+      }
     },
     "system/libhidl": {
       "project": {
@@ -24762,7 +25012,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "061055fc4dad78e5d25a77d9217001794656f16b",
+        "nix_hash": "sha256-ZhA7LVh99rjlUBAhHUv1DlD92+s6uxYnPx/KE//YU2g=",
+        "path": "/nix/store/4pj98jdzhfl6zi7dy6sbcky68f0p6l5k-libhidl-061055f",
+        "date": 1774063634
+      }
     },
     "system/libhwbinder": {
       "project": {
@@ -24784,7 +25039,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "2f5282448223b97c541181a5b94a05c2ac17ff17",
+        "nix_hash": "sha256-CnXfYseSQ2amluJ+2cv5I4mYP9xBvOwgxBWo+AYczs8=",
+        "path": "/nix/store/740w65mh6wchawnkmx3rabw09fi2pw4x-libhwbinder-2f52824",
+        "date": 1774063635
+      }
     },
     "system/libprocinfo": {
       "project": {
@@ -24806,7 +25066,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "b58259e79c58deb1132e11d74ea90a2dc441d84f",
+        "nix_hash": "sha256-COlHhojJh6l99G9mLQ07Wj5i7pLMjbsJ22Fb5iDrYNw=",
+        "path": "/nix/store/azgvhdj49blziidvc7i3i96yzrgax37s-libprocinfo-b58259e",
+        "date": 1760937273
+      }
     },
     "system/librustutils": {
       "project": {
@@ -24828,7 +25093,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "7fbb3e4aaf608e51eaa210cf6ba94df5cb782bbc",
+        "nix_hash": "sha256-cUQkL8E3wzScU4zK+faXHHWDRtV9r2w2/Mn8AS7lQlI=",
+        "path": "/nix/store/97408bbv9mbjrnfmkz4blgsjs9hjql88-librustutils-7fbb3e4",
+        "date": 1766025008
+      }
     },
     "system/libskuconfig": {
       "project": {
@@ -24850,7 +25120,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "3b1c8b5757b84e1e36c9812cdff9cd64fab93238",
+        "nix_hash": "sha256-iIEEPRYS1ka2kM9F/0k+N3y1P9K64dKfnp1xVK2Q92Y=",
+        "path": "/nix/store/x1j1k139mcavkrmrka8mssv6s66px2gk-libskuconfig-3b1c8b5",
+        "date": 1773358611
+      }
     },
     "system/libsysprop": {
       "project": {
@@ -24872,7 +25147,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "feca0b466b9fa68a8e86a6e0b31579669e645f41",
+        "nix_hash": "sha256-n3KEhZM+93ZR1ZnK9IBPXoNGAg/Rg/sDj/yCnsH6Zs4=",
+        "path": "/nix/store/39v632j5qa6x7r22y4nw336k24qpwasb-libsysprop-feca0b4",
+        "date": 1773703683
+      }
     },
     "system/libueventd-rs": {
       "project": {
@@ -24894,7 +25174,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "43f41cd5506656e937d332d60cd725764dfca716",
+        "nix_hash": "sha256-jFCliJLx49D6WBXVIxn/zlBsuhUweTlTGbgfgVV5oLg=",
+        "path": "/nix/store/g8cgp0sa9384hcrv7q2jjsb9phz7x4ad-libueventd-rs-43f41cd",
+        "date": 1772151969
+      }
     },
     "system/libufdt": {
       "project": {
@@ -24916,7 +25201,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "6764da3114eed858f15aa56a6f1a0905bfd2a9fb",
+        "nix_hash": "sha256-6mDxlbku0/kdEhG4+RkKRZbx5LEUsq/vSN/zg5Bgl4s=",
+        "path": "/nix/store/nk1j7i20wr3ya5arjgvkw71zrh72kg9d-platform_system_libufdt-6764da3",
+        "date": 1788985528
+      }
     },
     "system/liburingutils": {
       "project": {
@@ -24938,7 +25228,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "3d6286bdd07ec68ee6a411381e56c1aaa6e11247",
+        "nix_hash": "sha256-/7A3vXkbtREe3I3xqU5qqNjNKoYu6n1XIP7shFzPy38=",
+        "path": "/nix/store/g9a5yj87xnq4y5wj66nx34q239hnjlxq-liburingutils-3d6286b",
+        "date": 1775971841
+      }
     },
     "system/libvintf": {
       "project": {
@@ -24960,7 +25255,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "df89ad736e14ac375f61d50fa543ae7cd746a140",
+        "nix_hash": "sha256-g+lFEJMa+oNlWYQwyXlhP6dV4n5yqVo5dh9rHpMNM00=",
+        "path": "/nix/store/n8zf0jgjyndyhbzcqb5b2phd6c1g6qs8-libvintf-df89ad7",
+        "date": 1774481453
+      }
     },
     "system/libziparchive": {
       "project": {
@@ -24982,7 +25282,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "bdd41f9c99400f241363b035eb64ad3d5f063c82",
+        "nix_hash": "sha256-wz5VFaiA1yCzOh7lhEr77fJJYyYwVPHLR4bdnBCkXOs=",
+        "path": "/nix/store/1lf8c7w5w86f75yacvzg8y71dmzk05l7-libziparchive-bdd41f9",
+        "date": 1765175164
+      }
     },
     "system/linkerconfig": {
       "project": {
@@ -25004,7 +25309,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "f6b4bd983b909a907cf7e9fae8a6365d827638b6",
+        "nix_hash": "sha256-BW89huUsXO9avMuYcT/dam4A07zZ/luboetCVSPvz/U=",
+        "path": "/nix/store/0rfpggkp1n15lmwdc67i8491xqkmmqk4-linkerconfig-f6b4bd9",
+        "date": 1778141797
+      }
     },
     "system/logging": {
       "project": {
@@ -25026,7 +25336,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "cb7d51609c1bfa596b6ccedd3ef5f4153fcde80d",
+        "nix_hash": "sha256-uROrZ7+DT2RLfniEtE3alX1+l8Aq6dTpIRGl9xklT1A=",
+        "path": "/nix/store/lrx2hhnn5franj9bgjj8c5464c71k4p3-platform_system_logging-cb7d516",
+        "date": 1779365148
+      }
     },
     "system/media": {
       "project": {
@@ -25048,7 +25363,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "440eb272fd3da0ca7bdae932e61e7fd9be1fd324",
+        "nix_hash": "sha256-zB4pZOlCJ82BiSzLJcb4N2K0L0Qwoy8iw182b5NCQHo=",
+        "path": "/nix/store/3fsvfy4i3lywbkdhcs1b4nrkc435jbgm-media-440eb27",
+        "date": 1774400658
+      }
     },
     "system/memory/amemdiff": {
       "project": {
@@ -25070,7 +25390,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "f6587376bf3ef1b9672ddbfa5f86d61d5a524f96",
+        "nix_hash": "sha256-rQrQzxvB8EAEIiUa+8piVeg1xYQ12ObU9fdnjYBChcg=",
+        "path": "/nix/store/hg3ph5k63jncsly87h78hiamc1dz2n0q-amemdiff-f658737",
+        "date": 1774063646
+      }
     },
     "system/memory/guardian": {
       "project": {
@@ -25092,7 +25417,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "5d6ceb06e332cb7e0f5c2fde4cc37a6a6f24bc52",
+        "nix_hash": "sha256-zRo4LHZX3qKbEkm3Xslb2eDG+GhOsixCgTbnGjAI3C0=",
+        "path": "/nix/store/npqyzyn0kn244p9c1nakwvpxn5bkkadf-guardian-5d6ceb0",
+        "date": 1774567561
+      }
     },
     "system/memory/libdmabufheap": {
       "project": {
@@ -25114,7 +25444,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "09fe72b6ce0feead1b97c2859979b125f815d9b0",
+        "nix_hash": "sha256-UpUhXDD8DFPGbCv4BT2UHAD5Fvl5etZb1K2uTOoFO8g=",
+        "path": "/nix/store/rlgjws0xhbdhgkq6837h8g85dgky31h3-libdmabufheap-09fe72b",
+        "date": 1769898707
+      }
     },
     "system/memory/libion": {
       "project": {
@@ -25136,7 +25471,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "2f9196be89b3851049b565b6c338f707e50440ba",
+        "nix_hash": "sha256-PQ21oXmj8vdAthTq8wOlZrXFc2tv+4rlMuBy8dIU4JI=",
+        "path": "/nix/store/cjckwh1vbd37h6nrbbsgw9c9y927sd6d-libion-2f9196b",
+        "date": 1760937844
+      }
     },
     "system/memory/libmeminfo": {
       "project": {
@@ -25158,7 +25498,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "d59c960b1fb93377bf68664918031ea5fe709f89",
+        "nix_hash": "sha256-b7zJ1alLVRGuYIOgpFV0oyS37zR/320bmWE/hzNBPSM=",
+        "path": "/nix/store/h3f5d0g6448dl0y15qspbzxicxdz59qz-libmeminfo-d59c960",
+        "date": 1776911633
+      }
     },
     "system/memory/libmemtrack": {
       "project": {
@@ -25180,7 +25525,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "25ee95c80f9be933f4d0a2f399db1b98195f384d",
+        "nix_hash": "sha256-RdCNwMRMwAA8KPSw1VOQmHol5oldDozsA5bBR1e2ptY=",
+        "path": "/nix/store/nzfvrq40w81f0wyl95av0llh715bcqlw-libmemtrack-25ee95c",
+        "date": 1770856377
+      }
     },
     "system/memory/libmemunreachable": {
       "project": {
@@ -25202,7 +25552,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "c3dc0b2f3ce01b53388635a14b01ca7e7a7000cc",
+        "nix_hash": "sha256-9KujzPI8RfCwO7aPTDdVzV4qa3B9O9fjfohOQ/rnYOg=",
+        "path": "/nix/store/v3l8ccqq91pnniq9540fv87k4isjwn55-libmemunreachable-c3dc0b2",
+        "date": 1766025022
+      }
     },
     "system/memory/libwrapfd": {
       "project": {
@@ -25224,7 +25579,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "f91e18ccc73c0cce1194f3aef4a841c1a15003b3",
+        "nix_hash": "sha256-iaviwmWByg/dGeIdWCWXkWQDXGc0yK+EYyFbJFm9gao=",
+        "path": "/nix/store/0vi7rrckywizmny8f85k2226jyi6f192-libwrapfd-f91e18c",
+        "date": 1774661355
+      }
     },
     "system/memory/lmkd": {
       "project": {
@@ -25246,7 +25606,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "c3601e823bd07c9c190f67e2f9bc7486e4978328",
+        "nix_hash": "sha256-6aTzBXNiJYtZF5sX2ixj2Kkher+824y+F8g66MgiZMk=",
+        "path": "/nix/store/wa02256d0nmylldgcqsrrvs6jh9pklpc-lmkd-c3601e8",
+        "date": 1776911635
+      }
     },
     "system/memory/mmd": {
       "project": {
@@ -25268,7 +25633,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "cf66bc31a4002e6f786da7c5a45e4088d19530ed",
+        "nix_hash": "sha256-SlurGfdlmWySJ/fLXBbKhx9awQ2g04LqHn3kyFzLUfc=",
+        "path": "/nix/store/fvslw4w70260wc7fzkwdxpciyy8jq6zj-mmd-cf66bc3",
+        "date": 1774400667
+      }
     },
     "system/netd": {
       "project": {
@@ -25290,7 +25660,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "d57ea8dce505948725389d34806af1b5e9998749",
+        "nix_hash": "sha256-bLbujFvO3jQgnHe9CHzlTVB1d108dF47QYlzQMDXqqU=",
+        "path": "/nix/store/d8k29pydrgya78fxf066ql23q2wc9jrw-platform_system_netd-d57ea8d",
+        "date": 1779365190
+      }
     },
     "system/nvram": {
       "project": {
@@ -25312,7 +25687,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "da68dc39fb74baa6e110578636cde552efd148c5",
+        "nix_hash": "sha256-RAuczCxdl3CafsutxA8d0YzjSW/+ZxufZqXCki1qLrY=",
+        "path": "/nix/store/44bhrh02ps2q09rvwsna30vgld8h3wr7-nvram-da68dc3",
+        "date": 1752714231
+      }
     },
     "system/secretkeeper": {
       "project": {
@@ -25334,7 +25714,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "c074ff08c0a82e1fdc04178d5b7ffc15c791d3a7",
+        "nix_hash": "sha256-tq6DaPUi5TyhcnllumboAk0aXIO1hwT1PhYhl9DxACo=",
+        "path": "/nix/store/r5hr4nx6plhxwf7i0p01bk6hw2wyp94m-secretkeeper-c074ff0",
+        "date": 1774567571
+      }
     },
     "system/secure_element": {
       "project": {
@@ -25356,7 +25741,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "a9644a6b928ca9c7fce4b1939e04c9b74c5533bb",
+        "nix_hash": "sha256-gEkt2VSAKG58pLbpGzwyBfOv2cBw9pDPU1IDk5tMecE=",
+        "path": "/nix/store/bbxfggb757wp3r8gyjlpdims1fc7y9f3-secure_element-a9644a6",
+        "date": 1768437120
+      }
     },
     "system/security": {
       "project": {
@@ -25378,7 +25768,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "cbb2ef1617a94d6cdf2dc2ccb7a545575dbb20cb",
+        "nix_hash": "sha256-clSq+ValrpXwKZ/K8qFddNYWhaAODSx5FK6JnB7I48o=",
+        "path": "/nix/store/w1m1yiqz1pz3a7md2kaa1d5i6mrzhkyk-security-cbb2ef1",
+        "date": 1777603447
+      }
     },
     "system/see/authmgr": {
       "project": {
@@ -25400,7 +25795,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "8e67454ae22607f22d289d7458d383eabc7c2db2",
+        "nix_hash": "sha256-S+5eNz8I/CLk6TiFTZfJ6bEL5FdlUcmhEyf598cH+mg=",
+        "path": "/nix/store/fy2k9kr01kjb1vdalwwwd35h15mkxpz6-authmgr-8e67454",
+        "date": 1770856386
+      }
     },
     "system/sepolicy": {
       "project": {
@@ -25422,7 +25822,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "5e359dcf9ae863a593e9055a85e1657c87c4cb18",
+        "nix_hash": "sha256-tfxphGrIQYYhQCnSIJZ+Q8oNR/HEDgxS9rJPtAjgHMg=",
+        "path": "/nix/store/vf7xl74b367p0j1028g8xb5plwb6szx1-platform_system_sepolicy-5e359dc",
+        "date": 1788190566
+      }
     },
     "system/server_configurable_flags": {
       "project": {
@@ -25444,7 +25849,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "5069ba739faebf91ae72096577ae17e13061af72",
+        "nix_hash": "sha256-WjKdx0foLc6/3SueQHZbwmF7WCYDIhY7aAjr7mEg6Lo=",
+        "path": "/nix/store/9hqy4h2dbi3295vkjqw84j5gbgsz5yyl-server_configurable_flags-5069ba7",
+        "date": 1770769651
+      }
     },
     "system/software_defined_vehicle/automotive_services": {
       "project": {
@@ -25467,7 +25877,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "1d4dcb7f908a6df97b036a90a5802de8cedebd63",
+        "nix_hash": "sha256-iIICE1IuNRem3s5pzMOsQIvEk20mckvlRNIv8pdOebc=",
+        "path": "/nix/store/jp21rhyb9sqd6ghvm3ij8fadq9w360qq-automotive_services-1d4dcb7",
+        "date": 1774740512
+      }
     },
     "system/software_defined_vehicle/common": {
       "project": {
@@ -25490,7 +25905,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "2b582a74e9b55b3aba268a626f977c279acaea94",
+        "nix_hash": "sha256-KLv8GSdiNCgkAyOJm2/lkhNRur9zRessT8rJ8u+IUr0=",
+        "path": "/nix/store/x5jis08wpynhdvj901pr9jfq7xchr7yd-common-2b582a7",
+        "date": 1774661366
+      }
     },
     "system/software_defined_vehicle/health_monitor": {
       "project": {
@@ -25513,7 +25933,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "a3ffbe9caf8b94041c013deac36c4e5f27b69932",
+        "nix_hash": "sha256-WDiBZMBbehwwVvqXTjT5uNdpc+nTjsVJRNGJ2URD4uM=",
+        "path": "/nix/store/7yxpgzqxcap6b0gyjhny116qhgl3d363-health_monitor-a3ffbe9",
+        "date": 1774661367
+      }
     },
     "system/software_defined_vehicle/lifecycle_management": {
       "project": {
@@ -25536,7 +25961,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "74813463c7293bf12e0791701b2037b1a26f48f8",
+        "nix_hash": "sha256-6ljDCxeUxda+kbuPZkWZt2eVrzGu0xZcwajmMgc84YM=",
+        "path": "/nix/store/xxcrzf4ppyzjgd8bzvyam28aph6zdkaa-lifecycle_management-7481346",
+        "date": 1774481478
+      }
     },
     "system/software_defined_vehicle/middleware": {
       "project": {
@@ -25559,7 +25989,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "7ab87b58959e638fc9f1e5a5860cfed20ed29cab",
+        "nix_hash": "sha256-9fuRpRd31suLsDdK/lYBiFm/vg25MIUpTLoqv8Nl39k=",
+        "path": "/nix/store/xib8j02h0rvlrvbgkxw6mwrxrb4b6z3h-middleware-7ab87b5",
+        "date": 1776297166
+      }
     },
     "system/software_defined_vehicle/orchestration": {
       "project": {
@@ -25582,7 +26017,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "8a1c916216556c694734423047f20f7164d591fd",
+        "nix_hash": "sha256-GV9+2MjGC4t0FKi6CHcZ68FEmv2SqEZVHfPK89yX9E0=",
+        "path": "/nix/store/20jqpna2z79y7gsybps9vzw6c2r80kyy-orchestration-8a1c916",
+        "date": 1774661369
+      }
     },
     "system/software_defined_vehicle/platform": {
       "project": {
@@ -25605,7 +26045,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "1950882d8769fdd54bf567de711a3a45f75c6150",
+        "nix_hash": "sha256-Mc9HV6OT+RIYFrkG91uU8Mao+xEHLZqPDh089Kssyrk=",
+        "path": "/nix/store/28qv1xjcc4pylgwjckwkz2algd31si1z-platform-1950882",
+        "date": 1775198736
+      }
     },
     "system/software_defined_vehicle/samples": {
       "project": {
@@ -25628,7 +26073,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "e8cc5f41337edab1e7008729eb3f9442b864404b",
+        "nix_hash": "sha256-4YzR/jjfVwhjPaOrCnpaicoORfaxq8PAeFHaPJ4b/UM=",
+        "path": "/nix/store/gzaz85q73khmrvr1i2zhn24qqy4ph22b-samples-e8cc5f4",
+        "date": 1776297169
+      }
     },
     "system/software_defined_vehicle/sdv_gateway": {
       "project": {
@@ -25651,7 +26101,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "c918480a3323177f1c66b6a852a3062a0edeff80",
+        "nix_hash": "sha256-F+LpUrOT8thAoh2C8i+Qg3ZwGDjTHRQVz1TmgbQp4Wo=",
+        "path": "/nix/store/fhpa5mav4mvrcw16py7cn6496ls3zhwz-sdv_gateway-c918480",
+        "date": 1776324626
+      }
     },
     "system/software_defined_vehicle/service_bundles_registry": {
       "project": {
@@ -25674,7 +26129,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "7c7146d71a4f3056c47ad6bcce0d485c69a6b707",
+        "nix_hash": "sha256-6/Y/Wk0spU2Mo9LwsCxY/b2kLNpUB6sLzObf4wtqcfQ=",
+        "path": "/nix/store/6jjk4fx6k5v8n7s2z7n9fyhzfa6nh9gh-service_bundles_registry-7c7146d",
+        "date": 1774567582
+      }
     },
     "system/software_defined_vehicle/some_ip": {
       "project": {
@@ -25697,7 +26157,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "27bff3fe163ed0a048c573889416f69e88316211",
+        "nix_hash": "sha256-1n9bTwqXAiqYNd6qaiWx67fc8BMQqBZLEEqdVJ0iEyY=",
+        "path": "/nix/store/82izjis25km9v66rjkq97nydv660051n-some_ip-27bff3f",
+        "date": 1774567583
+      }
     },
     "system/software_defined_vehicle/telemetry": {
       "project": {
@@ -25720,7 +26185,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "c8cacbdbb584e28ad48f5c15416f5853e2fc33f4",
+        "nix_hash": "sha256-Cg2wzCb6fbTMue3/4+tGeJQaaUf/5Kowv2yj+VU2QnE=",
+        "path": "/nix/store/hl19nlbsqk2jji5dl6567gl01w9x0bk8-telemetry-c8cacbd",
+        "date": 1774740514
+      }
     },
     "system/software_defined_vehicle/tools": {
       "project": {
@@ -25743,7 +26213,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "723897ec993840fe4aff99b824ebdae618b52529",
+        "nix_hash": "sha256-gXO+qqh5H7BM6x4FolaxKixjFzlqtCaDDxs38evSP0k=",
+        "path": "/nix/store/k6z16qpqzml9g54vnxfppb8lkxf6pzpn-tools-723897e",
+        "date": 1773963432
+      }
     },
     "system/software_defined_vehicle/update_manager": {
       "project": {
@@ -25766,7 +26241,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "277473a5a3371c8b64d4b8d2df5a6c320535e44b",
+        "nix_hash": "sha256-wZZIwGmP8nr335j7F0OC/yq2fgIN03RM6BgPL6K1urI=",
+        "path": "/nix/store/pc55rrk9c14yh3lp5j9nyn19ksqzr5z6-update_manager-277473a",
+        "date": 1774740510
+      }
     },
     "system/software_defined_vehicle/vpm": {
       "project": {
@@ -25789,7 +26269,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "89af54955b1bc6f2b06f8a6438ebe60cf0cb24c0",
+        "nix_hash": "sha256-+fjnUzSth+qlSV5HGnSTOawS2nvErF+TSWDcxqdo/oM=",
+        "path": "/nix/store/3p04kvwxn30kpc244p798c3304chlq2g-vpm-89af549",
+        "date": 1774740510
+      }
     },
     "system/software_defined_vehicle/vsidl": {
       "project": {
@@ -25812,7 +26297,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "9d6bfa55d7448844c36af7c5aeadb3e981b6c995",
+        "nix_hash": "sha256-gJ3vS5vfwrqJIECIY97LN1TB6zKv2zvRJ23KIblwJP8=",
+        "path": "/nix/store/4r98whkv3ffg6ccp2gdnqclkf873mcrk-vsidl-9d6bfa5",
+        "date": 1776324628
+      }
     },
     "system/teeui": {
       "project": {
@@ -25834,7 +26324,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "e3011285b9883a300491d7bc45a12581e281287c",
+        "nix_hash": "sha256-Y6M0OIwnpKaudXKXf9BBYJ1VjlUQWszs5xHWlOS80QY=",
+        "path": "/nix/store/gaiwbvpq2sxlw1b1jj3vb9cf4kvclk4p-teeui-e301128",
+        "date": 1760937756
+      }
     },
     "system/testing/gtest_extras": {
       "project": {
@@ -25856,7 +26351,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "19d4b13af4613002e7a80681acfa2c53f12271f2",
+        "nix_hash": "sha256-89r3ihglQ7Ro57vzk0zFlCd3h8+vL+n4xMKb6W8Wdfw=",
+        "path": "/nix/store/xs1z556ma7x2r7nkgca5mzhac4illlmk-gtest_extras-19d4b13",
+        "date": 1765175187
+      }
     },
     "system/timezone": {
       "project": {
@@ -25878,7 +26378,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "9d9754d450b1bb06a73ca3e2befb0e1d97a3a123",
+        "nix_hash": "sha256-onrwl5oP+Kd6HW8j0ThI1zLyTcISqnjB3+Lb436OWp0=",
+        "path": "/nix/store/az91r4qw2044pg7xdf14snpvb2bddwyp-platform_system_timezone-9d9754d",
+        "date": 1789329636
+      }
     },
     "system/tools/aidl": {
       "project": {
@@ -25900,7 +26405,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "6e43dfbfa750163bedd259a79a9de4558c1b3d56",
+        "nix_hash": "sha256-C95ZPnu2z5R+VkwHGj6w2SzxD97F4vZLt1nGNWPHvuc=",
+        "path": "/nix/store/6h9xi4wiz044q8ai1nc40n5m7b0m8f6a-platform_system_tools_aidl-6e43dfb",
+        "date": 1779364761
+      }
     },
     "system/tools/hidl": {
       "project": {
@@ -25922,7 +26432,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "5d0e05e6535fea94a674a359102bdd42944714f4",
+        "nix_hash": "sha256-PwSyinyRdzn/xrYHV+k1JsNQh5pugy/t018fo6ZjNmY=",
+        "path": "/nix/store/fh82n8cfvif8qr0i2wca6id00w247vp6-hidl-5d0e05e",
+        "date": 1771547639
+      }
     },
     "system/tools/mkbootimg": {
       "project": {
@@ -25944,7 +26459,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "4a27dd13adf9846e12d585d6fe99a375ebb58396",
+        "nix_hash": "sha256-Tw1ooZNNuE8p9QjIqnskxZ7Ij6sSKdr+9MAz4w/Ph+k=",
+        "path": "/nix/store/vwn5xjd0k9k5kspa4a5pc244476jr617-mkbootimg-4a27dd1",
+        "date": 1773272400
+      }
     },
     "system/tools/sysprop": {
       "project": {
@@ -25966,7 +26486,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "deead2d06508faeca98c236feea7e59bb4c43c8c",
+        "nix_hash": "sha256-NM48hUmKbOeUHcwSZZgEkE/zVt7pByuevug0JjZnYHM=",
+        "path": "/nix/store/n2mhkbwnj48vvgyrc0yy2gzmlf1gzp6i-sysprop-deead2d",
+        "date": 1773703728
+      }
     },
     "system/tools/xsdc": {
       "project": {
@@ -25988,7 +26513,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "f1f0c793dc404e716ac73beb1a8bef9cef97a40d",
+        "nix_hash": "sha256-yc5IObtp1fbgtm3WqmM//mYmBaJ6cLC8G8bStmLSITs=",
+        "path": "/nix/store/s7bwd4q0si8k4gj64mj1palhmksdsmdw-xsdc-f1f0c79",
+        "date": 1769293866
+      }
     },
     "system/unwinding": {
       "project": {
@@ -26010,7 +26540,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "31327c70da147fdc069598c4a5fd075aea8d3312",
+        "nix_hash": "sha256-XWGlhC+GdwrM/+Gdg3gkROn5qJKztwJGGK614HWdz3E=",
+        "path": "/nix/store/k4pc4n83f45948cys9y8imzbhgs538i8-unwinding-31327c7",
+        "date": 1771547643
+      }
     },
     "system/update_engine": {
       "project": {
@@ -26032,7 +26567,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "79f478a4f89e701e85fa15dec340bf445342abbd",
+        "nix_hash": "sha256-w3VAFT9bY+1mfpVGwp5tuyy6kBNn2enGJVwhLUoaVAk=",
+        "path": "/nix/store/aa4lbffxc05swgw9pnxy3brgn2lzsnzm-platform_system_update_engine-79f478a",
+        "date": 1783701689
+      }
     },
     "system/usb": {
       "project": {
@@ -26054,7 +26594,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "4a587a2ffcf50a483ae93eab2221c0ba692c0b15",
+        "nix_hash": "sha256-LCLEoBZm4X49umovIANycvL7rt/SNN8Al/b57LBUZ3w=",
+        "path": "/nix/store/6nv7pw8wyvah42r3rp9k6y3q02yjjswp-usb-4a587a2",
+        "date": 1774309052
+      }
     },
     "system/usb_info_tools": {
       "project": {
@@ -26076,7 +26621,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "18c7131fce1fe75a65e434eb219acec3c32cbe86",
+        "nix_hash": "sha256-LAYBT/hLG9JzwLKFSfwKrnvgXvQwMp/4s/iDf6P7Q2k=",
+        "path": "/nix/store/03jx5nmmckdk7gd42s6lcs5pihk9zng1-usb_info_tools-18c7131",
+        "date": 1771892973
+      }
     },
     "system/vold": {
       "project": {
@@ -26098,7 +26648,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "a47ab7c0d4be9e89459a268eab314cd3c758ec77",
+        "nix_hash": "sha256-w+eA1KDxorkivaMKxfvdLkULKQfktaYmGN9Qj/Ld+b8=",
+        "path": "/nix/store/4d9k7bfcg6wp4vbzsxwh9f0m5jiz6kdh-platform_system_vold-a47ab7c",
+        "date": 1779364629
+      }
     },
     "system/weaver": {
       "project": {
@@ -26120,7 +26675,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "2285b0ce1107a633074925eb75807587f3811063",
+        "nix_hash": "sha256-l9KLIpFtSlxLyRhZVXl148AuSuA1ibWGEG3aiZdKHI0=",
+        "path": "/nix/store/7jrk2pbdfm9hlcdll27mngrl8ll5bnw8-weaver-2285b0c",
+        "date": 1773192753
+      }
     },
     "system/zygote": {
       "project": {
@@ -26142,7 +26702,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "20eebb7f90f66ca9bcf4aea620d4168b48101773",
+        "nix_hash": "sha256-Us9jkSYDcYLS/KSIHc/0leanTW4JoM8dWqbMRYu1Bt0=",
+        "path": "/nix/store/7c3mizvz0xnfi7h3l9ybd9yzqwzg0ryc-platform_system_zygote-20eebb7",
+        "date": 1784216516
+      }
     },
     "test/app_compat/csuite": {
       "project": {
@@ -26164,7 +26729,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "ae20a186e7635ca3eb6b134f9a25e65e874d9b4b",
+        "nix_hash": "sha256-erRXwYc9u/WZTaQ9EWIsqAPEKw3KuzUjVVBM4IpWSYg=",
+        "path": "/nix/store/gybj9r3xrg81p77xa10zvr65wwwf69jq-csuite-ae20a18",
+        "date": 1773272416
+      }
     },
     "test/catbox": {
       "project": {
@@ -26186,7 +26756,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "b735f77e93df1007da840eff044d2296365be8c8",
+        "nix_hash": "sha256-JF0O0BP2m6KbmRo7bA7oMWZi63lKaMxmdY6IKyr1TsE=",
+        "path": "/nix/store/a09835gxg2v6yjjahdwcadvazxz9qgyp-catbox-b735f77",
+        "date": 1773358686
+      }
     },
     "test/cts-root": {
       "project": {
@@ -26209,7 +26784,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "f67250c5aaaafa808ded575e64f17258a43022f3",
+        "nix_hash": "sha256-aPwxch/qYBV1g7adZzRAl062EOCqdq+Y3CQCNE3mpAM=",
+        "path": "/nix/store/4fwcw7pd0chbcwl3acpg1g715p3dw66b-cts-root-f67250c",
+        "date": 1774740538
+      }
     },
     "test/dittosuite": {
       "project": {
@@ -26231,7 +26811,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "3bea4ffba46e2642fac9352bd8b81f9bfbfd8690",
+        "nix_hash": "sha256-wKDhWDfYH6pcnkarA/yAtTf90r+cOUAkrf7DIcecFTY=",
+        "path": "/nix/store/fj5y71dhcimbvc1p519b7qvk72pxf2kb-dittosuite-3bea4ff",
+        "date": 1764570269
+      }
     },
     "test/mlts/benchmark": {
       "project": {
@@ -26253,7 +26838,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "4617f7e28793f979153f3b088a79ba796e0268b3",
+        "nix_hash": "sha256-J+eylw2vud0DJLf8vy3baYe9i1b1LJMZsMK7JWSgHYg=",
+        "path": "/nix/store/5brjvi11mqrd0zklrbc2ava2s84scv8g-benchmark-4617f7e",
+        "date": 1718743423
+      }
     },
     "test/mlts/models": {
       "project": {
@@ -26275,7 +26865,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "cbb1ae5cfde49ed06ccf4afaa2fae1054364d4f3",
+        "nix_hash": "sha256-xPYSwKCcEWiGRWASr4vTzVqtHfSCkJhJzRGfPNtg6I4=",
+        "path": "/nix/store/8l23avls37dijmy3gmk80lv1z8bxila5-models-cbb1ae5",
+        "date": 1681244914
+      }
     },
     "test/robolectric-extensions": {
       "project": {
@@ -26299,7 +26894,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "94254a13a5969eec7a4742320cc3f91e141d5593",
+        "nix_hash": "sha256-BvPwx4qGSldKDQ/18Faj5H2ZjqeADQK3VNYUZM1G+Lo=",
+        "path": "/nix/store/7ykzkw35clw6yqmyy3mdf58m9083z6sx-robolectric-extensions-94254a1",
+        "date": 1774400708
+      }
     },
     "test/suite_harness": {
       "project": {
@@ -26323,7 +26923,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "37c7c43eeab409331d449e0c7899adf535894b0c",
+        "nix_hash": "sha256-8b83NPnNcLkkO9+3SKPFwGQOvZi1TBsnAIKEvmfmVvE=",
+        "path": "/nix/store/7sv7vvrbifj7q68p88zkckfjc4mi4rj8-suite_harness-37c7c43",
+        "date": 1774481522
+      }
     },
     "test/vts": {
       "project": {
@@ -26346,7 +26951,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "886725543e4078f87fc87aabb90b1871c7536b03",
+        "nix_hash": "sha256-dJWwnOmQRm0Ti+tiq45katLVOYDLjkwuaXwgi1ODEuw=",
+        "path": "/nix/store/8c4hxs0xihwclfkni8wdkvdbi9z511s6-vts-8867255",
+        "date": 1776826820
+      }
     },
     "test/vts-testcase/hal": {
       "project": {
@@ -26369,7 +26979,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "61df1bdbc6b596dafeee213c04f5d2c8d7131b98",
+        "nix_hash": "sha256-tZq9FyPXzQ4JKSPQNb2h9ZBa3pyXeWa8qhTtuZ1e84Y=",
+        "path": "/nix/store/9g5wv8gjx9rlrlnks4rr3iw64i66dghh-hal-61df1bd",
+        "date": 1775198738
+      }
     },
     "test/vts-testcase/kernel": {
       "project": {
@@ -26392,7 +27007,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "5420464b05bfc51b1654b5aa62dd25ca616da9f3",
+        "nix_hash": "sha256-0lXm3iks8UXGhi+htGGdUOZnUpyA/Od5RhWs+Asrh2Q=",
+        "path": "/nix/store/i94pbfihx9pgbabwjsmjwlyn284pmzsj-kernel-5420464",
+        "date": 1775631033
+      }
     },
     "test/vts-testcase/nbu": {
       "project": {
@@ -26416,7 +27036,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "72a3bd47e665633df281314fd6be8b3e7d642f2a",
+        "nix_hash": "sha256-n7olfMPEArGOFMeWo9U8QE50gSvhMaOfLxZ1xVNqe8A=",
+        "path": "/nix/store/vq9k3fspi6dp72p6cgxp33n4lgm0yyzc-nbu-72a3bd4",
+        "date": 1622652785
+      }
     },
     "test/vts-testcase/performance": {
       "project": {
@@ -26440,7 +27065,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "ccce5cfe7e4aa95865e85931bb35c1d454f5f59f",
+        "nix_hash": "sha256-wCuGz9GAeHtknKKfsSlkkfjRrl3hZW4nYmw0kOwmJDw=",
+        "path": "/nix/store/bdh5gp8fravlrb4lqwgivpkf0afm8xz7-performance-ccce5cf",
+        "date": 1740696575
+      }
     },
     "test/vts-testcase/security": {
       "project": {
@@ -26464,7 +27094,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "deabfe5072c16a907e93aaccd31aa52a9b82aa69",
+        "nix_hash": "sha256-fwHz+72tDYYKXV5Qu1YHlwQB51w41op2TzxApJKFtkE=",
+        "path": "/nix/store/wrrghmj7zj241h59sl6i2ah9mhg6mqd4-security-deabfe5",
+        "date": 1776164571
+      }
     },
     "test/vts-testcase/vndk": {
       "project": {
@@ -26487,7 +27122,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "acae5734b29adfd8df22e95c41649356be14880f",
+        "nix_hash": "sha256-7T6dw1xpsUfVo+HMtGVBX2M6uQfdSANsSrrmvm2gM7s=",
+        "path": "/nix/store/id0fdp811cjk2hi7myvq2cd9pijbbvck-vndk-acae573",
+        "date": 1772584233
+      }
     },
     "toolchain/pgo-profiles": {
       "project": {
@@ -26509,7 +27149,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "44bae3346df2d8657cde54a5ee069067d607e689",
+        "nix_hash": "sha256-R67ORGvOwGQZzbnNC0trel1qCSy1x7K2l58MD0jpLAI=",
+        "path": "/nix/store/ncr7yb05mkric4b8p96qb2zbq6087nfy-pgo-profiles-44bae33",
+        "date": 1775971948
+      }
     },
     "tools/aadevtools": {
       "project": {
@@ -26531,7 +27176,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "b32fbb6340ee6fe4a25d7b39d84085c084465677",
+        "nix_hash": "sha256-89RtrpVjBc3AnRjM3mVFSnONovb5sPq35o1rpQSC6qI=",
+        "path": "/nix/store/pdh0cklv4cw88c709drcblhgpmgcbiy8-aadevtools-b32fbb6",
+        "date": 1696638041
+      }
     },
     "tools/acloud": {
       "project": {
@@ -26557,7 +27207,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "b9401a865060ec798a59fe8cda3206df6771e253",
+        "nix_hash": "sha256-R/yDMhbYwAeHt08NLvxl29sN4xRgqjSXcAbW3cznh3U=",
+        "path": "/nix/store/iq12lssh5wys4s5w8rjxxg8miwf6nwic-acloud-b9401a8",
+        "date": 1773963476
+      }
     },
     "tools/apifinder": {
       "project": {
@@ -26580,7 +27235,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "ed3cc22572ea5fc243355a6e5093f0fcd823685c",
+        "nix_hash": "sha256-IcRyUm+2Kk+Os6uV2od8s3o+uV+lFWmlh0qILCGk10Y=",
+        "path": "/nix/store/5xslws6gqxiri2njma7rdxvwx9jdrrcn-apifinder-ed3cc22",
+        "date": 1670545816
+      }
     },
     "tools/apksig": {
       "project": {
@@ -26603,7 +27263,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "ba4d984e1a360d427307d669d2f789212130e9e8",
+        "nix_hash": "sha256-xhxCq+nhhfWts3QJRXHbf5RhZscagzSO7GUhSTaoviY=",
+        "path": "/nix/store/9j2d4rd80wlai4lxdlmmv051f8p4df01-platform_tools_apksig-ba4d984",
+        "date": 1779365028
+      }
     },
     "tools/apkzlib": {
       "project": {
@@ -26626,7 +27291,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "9c3094a04dff8e70054da9eaa66b6011c81fa00d",
+        "nix_hash": "sha256-BeJpwItQJTwyue37HtKw7F7y9Z/+XMR737D86iEyB0A=",
+        "path": "/nix/store/k5lgja4kwd9d4w64nsh1p0jl1zjyk4gg-apkzlib-9c3094a",
+        "date": 1646402054
+      }
     },
     "tools/arsclib": {
       "project": {
@@ -26648,7 +27318,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "a67388430c8319f4c7066626e340b5c4d7f27882",
+        "nix_hash": "sha256-xecIYnB9VmVvg7hX82O01mbNM6C5qmPOXE+4k4NFh08=",
+        "path": "/nix/store/c9aqpd7x68ryvirsckdgr6zjh7c7nd86-platform_tools_arsclib-a673884",
+        "date": 1785270960
+      }
     },
     "tools/asuite": {
       "project": {
@@ -26671,7 +27346,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "744998cb744c401a5daa77170039ab6337ed7adb",
+        "nix_hash": "sha256-6vZM935DXw89Z71OXFxxmdmyRU7LKX7Uk69fd3Rm860=",
+        "path": "/nix/store/dqkxbxsdww92c4lx5mnrvdy8cqyc2gld-asuite-744998c",
+        "date": 1774740558
+      }
     },
     "tools/carrier_settings": {
       "project": {
@@ -26693,7 +27373,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "692fe76e72829e258a2deb85ee44b4b0a7fdf0a6",
+        "nix_hash": "sha256-1iBPaPq6DVl3nuOlMSc9OYLxEdAmpYi0UMvV21S5qzw=",
+        "path": "/nix/store/cl3sfyzwydy8h2da9a4akg11alqd8af6-carrier_settings-692fe76",
+        "date": 1760937707
+      }
     },
     "tools/content_addressed_storage/prebuilts": {
       "project": {
@@ -26716,7 +27401,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "973ab5876b89b0bf4b93a1620397b27183afaa6d",
+        "nix_hash": "sha256-TGazxOSfOT7bvJ5ZunxWkFxrQI6xih93wVvqUAXjXW4=",
+        "path": "/nix/store/spmh0bdm65l6ljk4hlvpvk6dfklm2sai-prebuilts-973ab58",
+        "date": 1760936735
+      }
     },
     "tools/currysrc": {
       "project": {
@@ -26738,7 +27428,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "95f68d6bb4e88c0e5739eb13d26ac5c5158c6f4b",
+        "nix_hash": "sha256-OzR+7q9OpccL0AoOU0avB6EUiBvw8rMNiy9haBDtWTQ=",
+        "path": "/nix/store/29m3qkj4ipw74s7ws15kj38pwnjzpmi8-currysrc-95f68d6",
+        "date": 1730284141
+      }
     },
     "tools/deviceinfra/prebuilts": {
       "project": {
@@ -26761,7 +27456,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "bb2d5f519bd0bf57641d74f40c12bab281423781",
+        "nix_hash": "sha256-ToFjYA+pkpb8sRhv5LZcMXGdafgZpwp1Im1zxshDvhc=",
+        "path": "/nix/store/glqg75l6k0nkywdyxypxwkyf0lkjwyfb-prebuilts-bb2d5f5",
+        "date": 1775284968
+      }
     },
     "tools/dexter": {
       "project": {
@@ -26785,7 +27485,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "602760cb036bc9cfc9240939692603512e63fe4a",
+        "nix_hash": "sha256-mkARdl9Vhss76gDTyRL2FZFsFgTNbdyPNNQhNr5udrc=",
+        "path": "/nix/store/87xa1w1j31zyqrsmhs1m5azrpy1f39sa-dexter-602760c",
+        "date": 1740603323
+      }
     },
     "tools/doc_generation": {
       "project": {
@@ -26808,7 +27513,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "08aac91132a0b7109130271c27717b07f80ff8c3",
+        "nix_hash": "sha256-RDx5STONcHWxLkm3Vejz/5Fe9Uf8oQ43H7AnXyLvA/s=",
+        "path": "/nix/store/h4xi8yjfjhd4d0vwz9jywdfxhw79py59-doc_generation-08aac91",
+        "date": 1729216203
+      }
     },
     "tools/external/fat32lib": {
       "project": {
@@ -26830,7 +27540,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "11b1061d834666a605e7a02fe757341ef224a04d",
+        "nix_hash": "sha256-UD8GSffGCZMLTb66ydZJC/k0qtMrEekZfIEXCirmqX8=",
+        "path": "/nix/store/8fjhjfw2gb39kjxb9034v89nny152hk8-fat32lib-11b1061",
+        "date": 1622652790
+      }
     },
     "tools/external_updater": {
       "project": {
@@ -26852,7 +27567,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "bf0e5e0e6a064a5d832102c39b0e4966e32e239a",
+        "nix_hash": "sha256-wuImwLtFWEuqJpVXswL3J5KUGC91bfu1yUmBGpmH/Ns=",
+        "path": "/nix/store/a5izk95n9xf09p1dix8nszz4p58b4v5s-external_updater-bf0e5e0",
+        "date": 1769128161
+      }
     },
     "tools/lint_checks": {
       "project": {
@@ -26874,7 +27594,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "d260e8254709bb2884c072dd595f63c9c8d22527",
+        "nix_hash": "sha256-wM+aAswPK1vhAZrFzL0v4Lk3N8DxwT3ZjILLANoWm3c=",
+        "path": "/nix/store/9qdqdgfqxvxg571yzhs7zllni9y8hmz8-lint_checks-d260e82",
+        "date": 1774661431
+      }
     },
     "tools/loganalysis": {
       "project": {
@@ -26898,7 +27623,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "bc129d03a7cbc8a133d5c482b65c8d451a9475b9",
+        "nix_hash": "sha256-5IEo721a/kznoMIXcYGzNdqWdJby1Pvtr45wB6R1HgM=",
+        "path": "/nix/store/f71dk76nyf4li7mfvhamfmxa2fm7fgar-loganalysis-bc129d0",
+        "date": 1760937542
+      }
     },
     "tools/mainline": {
       "project": {
@@ -26920,7 +27650,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "3f648d3d261af9da36c5c8664a27e8b26d3e0440",
+        "nix_hash": "sha256-n6QmWmkonXqkwQYVvlfOlY3fh9a2I7w91AsKP/SSFys=",
+        "path": "/nix/store/nvviinr5f0m2sh6s165vpi2vw9zk7j5a-mainline-3f648d3",
+        "date": 1769480944
+      }
     },
     "tools/metalava": {
       "project": {
@@ -26943,7 +27678,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "1b01bb1a5a0950b14ba5b15c742f67ea9040f4fd",
+        "nix_hash": "sha256-hdTDR0aEUdOPW9sRQW+46AkdHi5DQUimTF9LyKrTxcY=",
+        "path": "/nix/store/51qvz6jqq3chgv6g335a9r7lqqw5s859-platform_tools_metalava-1b01bb1",
+        "date": 1779364980
+      }
     },
     "tools/ndkports": {
       "project": {
@@ -26965,7 +27705,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "2e149f73a8e792fff6dc6aadc18d0d919a071282",
+        "nix_hash": "sha256-syyosLE5aSgi6LryprpVCLmT+M1dwrOi1bn1q38Xt5Y=",
+        "path": "/nix/store/k7z1rkpbjxgpzgvkykcxab91aq76yndr-ndkports-2e149f7",
+        "date": 1714427406
+      }
     },
     "tools/netsim": {
       "project": {
@@ -26987,7 +27732,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "71feaeea338b3bd7eda6914cc9b9b382d752957d",
+        "nix_hash": "sha256-k0mhsOr5BYnwdKJLcw2FqX7KVfZP9LIoU1zBETf0tPQ=",
+        "path": "/nix/store/hymj7hghcgwqf370galn6lhrkc3si3sf-netsim-71feaee",
+        "date": 1774827194
+      }
     },
     "tools/platform-compat": {
       "project": {
@@ -27012,7 +27762,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "19ce1c9d406cec9feaf76618e7d772113883d73f",
+        "nix_hash": "sha256-GnPuD7ksb14F6wJ34/C6lnFRMx+gUfqaI5xn7wUqACs=",
+        "path": "/nix/store/l7dc500gvlbrdlcz08k1vyb0c600q3yc-platform-compat-19ce1c9",
+        "date": 1772245770
+      }
     },
     "tools/repohooks": {
       "project": {
@@ -27041,7 +27796,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "2f92d46c54eef64e69fbd09f0d8e2f7f68d7a262",
+        "nix_hash": "sha256-ALMZdgM+Op7zEPRhhaon3T5/KhXPMF0+M0ugdg2L0Io=",
+        "path": "/nix/store/w6f6lg7ivffvm7vksb6j5f9d275xlxih-repohooks-2f92d46",
+        "date": 1774740574
+      }
     },
     "tools/rootcanal": {
       "project": {
@@ -27063,7 +27823,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "559446380c3e2cf01c82608897ba5a246996fe5c",
+        "nix_hash": "sha256-2qOv9uwoEA2MGv1PV58MuiCDGUJYTlC3tIRXonxMg+U=",
+        "path": "/nix/store/17692zw3gzfgnl1nskxmfzp2z858xlyc-rootcanal-5594463",
+        "date": 1774740575
+      }
     },
     "tools/rr_prebuilt": {
       "project": {
@@ -27085,7 +27850,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "0d59375f6eb5bc1ad6248266bc03e6b78704fda7",
+        "nix_hash": "sha256-//GQeRdjKbm1eK7cWh0NmqD2wDZiNuBxPnZuz2F39ZY=",
+        "path": "/nix/store/b5zmw1ab1jiarqn2iafwmabi3x5cmvzx-rr_prebuilt-0d59375",
+        "date": 1696039546
+      }
     },
     "tools/security": {
       "project": {
@@ -27108,7 +27878,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "e4e7ba1dabe64f33b9894624e43763bd8a3cbca5",
+        "nix_hash": "sha256-sak1en93DNu6x08oW/sqnmhDJYf528vE/NaQArZv88A=",
+        "path": "/nix/store/5rfddc7kyqhccrkd2a8dpdal2rad8bnr-security-e4e7ba1",
+        "date": 1774222144
+      }
     },
     "tools/strictdeps": {
       "project": {
@@ -27130,7 +27905,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "11a85840e0ecc1e4d8ea09b4c0af0f6b3e5cfc40",
+        "nix_hash": "sha256-wPGBxHAvlzTOPzZR3a9IJRLX/QnD15dsZbbZDfqlAjc=",
+        "path": "/nix/store/f8ld25q1a3dlhgq1l1b8wddxjxycn0l9-strictdeps-11a8584",
+        "date": 1774740578
+      }
     },
     "tools/test/connectivity": {
       "project": {
@@ -27152,7 +27932,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "43cb53bc3bc76de2d9d497c74cc4798ee6243128",
+        "nix_hash": "sha256-YJziX0HjQ7/XX9XQ4KsT93SI3P70qAfLajOeX6mpEJc=",
+        "path": "/nix/store/kc0m5g2mdlss9lv06rh25k10l7aa2cwv-connectivity-43cb53b",
+        "date": 1767918446
+      }
     },
     "tools/test/desktop/mobly": {
       "project": {
@@ -27174,7 +27959,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "b77d8987bdd1d44645a015042130c8b7cba05b4b",
+        "nix_hash": "sha256-k2r82ty1ba78fKfnw5OTS14PmBX+RwJTTE+j/CMmHpU=",
+        "path": "/nix/store/1w018nzwml61wa9x9q8k2klxzxw9q1c5-mobly-b77d898",
+        "date": 1774567655
+      }
     },
     "tools/test/mobly_extensions": {
       "project": {
@@ -27196,7 +27986,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "fc6621351d8d17286870813678c96bf81555c1ad",
+        "nix_hash": "sha256-YNVk2NnADlY/vhIrEWe+EEJATd/pMA8OLDv7ximxBiQ=",
+        "path": "/nix/store/w7zcq17h0ar2ccxzirsam1cbpxcvj3y9-mobly_extensions-fc66213",
+        "date": 1772245777
+      }
     },
     "tools/test/mobly_snippets": {
       "project": {
@@ -27218,7 +28013,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "9250e400d188fd7ef9a15b99495143efabf3077c",
+        "nix_hash": "sha256-kD9feoc+v7hGVImNpAf0obSCpVlXa0/r+e2Klu7AhWI=",
+        "path": "/nix/store/fpm83h67x1pgyqw9c56pnzwxwcbd5swi-mobly_snippets-9250e40",
+        "date": 1752782238
+      }
     },
     "tools/test/openhst": {
       "project": {
@@ -27240,7 +28040,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "a64b367cb2361a732bb72cbcb30ac9ecb2a6cccb",
+        "nix_hash": "sha256-SqodHvL0qAs1vO526+fbuMjaCMt2GHK1aI/FpxvxnpM=",
+        "path": "/nix/store/6dyqhl82r099zj29djdq0myfmifxj581-openhst-a64b367",
+        "date": 1744317183
+      }
     },
     "tools/tradefederation/contrib": {
       "project": {
@@ -27263,7 +28068,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "c3ddf62492ebe457514987aa98184e1ed3312e1a",
+        "nix_hash": "sha256-e9LnD8TZvUuISUrYp0AfJeA3ZCXJQPAQ/cqLBPRLpIM=",
+        "path": "/nix/store/bcdhviapxqk5df0w0hqz046526v3xg70-contrib-c3ddf62",
+        "date": 1773790094
+      }
     },
     "tools/tradefederation/core": {
       "project": {
@@ -27286,7 +28096,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "2139853a80ff1058cb333efd5e9984d3e09a14ec",
+        "nix_hash": "sha256-LhrG1zFZBfQLeVYLlSZ7ZdTiPy6S9rySsNmx/6VOsxI=",
+        "path": "/nix/store/5zc5n5zpj8sjflqs2rn8r1l6nyirnh0h-tradefederation-2139853",
+        "date": 1774661446
+      }
     },
     "tools/tradefederation/prebuilts": {
       "project": {
@@ -27309,7 +28124,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "cff1e97158caa95de4919a38abf6f3ac10409f37",
+        "nix_hash": "sha256-ac43PCq3pA4VkWpxS0FIVJxdaW7Av/1eD2tIYMBUVDQ=",
+        "path": "/nix/store/4rxvlrwlaacmxjpjf6rrrd0q0xjnmfx8-prebuilts-cff1e97",
+        "date": 1774567661
+      }
     },
     "tools/treble": {
       "project": {
@@ -27332,7 +28152,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "07f855c5b283a77b04617322aea8990d9d3cdf52",
+        "nix_hash": "sha256-9se7nQAw07zxGBvQwIWEJneyFKwdT3iKYWftjTH/NEs=",
+        "path": "/nix/store/xr847p38m6p0aiy7vz0dkbbi7q0s9d3i-treble-07f855c",
+        "date": 1763965582
+      }
     },
     "tools/trebuchet": {
       "project": {
@@ -27358,7 +28183,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "fb475730e55c847362a51b1978b16a633267deb9",
+        "nix_hash": "sha256-CuQ01P1YXKN6yZ5nlYN1faKN5FHRQCdO/+td8s25udE=",
+        "path": "/nix/store/8g1xfzbfyzhy8scvwkpzlgns5zfjic5r-trebuchet-fb47573",
+        "date": 1740496763
+      }
     },
     "trusty/device/arm/generic-arm64": {
       "project": {
@@ -27381,7 +28211,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "9f80db7a085746f38c9fd5c2f79cd3adc9a1d709",
+        "nix_hash": "sha256-uOKfNU/Dq+nL9WuG3fX0YF/BEFkEX06Q9XZE2zasWT8=",
+        "path": "/nix/store/7px1z95y81wkqd1lrba805664n3qyf2h-generic-arm64-9f80db7",
+        "date": 1774567664
+      }
     },
     "trusty/device/arm/vexpress-a15": {
       "project": {
@@ -27404,7 +28239,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "303ea92e4d6e24dc9225029a0e5130c2eeaf4f9a",
+        "nix_hash": "sha256-jh34Afs6aAy+qM9AGrnW8x8c0WrJxrgvzEb3fbPiiYc=",
+        "path": "/nix/store/wxmyhjl03dzph09hjm0ykrvpy69ngyxs-vexpress-a15-303ea92",
+        "date": 1675468782
+      }
     },
     "trusty/device/common": {
       "project": {
@@ -27427,7 +28267,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "6b48a3e39a94093a693914779e9f9aa9859f5366",
+        "nix_hash": "sha256-6YYS6cHK5K2pNEtg0NRZRg/WjWjB/cV8y9guMqTi9mQ=",
+        "path": "/nix/store/cpg34r0jqbjqizq3jzczdpixb84dad1n-common-6b48a3e",
+        "date": 1738894238
+      }
     },
     "trusty/device/desktop": {
       "project": {
@@ -27451,7 +28296,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "f8d8267f8b20d05b1d3620bdcaffb5692f142b0d",
+        "nix_hash": "sha256-wHv501GSbRbviT6YSWDB6Om9ivtjQYmu0UdKvYvHBeY=",
+        "path": "/nix/store/f5prd3hwx6pmg371kd6811j9kvr23977-desktop-f8d8267",
+        "date": 1774567666
+      }
     },
     "trusty/device/nxp/imx7d": {
       "project": {
@@ -27474,7 +28324,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "b22c680157cb8b0bc688b19609144ebc0fe55a19",
+        "nix_hash": "sha256-rHWGw/Wgf2kHLiDJ+5Coik8o9w0UJn0eO8Q82maiEts=",
+        "path": "/nix/store/2fm0k1k4rm9m4iaq3viys1803glv6nw9-imx7d-b22c680",
+        "date": 1675468776
+      }
     },
     "trusty/device/x86/generic-x86_64": {
       "project": {
@@ -27497,7 +28352,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "e9e36b2fc426938011f5bfb9ee8f018bf541c864",
+        "nix_hash": "sha256-LJBIvVLws4CuqY0UWmElsNrV5cqAqvvRSQ1phuKuOnE=",
+        "path": "/nix/store/qhb5v0dsr5bgrnzq3f7fxw3wmmlmgmaz-generic-x86_64-e9e36b2",
+        "date": 1760938564
+      }
     },
     "trusty/hardware/nxp": {
       "project": {
@@ -27520,7 +28380,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "b7edfedaf3b4660d1d1b57087424bb56e5f59bde",
+        "nix_hash": "sha256-65zile2t1CJZpzN0FR8Nqrae/BIPDL3gbZDkm0Lv/uo=",
+        "path": "/nix/store/9ih48jn95qgcmp1slhfy4g2ygilmbn67-nxp-b7edfed",
+        "date": 1710850762
+      }
     },
     "trusty/host/common": {
       "project": {
@@ -27552,7 +28417,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "7fe664f48ae35c1d13bbdc67ed94d3ed6627b91e",
+        "nix_hash": "sha256-2Tl7hsYh2T3FuZUlCUYmYCMU6wG5/42MffDEQbgNXso=",
+        "path": "/nix/store/2cnwi4xfhaicmxh7js0pgig6fsz2bcdy-common-7fe664f",
+        "date": 1771108322
+      }
     },
     "trusty/kernel": {
       "project": {
@@ -27575,7 +28445,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "837ece72a3c50f454dfaf3bb86d5ac2e843c142b",
+        "nix_hash": "sha256-6h8Mu12v3JaHm+pFmK2X59c+A18pAxbxkBry3Bh/BN4=",
+        "path": "/nix/store/b8jgwm32134zg74j1mx881jymd155wd0-trusty-837ece7",
+        "date": 1774063756
+      }
     },
     "trusty/user/app/authmgr": {
       "project": {
@@ -27598,7 +28473,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "b53363e45aad47c92ec1ecc4b94881727c13ad8d",
+        "nix_hash": "sha256-tYC/Iai18HVH5HsR8Bem8z/s03pBv3IsOfo5lyq9SIo=",
+        "path": "/nix/store/4agiipm0v7nm3748whn0dmvi06npqrqm-authmgr-b53363e",
+        "date": 1774063757
+      }
     },
     "trusty/user/app/avb": {
       "project": {
@@ -27621,7 +28501,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "5381caec069f0c7059fae0b6985806e53e4b887b",
+        "nix_hash": "sha256-EYfm7bHF0cuV3ZQ6BwN3yLNR4yo8YlGW7rhm/OecZaI=",
+        "path": "/nix/store/kzgj4m08v624q0wamwymhibmccw3afrm-avb-5381cae",
+        "date": 1767832095
+      }
     },
     "trusty/user/app/cast-auth": {
       "project": {
@@ -27644,7 +28529,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "df8e46e3f6fc866fe366970b33df407d465777b9",
+        "nix_hash": "sha256-emR35saX/lNze9WClWjjttT4lHQxBImQpyvr5mzlEDU=",
+        "path": "/nix/store/kh4qz9gs4nfjdk9alw49azdw9kq97dw6-cast-auth-df8e46e",
+        "date": 1760938883
+      }
     },
     "trusty/user/app/confirmationui": {
       "project": {
@@ -27667,7 +28557,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "ff29a3a01fb0d0ea1e4eea76ab58a0168c54c45d",
+        "nix_hash": "sha256-rC3bmTMSBoAWkN8cq+6u0v9b/7IOYUiIOJECP+thakU=",
+        "path": "/nix/store/k9n2cpiklw4l8aapm40l2k4lcwfrdqwi-confirmationui-ff29a3a",
+        "date": 1729134765
+      }
     },
     "trusty/user/app/gatekeeper": {
       "project": {
@@ -27690,7 +28585,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "7ac7c2862317c448ba88ce2d7dfcae0db4765174",
+        "nix_hash": "sha256-J+G1Pr89Y1GKvX5RMVxWk8T7M3tUrCyBltTizwwp+8A=",
+        "path": "/nix/store/vq85knjqpl7alqxg579lszll1kbk4c0g-gatekeeper-7ac7c28",
+        "date": 1774567678
+      }
     },
     "trusty/user/app/keymaster": {
       "project": {
@@ -27713,7 +28613,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "71fa167a63842d10d26cc4f51537de54b6eec3eb",
+        "nix_hash": "sha256-XUYN+uCDUr3xr/L37N3udXerVoGzH2QcyrK+FmosEa8=",
+        "path": "/nix/store/dmmw3z9p99bwlspb2cbn9d6sylmvcard-keymaster-71fa167",
+        "date": 1773192825
+      }
     },
     "trusty/user/app/keymint": {
       "project": {
@@ -27736,7 +28641,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "48faccf3fd79ef3bc23171ed9373965e8c302b4c",
+        "nix_hash": "sha256-CFHdjaM0LhL7C2csNf7ROCZcWUc9rBTsdy47KSY02tI=",
+        "path": "/nix/store/pmx4aq4k8bn333dddnzbaavmcvfqk2ks-keymint-48faccf",
+        "date": 1776164646
+      }
     },
     "trusty/user/app/sample": {
       "project": {
@@ -27759,7 +28669,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "78e3bcb17ec4a0fc56af8f95c8db8e3983b52d1c",
+        "nix_hash": "sha256-TPrzBx6X/BCdQvKGjdFKZ0WB0FxqAPqtdp3bsEwHt/g=",
+        "path": "/nix/store/0s9rf7sri95cvjwqrypnwmwink9bvwxj-sample-78e3bcb",
+        "date": 1772152102
+      }
     },
     "trusty/user/app/secretkeeper": {
       "project": {
@@ -27782,7 +28697,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "fadb44b38b58a203a2d3e751e97b2dfbcf6a4861",
+        "nix_hash": "sha256-g6pEeoG/hQwO+HPQ+DSurLwz9g+mR5yMBocfnPVbmsQ=",
+        "path": "/nix/store/l0hhfpgnkn4izgawxvy5mj739l5anvmh-secretkeeper-fadb44b",
+        "date": 1773192827
+      }
     },
     "trusty/user/app/storage": {
       "project": {
@@ -27805,7 +28725,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "da6843dc5aaf97dfce448415a4c943186a8c65f7",
+        "nix_hash": "sha256-pkK7zdVwSGPHcR7TE3EuXOHxVTxTfBqjFh79/8QnhzY=",
+        "path": "/nix/store/rac4i653wdf7r1s3rkr4ldmf4pfw5yja-storage-da6843d",
+        "date": 1774567683
+      }
     },
     "trusty/user/base": {
       "project": {
@@ -27828,7 +28753,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "165d46c463bd22524a7d33d177bf7f35dad46bf5",
+        "nix_hash": "sha256-BUsLCMKwFoUrez8Pum22NA1ol1DxhtY4UCzJWvl/ijE=",
+        "path": "/nix/store/5756j515895rnp44i2ypr28gsy6xpzhz-lib-165d46c",
+        "date": 1774309132
+      }
     },
     "trusty/user/desktop": {
       "project": {
@@ -27852,7 +28782,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "b9615896a07dfe0c227cdc8f6a522b9a3788d086",
+        "nix_hash": "sha256-8l01v24/V6p/TGBuQaAs7zwYRk3yvjIcqXqvFN9RVa8=",
+        "path": "/nix/store/qg96xqz3nij12b43i4dav6k0hs8g7344-desktop-b961589",
+        "date": 1777088982
+      }
     },
     "trusty/vendor/google/aosp": {
       "project": {
@@ -27880,7 +28815,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "93e3ca36bc59e5d357b226e4e5254f8e478213f2",
+        "nix_hash": "sha256-vflnttAkOP0IM7o+QinHAHYg9TsIAdohhKJjzUU9vZ0=",
+        "path": "/nix/store/sdbx6xj6kbhn3b4ga60f2y77qfq85z2y-aosp-93e3ca3",
+        "date": 1774063768
+      }
     },
     "vendor/adevtool": {
       "project": {
@@ -27900,7 +28840,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "e21f539d4ef6c0e4c4c24a955d59d93473ee0038",
+        "nix_hash": "sha256-TjjU+QEzuEmsF1BrUiLJxkhthTTZ+tWMvRDcFqpUFVQ=",
+        "path": "/nix/store/4w7f315zi0i3f8qy1lwjw0r6d3iz9hsg-adevtool-e21f539",
+        "date": 1790355220
+      }
     },
     "vendor/state": {
       "project": {
@@ -27920,7 +28865,12 @@
         "lineage_deps": "NoLineageDependenciesFile",
         "active": true
       },
-      "lock": null
+      "lock": {
+        "commit": "1469180711293a5852bfda9a5f67b8f53d9828ad",
+        "nix_hash": "sha256-pMf80JKD/ZAEzrqChrBaSyJeaeXiXjttISfYg6sM44w=",
+        "path": "/nix/store/gdz1yka9hn74qpmp503iqf57mn01kw0s-vendor_state-1469180",
+        "date": 1790355245
+      }
     }
   }
 }

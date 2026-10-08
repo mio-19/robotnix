@@ -2,320 +2,320 @@
   "device_info": {
     "alpha": {
       "akita": {
-        "git_tag": "2026092500",
-        "build_time": 1790380421
+        "git_tag": "2026100200",
+        "build_time": 1790926302
       },
       "barbet": {
         "git_tag": "2025021000",
         "build_time": 1739167270
       },
       "blazer": {
-        "git_tag": "2026092500",
-        "build_time": 1790380421
+        "git_tag": "2026100200",
+        "build_time": 1790926302
       },
       "bluejay": {
-        "git_tag": "2026092500",
-        "build_time": 1790380421
+        "git_tag": "2026100200",
+        "build_time": 1790926302
       },
       "bramble": {
         "git_tag": "2025021000",
         "build_time": 1739167270
       },
       "caiman": {
-        "git_tag": "2026092500",
-        "build_time": 1790380421
+        "git_tag": "2026100200",
+        "build_time": 1790926302
       },
       "cheetah": {
-        "git_tag": "2026092500",
-        "build_time": 1790380421
+        "git_tag": "2026100200",
+        "build_time": 1790926302
       },
       "comet": {
-        "git_tag": "2026092500",
-        "build_time": 1790380421
+        "git_tag": "2026100200",
+        "build_time": 1790926302
       },
       "coral": {
         "git_tag": "2025012701",
         "build_time": 1737953298
       },
       "felix": {
-        "git_tag": "2026092500",
-        "build_time": 1790380421
+        "git_tag": "2026100200",
+        "build_time": 1790926302
       },
       "flame": {
         "git_tag": "2025012701",
         "build_time": 1737953298
       },
       "frankel": {
-        "git_tag": "2026092500",
-        "build_time": 1790380421
+        "git_tag": "2026100200",
+        "build_time": 1790926302
       },
       "husky": {
-        "git_tag": "2026092500",
-        "build_time": 1790380421
+        "git_tag": "2026100200",
+        "build_time": 1790926302
       },
       "komodo": {
-        "git_tag": "2026092500",
-        "build_time": 1790380421
+        "git_tag": "2026100200",
+        "build_time": 1790926302
       },
       "lynx": {
-        "git_tag": "2026092500",
-        "build_time": 1790380421
+        "git_tag": "2026100200",
+        "build_time": 1790926302
       },
       "mustang": {
-        "git_tag": "2026092500",
-        "build_time": 1790380421
+        "git_tag": "2026100200",
+        "build_time": 1790926302
       },
       "oriole": {
-        "git_tag": "2026092500",
-        "build_time": 1790380421
+        "git_tag": "2026100200",
+        "build_time": 1790926302
       },
       "panther": {
-        "git_tag": "2026092500",
-        "build_time": 1790380421
+        "git_tag": "2026100200",
+        "build_time": 1790926302
       },
       "rango": {
-        "git_tag": "2026092500",
-        "build_time": 1790380421
+        "git_tag": "2026100200",
+        "build_time": 1790926302
       },
       "raven": {
-        "git_tag": "2026092500",
-        "build_time": 1790380421
+        "git_tag": "2026100200",
+        "build_time": 1790926302
       },
       "redfin": {
         "git_tag": "2025021000",
         "build_time": 1739167270
       },
       "shiba": {
-        "git_tag": "2026092500",
-        "build_time": 1790380421
+        "git_tag": "2026100200",
+        "build_time": 1790926302
       },
       "sunfish": {
         "git_tag": "2025012701",
         "build_time": 1737953298
       },
       "tangorpro": {
-        "git_tag": "2026092500",
-        "build_time": 1790380421
+        "git_tag": "2026100200",
+        "build_time": 1790926302
       },
       "tegu": {
-        "git_tag": "2026092500",
-        "build_time": 1790380421
+        "git_tag": "2026100200",
+        "build_time": 1790926302
       },
       "tokay": {
-        "git_tag": "2026092500",
-        "build_time": 1790380421
+        "git_tag": "2026100200",
+        "build_time": 1790926302
       }
     },
     "beta": {
       "akita": {
-        "git_tag": "2026092500",
-        "build_time": 1790380421
+        "git_tag": "2026100200",
+        "build_time": 1790926302
       },
       "barbet": {
         "git_tag": "2025021000",
         "build_time": 1739167270
       },
       "blazer": {
-        "git_tag": "2026092500",
-        "build_time": 1790380421
+        "git_tag": "2026100200",
+        "build_time": 1790926302
       },
       "bluejay": {
-        "git_tag": "2026092500",
-        "build_time": 1790380421
+        "git_tag": "2026100200",
+        "build_time": 1790926302
       },
       "bramble": {
         "git_tag": "2025021000",
         "build_time": 1739167270
       },
       "caiman": {
-        "git_tag": "2026092500",
-        "build_time": 1790380421
+        "git_tag": "2026100200",
+        "build_time": 1790926302
       },
       "cheetah": {
-        "git_tag": "2026092500",
-        "build_time": 1790380421
+        "git_tag": "2026100200",
+        "build_time": 1790926302
       },
       "comet": {
-        "git_tag": "2026092500",
-        "build_time": 1790380421
+        "git_tag": "2026100200",
+        "build_time": 1790926302
       },
       "coral": {
         "git_tag": "2025012701",
         "build_time": 1737953298
       },
       "felix": {
-        "git_tag": "2026092500",
-        "build_time": 1790380421
+        "git_tag": "2026100200",
+        "build_time": 1790926302
       },
       "flame": {
         "git_tag": "2025012701",
         "build_time": 1737953298
       },
       "frankel": {
-        "git_tag": "2026092500",
-        "build_time": 1790380421
+        "git_tag": "2026100200",
+        "build_time": 1790926302
       },
       "husky": {
-        "git_tag": "2026092500",
-        "build_time": 1790380421
+        "git_tag": "2026100200",
+        "build_time": 1790926302
       },
       "komodo": {
-        "git_tag": "2026092500",
-        "build_time": 1790380421
+        "git_tag": "2026100200",
+        "build_time": 1790926302
       },
       "lynx": {
-        "git_tag": "2026092500",
-        "build_time": 1790380421
+        "git_tag": "2026100200",
+        "build_time": 1790926302
       },
       "mustang": {
-        "git_tag": "2026092500",
-        "build_time": 1790380421
+        "git_tag": "2026100200",
+        "build_time": 1790926302
       },
       "oriole": {
-        "git_tag": "2026092500",
-        "build_time": 1790380421
+        "git_tag": "2026100200",
+        "build_time": 1790926302
       },
       "panther": {
-        "git_tag": "2026092500",
-        "build_time": 1790380421
+        "git_tag": "2026100200",
+        "build_time": 1790926302
       },
       "rango": {
-        "git_tag": "2026092500",
-        "build_time": 1790380421
+        "git_tag": "2026100200",
+        "build_time": 1790926302
       },
       "raven": {
-        "git_tag": "2026092500",
-        "build_time": 1790380421
+        "git_tag": "2026100200",
+        "build_time": 1790926302
       },
       "redfin": {
         "git_tag": "2025021000",
         "build_time": 1739167270
       },
       "shiba": {
-        "git_tag": "2026092500",
-        "build_time": 1790380421
+        "git_tag": "2026100200",
+        "build_time": 1790926302
       },
       "sunfish": {
         "git_tag": "2025012701",
         "build_time": 1737953298
       },
       "tangorpro": {
-        "git_tag": "2026092500",
-        "build_time": 1790380421
+        "git_tag": "2026100200",
+        "build_time": 1790926302
       },
       "tegu": {
-        "git_tag": "2026092500",
-        "build_time": 1790380421
+        "git_tag": "2026100200",
+        "build_time": 1790926302
       },
       "tokay": {
-        "git_tag": "2026092500",
-        "build_time": 1790380421
+        "git_tag": "2026100200",
+        "build_time": 1790926302
       }
     },
     "stable": {
       "akita": {
-        "git_tag": "2026092500",
-        "build_time": 1790380421
+        "git_tag": "2026100200",
+        "build_time": 1790926302
       },
       "barbet": {
         "git_tag": "2025021000",
         "build_time": 1739167270
       },
       "blazer": {
-        "git_tag": "2026092500",
-        "build_time": 1790380421
+        "git_tag": "2026100200",
+        "build_time": 1790926302
       },
       "bluejay": {
-        "git_tag": "2026092500",
-        "build_time": 1790380421
+        "git_tag": "2026100200",
+        "build_time": 1790926302
       },
       "bramble": {
         "git_tag": "2025021000",
         "build_time": 1739167270
       },
       "caiman": {
-        "git_tag": "2026092500",
-        "build_time": 1790380421
+        "git_tag": "2026100200",
+        "build_time": 1790926302
       },
       "cheetah": {
-        "git_tag": "2026092500",
-        "build_time": 1790380421
+        "git_tag": "2026100200",
+        "build_time": 1790926302
       },
       "comet": {
-        "git_tag": "2026092500",
-        "build_time": 1790380421
+        "git_tag": "2026100200",
+        "build_time": 1790926302
       },
       "coral": {
         "git_tag": "2025012701",
         "build_time": 1737953298
       },
       "felix": {
-        "git_tag": "2026092500",
-        "build_time": 1790380421
+        "git_tag": "2026100200",
+        "build_time": 1790926302
       },
       "flame": {
         "git_tag": "2025012701",
         "build_time": 1737953298
       },
       "frankel": {
-        "git_tag": "2026092500",
-        "build_time": 1790380421
+        "git_tag": "2026100200",
+        "build_time": 1790926302
       },
       "husky": {
-        "git_tag": "2026092500",
-        "build_time": 1790380421
+        "git_tag": "2026100200",
+        "build_time": 1790926302
       },
       "komodo": {
-        "git_tag": "2026092500",
-        "build_time": 1790380421
+        "git_tag": "2026100200",
+        "build_time": 1790926302
       },
       "lynx": {
-        "git_tag": "2026092500",
-        "build_time": 1790380421
+        "git_tag": "2026100200",
+        "build_time": 1790926302
       },
       "mustang": {
-        "git_tag": "2026092500",
-        "build_time": 1790380421
+        "git_tag": "2026100200",
+        "build_time": 1790926302
       },
       "oriole": {
-        "git_tag": "2026092500",
-        "build_time": 1790380421
+        "git_tag": "2026100200",
+        "build_time": 1790926302
       },
       "panther": {
-        "git_tag": "2026092500",
-        "build_time": 1790380421
+        "git_tag": "2026100200",
+        "build_time": 1790926302
       },
       "rango": {
-        "git_tag": "2026092500",
-        "build_time": 1790380421
+        "git_tag": "2026100200",
+        "build_time": 1790926302
       },
       "raven": {
-        "git_tag": "2026092500",
-        "build_time": 1790380421
+        "git_tag": "2026100200",
+        "build_time": 1790926302
       },
       "redfin": {
         "git_tag": "2025021000",
         "build_time": 1739167270
       },
       "shiba": {
-        "git_tag": "2026092500",
-        "build_time": 1790380421
+        "git_tag": "2026100200",
+        "build_time": 1790926302
       },
       "sunfish": {
         "git_tag": "2025012701",
         "build_time": 1737953298
       },
       "tangorpro": {
-        "git_tag": "2026092500",
-        "build_time": 1790380421
+        "git_tag": "2026100200",
+        "build_time": 1790926302
       },
       "tegu": {
-        "git_tag": "2026092500",
-        "build_time": 1790380421
+        "git_tag": "2026100200",
+        "build_time": 1790926302
       },
       "tokay": {
-        "git_tag": "2026092500",
-        "build_time": 1790380421
+        "git_tag": "2026100200",
+        "build_time": 1790926302
       }
     }
   },
@@ -327,6 +327,6 @@
   "git_tags": [
     "2025012701",
     "2025021000",
-    "2026092500"
+    "2026100200"
   ]
 }

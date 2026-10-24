@@ -63,21 +63,36 @@ pub async fn nix_prefetch_git(
     if fetch_submodules {
         flag_args.push("--fetch-submodules")
     }
-    let output = Command::new("nix-prefetch-git")
-        .arg("--url")
-        .arg(repo_url.as_str())
-        .arg("--rev")
-        .arg(&revision)
-        .args(&flag_args)
-        .output()
-        .await?;
 
-    if !output.status.success() {
-        return Err(NixPrefetchGitError::NonzeroExitStatus(
-            output.status.code(),
-            String::from_utf8_lossy(&output.stderr).to_string(),
-        ));
-    }
+    let mut attempts = 0;
+    let output = loop {
+        let output = Command::new("nix-prefetch-git")
+            .arg("--url")
+            .arg(repo_url.as_str())
+            .arg("--rev")
+            .arg(&revision)
+            .args(&flag_args)
+            .output()
+            .await?;
+
+        if output.status.success() {
+            break output;
+        }
+
+        attempts += 1;
+        if attempts >= 5 {
+            return Err(NixPrefetchGitError::NonzeroExitStatus(
+                output.status.code(),
+                String::from_utf8_lossy(&output.stderr).to_string(),
+            ));
+        }
+
+        eprintln!(
+            "nix-prefetch-git {} failed (attempt {}/5), retrying in 5s...",
+            repo_url, attempts
+        );
+        tokio::time::sleep(tokio::time::Duration::from_secs(5)).await;
+    };
 
     Ok(serde_json::from_slice(&output.stdout)?)
 }
@@ -97,18 +112,32 @@ pub enum GitLsRemoteError {
 }
 
 pub async fn git_ls_remote(url: &str, git_ref: &str) -> Result<String, GitLsRemoteError> {
-    let output = Command::new("git")
-        .arg("ls-remote")
-        .arg(url)
-        .output()
-        .await?;
+    let mut attempts = 0;
+    let output = loop {
+        let output = Command::new("git")
+            .arg("ls-remote")
+            .arg(url)
+            .output()
+            .await?;
 
-    if !output.status.success() {
-        return Err(GitLsRemoteError::NonzeroExitStatus(
-            output.status.code(),
-            String::from_utf8_lossy(&output.stderr).to_string(),
-        ));
-    }
+        if output.status.success() {
+            break output;
+        }
+
+        attempts += 1;
+        if attempts >= 5 {
+            return Err(GitLsRemoteError::NonzeroExitStatus(
+                output.status.code(),
+                String::from_utf8_lossy(&output.stderr).to_string(),
+            ));
+        }
+
+        eprintln!(
+            "git ls-remote {} failed (attempt {}/5), retrying in 5s...",
+            url, attempts
+        );
+        tokio::time::sleep(tokio::time::Duration::from_secs(5)).await;
+    };
 
     let output_str = std::str::from_utf8(&output.stdout).map_err(GitLsRemoteError::Utf8)?;
     for line in output_str.split("\n") {

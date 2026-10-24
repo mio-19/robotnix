@@ -4,7 +4,7 @@ set -e
 
 repo-tool get-lineage-devices devices.json
 
-for version in 23.2 23.0 22.2 21.0 20.0; do
+for version in 24.0 23.2 23.0 22.2 21.0 20.0; do
   mkdir -p lineage-$version
   repo-tool fetch \
     -r lineage-$version \

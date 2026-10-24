@@ -133,7 +133,9 @@ pub async fn resolve_lineage_dependencies(
                     None => continue,
                     Some(project) => project,
                 };
-                project_deps.push(project.clone());
+                let mut p = project.clone();
+                p.lineage_deps = Some(LineageDeps::NoLineageDependenciesFile);
+                project_deps.push(p);
             }
         } else {
             let remote = match &dep.remote {
@@ -324,8 +326,13 @@ pub async fn prefetch_lineage_dependencies(
 
         if let Some(new_projects) = new_projects {
             for new_project in new_projects {
-                if !fetch_queue.contains(&new_project.path) {
-                    fetch_queue.push(new_project.path.clone());
+                // Kernel snippet projects (toolchains, prebuilts) have no
+                // lineage.dependencies file. Keep them in the lockfile, but
+                // do not download them just to look for that file.
+                if new_project.lineage_deps != Some(LineageDeps::NoLineageDependenciesFile) {
+                    if !fetch_queue.contains(&new_project.path) {
+                        fetch_queue.push(new_project.path.clone());
+                    }
                 }
                 if !lockfile.entries.contains_key(&new_project.path) {
                     lockfile.add_project(new_project)?;

@@ -143,7 +143,7 @@
         "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "FP5": {
@@ -200,7 +200,7 @@
         "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "FP6": {
@@ -217,171 +217,6 @@
       "lineage-24.0": {
         "repo_url": "https://github.com/LineageOS/android_device_fairphone_FP6",
         "revision": "refs/heads/lineage-24.0",
-        "fetch_lfs": true,
-        "fetch_submodules": false
-      }
-    },
-    "default_branch": "lineage-23.2",
-    "period": "W"
-  },
-  "Mi439": {
-    "name": "Mi439",
-    "vendor": "xiaomi",
-    "build_type": "userdebug",
-    "branches": {
-      "lineage-19.1": {
-        "repo_url": "https://github.com/LineageOS/android_device_xiaomi_Mi439",
-        "revision": "refs/heads/lineage-19.1",
-        "fetch_lfs": true,
-        "fetch_submodules": false
-      },
-      "lineage-20": {
-        "repo_url": "https://github.com/LineageOS/android_device_xiaomi_Mi439",
-        "revision": "refs/heads/lineage-20",
-        "fetch_lfs": true,
-        "fetch_submodules": false
-      },
-      "lineage-21": {
-        "repo_url": "https://github.com/LineageOS/android_device_xiaomi_Mi439",
-        "revision": "refs/heads/lineage-21",
-        "fetch_lfs": true,
-        "fetch_submodules": false
-      },
-      "lineage-22.0": {
-        "repo_url": "https://github.com/LineageOS/android_device_xiaomi_Mi439",
-        "revision": "refs/heads/lineage-22.0",
-        "fetch_lfs": true,
-        "fetch_submodules": false
-      },
-      "lineage-22.2": {
-        "repo_url": "https://github.com/LineageOS/android_device_xiaomi_Mi439",
-        "revision": "refs/heads/lineage-22.2",
-        "fetch_lfs": true,
-        "fetch_submodules": false
-      },
-      "lineage-23.0": {
-        "repo_url": "https://github.com/LineageOS/android_device_xiaomi_Mi439",
-        "revision": "refs/heads/lineage-23.0",
-        "fetch_lfs": true,
-        "fetch_submodules": false
-      },
-      "lineage-23.1": {
-        "repo_url": "https://github.com/LineageOS/android_device_xiaomi_Mi439",
-        "revision": "refs/heads/lineage-23.1",
-        "fetch_lfs": true,
-        "fetch_submodules": false
-      },
-      "lineage-23.2": {
-        "repo_url": "https://github.com/LineageOS/android_device_xiaomi_Mi439",
-        "revision": "refs/heads/lineage-23.2",
-        "fetch_lfs": true,
-        "fetch_submodules": false
-      }
-    },
-    "default_branch": "lineage-23.2",
-    "period": "W"
-  },
-  "Mi8917": {
-    "name": "Mi8917",
-    "vendor": "xiaomi",
-    "build_type": "userdebug",
-    "branches": {
-      "lineage-19.1": {
-        "repo_url": "https://github.com/LineageOS/android_device_xiaomi_Mi8917",
-        "revision": "refs/heads/lineage-19.1",
-        "fetch_lfs": true,
-        "fetch_submodules": false
-      },
-      "lineage-20": {
-        "repo_url": "https://github.com/LineageOS/android_device_xiaomi_Mi8917",
-        "revision": "refs/heads/lineage-20",
-        "fetch_lfs": true,
-        "fetch_submodules": false
-      },
-      "lineage-21": {
-        "repo_url": "https://github.com/LineageOS/android_device_xiaomi_Mi8917",
-        "revision": "refs/heads/lineage-21",
-        "fetch_lfs": true,
-        "fetch_submodules": false
-      },
-      "lineage-22.2": {
-        "repo_url": "https://github.com/LineageOS/android_device_xiaomi_Mi8917",
-        "revision": "refs/heads/lineage-22.2",
-        "fetch_lfs": true,
-        "fetch_submodules": false
-      },
-      "lineage-23.0": {
-        "repo_url": "https://github.com/LineageOS/android_device_xiaomi_Mi8917",
-        "revision": "refs/heads/lineage-23.0",
-        "fetch_lfs": true,
-        "fetch_submodules": false
-      },
-      "lineage-23.2": {
-        "repo_url": "https://github.com/LineageOS/android_device_xiaomi_Mi8917",
-        "revision": "refs/heads/lineage-23.2",
-        "fetch_lfs": true,
-        "fetch_submodules": false
-      }
-    },
-    "default_branch": "lineage-23.2",
-    "period": "W"
-  },
-  "Mi8937": {
-    "name": "Mi8937",
-    "vendor": "xiaomi",
-    "build_type": "userdebug",
-    "branches": {
-      "lineage-19.1": {
-        "repo_url": "https://github.com/LineageOS/android_device_xiaomi_Mi8937",
-        "revision": "refs/heads/lineage-19.1",
-        "fetch_lfs": true,
-        "fetch_submodules": false
-      },
-      "lineage-20": {
-        "repo_url": "https://github.com/LineageOS/android_device_xiaomi_Mi8937",
-        "revision": "refs/heads/lineage-20",
-        "fetch_lfs": true,
-        "fetch_submodules": false
-      },
-      "lineage-21": {
-        "repo_url": "https://github.com/LineageOS/android_device_xiaomi_Mi8937",
-        "revision": "refs/heads/lineage-21",
-        "fetch_lfs": true,
-        "fetch_submodules": false
-      },
-      "lineage-22.0": {
-        "repo_url": "https://github.com/LineageOS/android_device_xiaomi_Mi8937",
-        "revision": "refs/heads/lineage-22.0",
-        "fetch_lfs": true,
-        "fetch_submodules": false
-      },
-      "lineage-22.1": {
-        "repo_url": "https://github.com/LineageOS/android_device_xiaomi_Mi8937",
-        "revision": "refs/heads/lineage-22.1",
-        "fetch_lfs": true,
-        "fetch_submodules": false
-      },
-      "lineage-22.2": {
-        "repo_url": "https://github.com/LineageOS/android_device_xiaomi_Mi8937",
-        "revision": "refs/heads/lineage-22.2",
-        "fetch_lfs": true,
-        "fetch_submodules": false
-      },
-      "lineage-23.0": {
-        "repo_url": "https://github.com/LineageOS/android_device_xiaomi_Mi8937",
-        "revision": "refs/heads/lineage-23.0",
-        "fetch_lfs": true,
-        "fetch_submodules": false
-      },
-      "lineage-23.1": {
-        "repo_url": "https://github.com/LineageOS/android_device_xiaomi_Mi8937",
-        "revision": "refs/heads/lineage-23.1",
-        "fetch_lfs": true,
-        "fetch_submodules": false
-      },
-      "lineage-23.2": {
-        "repo_url": "https://github.com/LineageOS/android_device_xiaomi_Mi8937",
-        "revision": "refs/heads/lineage-23.2",
         "fetch_lfs": true,
         "fetch_submodules": false
       }
@@ -536,7 +371,7 @@
         "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "RP6": {
@@ -557,7 +392,7 @@
         "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "RPN": {
@@ -578,7 +413,7 @@
         "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "Spacewar": {
@@ -621,9 +456,15 @@
         "revision": "refs/heads/lineage-23.2",
         "fetch_lfs": true,
         "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_nothing_Spacewar",
+        "revision": "refs/heads/lineage-24.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "TP1803": {
@@ -704,7 +545,70 @@
         "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
+    "period": "W"
+  },
+  "X00TD": {
+    "name": "X00TD",
+    "vendor": "asus",
+    "build_type": "userdebug",
+    "branches": {
+      "lineage-15.1": {
+        "repo_url": "https://github.com/LineageOS/android_device_asus_X00TD",
+        "revision": "refs/heads/lineage-15.1",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      },
+      "lineage-16.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_asus_X00TD",
+        "revision": "refs/heads/lineage-16.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      },
+      "lineage-17.1": {
+        "repo_url": "https://github.com/LineageOS/android_device_asus_X00TD",
+        "revision": "refs/heads/lineage-17.1",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      },
+      "lineage-18.1": {
+        "repo_url": "https://github.com/LineageOS/android_device_asus_X00TD",
+        "revision": "refs/heads/lineage-18.1",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      },
+      "lineage-19.1": {
+        "repo_url": "https://github.com/LineageOS/android_device_asus_X00TD",
+        "revision": "refs/heads/lineage-19.1",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      },
+      "lineage-20": {
+        "repo_url": "https://github.com/LineageOS/android_device_asus_X00TD",
+        "revision": "refs/heads/lineage-20",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      },
+      "lineage-21": {
+        "repo_url": "https://github.com/LineageOS/android_device_asus_X00TD",
+        "revision": "refs/heads/lineage-21",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      },
+      "lineage-22.1": {
+        "repo_url": "https://github.com/LineageOS/android_device_asus_X00TD",
+        "revision": "refs/heads/lineage-22.1",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_asus_X00TD",
+        "revision": "refs/heads/lineage-24.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      }
+    },
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "Z01R": {
@@ -777,6 +681,12 @@
         "revision": "refs/heads/lineage-22.2",
         "fetch_lfs": true,
         "fetch_submodules": false
+      },
+      "lineage-23.2": {
+        "repo_url": "https://github.com/LineageOS/android_device_asus_Z01R",
+        "revision": "refs/heads/lineage-23.2",
+        "fetch_lfs": true,
+        "fetch_submodules": false
       }
     },
     "default_branch": "lineage-22.2",
@@ -830,7 +740,7 @@
         "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "a52q": {
@@ -879,9 +789,15 @@
         "revision": "refs/heads/lineage-23.2",
         "fetch_lfs": true,
         "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_samsung_a52q",
+        "revision": "refs/heads/lineage-24.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "a52sxq": {
@@ -924,9 +840,15 @@
         "revision": "refs/heads/lineage-23.2",
         "fetch_lfs": true,
         "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_samsung_a52sxq",
+        "revision": "refs/heads/lineage-24.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "a71": {
@@ -973,6 +895,12 @@
       "lineage-23.2": {
         "repo_url": "https://github.com/LineageOS/android_device_samsung_a71",
         "revision": "refs/heads/lineage-23.2",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_samsung_a71",
+        "revision": "refs/heads/lineage-24.0",
         "fetch_lfs": true,
         "fetch_submodules": false
       }
@@ -1026,9 +954,15 @@
         "revision": "refs/heads/lineage-23.2",
         "fetch_lfs": true,
         "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_samsung_a72q",
+        "revision": "refs/heads/lineage-24.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "a73xq": {
@@ -1071,9 +1005,15 @@
         "revision": "refs/heads/lineage-23.2",
         "fetch_lfs": true,
         "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_samsung_a73xq",
+        "revision": "refs/heads/lineage-24.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "akari": {
@@ -1283,7 +1223,7 @@
         "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "alioth": {
@@ -1344,9 +1284,15 @@
         "revision": "refs/heads/lineage-23.2",
         "fetch_lfs": true,
         "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_xiaomi_alioth",
+        "revision": "refs/heads/lineage-24.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "apollon": {
@@ -1401,9 +1347,15 @@
         "revision": "refs/heads/lineage-23.2",
         "fetch_lfs": true,
         "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_xiaomi_apollon",
+        "revision": "refs/heads/lineage-24.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "aston": {
@@ -1442,7 +1394,7 @@
         "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "astonc": {
@@ -1469,7 +1421,7 @@
         "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "audi": {
@@ -1694,7 +1646,7 @@
         "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "axolotl": {
@@ -1754,6 +1706,27 @@
     "default_branch": "lineage-22.2",
     "period": "W"
   },
+  "b0s": {
+    "name": "b0s",
+    "vendor": "samsung",
+    "build_type": "userdebug",
+    "branches": {
+      "lineage-23.2": {
+        "repo_url": "https://github.com/LineageOS/android_device_samsung_b0s",
+        "revision": "refs/heads/lineage-23.2",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_samsung_b0s",
+        "revision": "refs/heads/lineage-24.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      }
+    },
+    "default_branch": "lineage-24.0",
+    "period": "W"
+  },
   "bale": {
     "name": "bale",
     "vendor": "realme",
@@ -1762,6 +1735,12 @@
       "lineage-23.2": {
         "repo_url": "https://github.com/LineageOS/android_device_realme_bale",
         "revision": "refs/heads/lineage-23.2",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_realme_bale",
+        "revision": "refs/heads/lineage-24.0",
         "fetch_lfs": true,
         "fetch_submodules": false
       }
@@ -1811,7 +1790,7 @@
         "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "baracus": {
@@ -1914,9 +1893,15 @@
         "revision": "refs/heads/lineage-23.2",
         "fetch_lfs": true,
         "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_google_barbet",
+        "revision": "refs/heads/lineage-24.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "bathena": {
@@ -1955,7 +1940,52 @@
         "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
+    "period": "W"
+  },
+  "beast": {
+    "name": "beast",
+    "vendor": "google",
+    "build_type": "userdebug",
+    "branches": {
+      "lineage-19.1": {
+        "repo_url": "https://github.com/LineageOS/android_device_google_beast",
+        "revision": "refs/heads/lineage-19.1",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      },
+      "lineage-20": {
+        "repo_url": "https://github.com/LineageOS/android_device_google_beast",
+        "revision": "refs/heads/lineage-20",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      },
+      "lineage-21": {
+        "repo_url": "https://github.com/LineageOS/android_device_google_beast",
+        "revision": "refs/heads/lineage-21",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      },
+      "lineage-22.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_google_beast",
+        "revision": "refs/heads/lineage-22.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      },
+      "lineage-22.1": {
+        "repo_url": "https://github.com/LineageOS/android_device_google_beast",
+        "revision": "refs/heads/lineage-22.1",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      },
+      "lineage-22.2": {
+        "repo_url": "https://github.com/LineageOS/android_device_google_beast",
+        "revision": "refs/heads/lineage-22.2",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      }
+    },
+    "default_branch": "lineage-22.2",
     "period": "W"
   },
   "beckham": {
@@ -2043,9 +2073,15 @@
         "revision": "refs/heads/lineage-23.2",
         "fetch_lfs": true,
         "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_oneplus_benz",
+        "revision": "refs/heads/lineage-24.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "berlin": {
@@ -2114,7 +2150,7 @@
         "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "berlna": {
@@ -2183,7 +2219,7 @@
         "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "beryllium": {
@@ -2531,6 +2567,78 @@
     "default_branch": "lineage-23.2",
     "period": "W"
   },
+  "billie": {
+    "name": "billie",
+    "vendor": "oneplus",
+    "build_type": "userdebug",
+    "branches": {
+      "lineage-17.1": {
+        "repo_url": "https://github.com/LineageOS/android_device_oneplus_billie",
+        "revision": "refs/heads/lineage-17.1",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      },
+      "lineage-18.1": {
+        "repo_url": "https://github.com/LineageOS/android_device_oneplus_billie",
+        "revision": "refs/heads/lineage-18.1",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      },
+      "lineage-20": {
+        "repo_url": "https://github.com/LineageOS/android_device_oneplus_billie",
+        "revision": "refs/heads/lineage-20",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      },
+      "lineage-21": {
+        "repo_url": "https://github.com/LineageOS/android_device_oneplus_billie",
+        "revision": "refs/heads/lineage-21",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      },
+      "lineage-22.2": {
+        "repo_url": "https://github.com/LineageOS/android_device_oneplus_billie",
+        "revision": "refs/heads/lineage-22.2",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      },
+      "lineage-23.2": {
+        "repo_url": "https://github.com/LineageOS/android_device_oneplus_billie",
+        "revision": "refs/heads/lineage-23.2",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_oneplus_billie",
+        "revision": "refs/heads/lineage-24.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      }
+    },
+    "default_branch": "lineage-24.0",
+    "period": "W"
+  },
+  "blazer": {
+    "name": "blazer",
+    "vendor": "google",
+    "build_type": "userdebug",
+    "branches": {
+      "lineage-23.2": {
+        "repo_url": "https://github.com/LineageOS/android_device_google_blazer",
+        "revision": "refs/heads/lineage-23.2",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_google_blazer",
+        "revision": "refs/heads/lineage-24.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      }
+    },
+    "default_branch": "lineage-24.0",
+    "period": "W"
+  },
   "bluejay": {
     "name": "bluejay",
     "vendor": "google",
@@ -2597,7 +2705,7 @@
         "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "blueline": {
@@ -2822,7 +2930,7 @@
         "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "bramble": {
@@ -2895,9 +3003,15 @@
         "revision": "refs/heads/lineage-23.2",
         "fetch_lfs": true,
         "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_google_bramble",
+        "revision": "refs/heads/lineage-24.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "bronco": {
@@ -2936,7 +3050,49 @@
         "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
+    "period": "W"
+  },
+  "c1s": {
+    "name": "c1s",
+    "vendor": "samsung",
+    "build_type": "userdebug",
+    "branches": {
+      "lineage-23.2": {
+        "repo_url": "https://github.com/LineageOS/android_device_samsung_c1s",
+        "revision": "refs/heads/lineage-23.2",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_samsung_c1s",
+        "revision": "refs/heads/lineage-24.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      }
+    },
+    "default_branch": "lineage-24.0",
+    "period": "W"
+  },
+  "c2s": {
+    "name": "c2s",
+    "vendor": "samsung",
+    "build_type": "userdebug",
+    "branches": {
+      "lineage-23.2": {
+        "repo_url": "https://github.com/LineageOS/android_device_samsung_c2s",
+        "revision": "refs/heads/lineage-23.2",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_samsung_c2s",
+        "revision": "refs/heads/lineage-24.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      }
+    },
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "caihong": {
@@ -2965,6 +3121,12 @@
       "lineage-23.2": {
         "repo_url": "https://github.com/LineageOS/android_device_oneplus_caihong",
         "revision": "refs/heads/lineage-23.2",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_oneplus_caihong",
+        "revision": "refs/heads/lineage-24.0",
         "fetch_lfs": true,
         "fetch_submodules": false
       }
@@ -3020,7 +3182,7 @@
         "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "capri": {
@@ -3059,7 +3221,7 @@
         "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "caprip": {
@@ -3122,7 +3284,7 @@
         "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "cas": {
@@ -3135,9 +3297,15 @@
         "revision": "refs/heads/lineage-23.2",
         "fetch_lfs": true,
         "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_xiaomi_cas",
+        "revision": "refs/heads/lineage-24.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "casuarina": {
@@ -3153,6 +3321,27 @@
       }
     },
     "default_branch": "lineage-22.2",
+    "period": "W"
+  },
+  "caymanlm": {
+    "name": "caymanlm",
+    "vendor": "lge",
+    "build_type": "userdebug",
+    "branches": {
+      "lineage-23.2": {
+        "repo_url": "https://github.com/LineageOS/android_device_lge_caymanlm",
+        "revision": "refs/heads/lineage-23.2",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_lge_caymanlm",
+        "revision": "refs/heads/lineage-24.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      }
+    },
+    "default_branch": "lineage-23.2",
     "period": "W"
   },
   "caymanslm": {
@@ -3224,7 +3413,7 @@
         "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "channel": {
@@ -3443,7 +3632,7 @@
         "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "cheryl": {
@@ -3642,9 +3831,15 @@
         "revision": "refs/heads/lineage-23.2",
         "fetch_lfs": true,
         "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_xiaomi_cmi",
+        "revision": "refs/heads/lineage-24.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "comet": {
@@ -3695,7 +3890,7 @@
         "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "coral": {
@@ -3788,7 +3983,7 @@
         "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "corvette": {
@@ -3933,9 +4128,15 @@
         "revision": "refs/heads/lineage-23.2",
         "fetch_lfs": true,
         "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_xiaomi_cupid",
+        "revision": "refs/heads/lineage-24.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "d1": {
@@ -4230,6 +4431,12 @@
         "revision": "refs/heads/lineage-23.2",
         "fetch_lfs": true,
         "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_xiaomi_davinci",
+        "revision": "refs/heads/lineage-24.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
       }
     },
     "default_branch": "lineage-23.2",
@@ -4293,6 +4500,12 @@
         "revision": "refs/heads/lineage-23.0",
         "fetch_lfs": true,
         "fetch_submodules": false
+      },
+      "lineage-23.2": {
+        "repo_url": "https://github.com/LineageOS/android_device_askey_deadpool",
+        "revision": "refs/heads/lineage-23.2",
+        "fetch_lfs": true,
+        "fetch_submodules": false
       }
     },
     "default_branch": "lineage-22.2",
@@ -4334,7 +4547,7 @@
         "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "devon": {
@@ -4397,7 +4610,7 @@
         "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "dipper": {
@@ -4593,9 +4806,15 @@
         "revision": "refs/heads/lineage-23.2",
         "fetch_lfs": true,
         "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_sony_discovery",
+        "revision": "refs/heads/lineage-24.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "diting": {
@@ -4626,9 +4845,15 @@
         "revision": "refs/heads/lineage-23.2",
         "fetch_lfs": true,
         "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_xiaomi_diting",
+        "revision": "refs/heads/lineage-24.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "dm1q": {
@@ -4649,7 +4874,7 @@
         "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "dodge": {
@@ -4688,7 +4913,7 @@
         "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "dopinder": {
@@ -4735,6 +4960,12 @@
       "lineage-22.2": {
         "repo_url": "https://github.com/LineageOS/android_device_askey_dopinder",
         "revision": "refs/heads/lineage-22.2",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      },
+      "lineage-23.2": {
+        "repo_url": "https://github.com/LineageOS/android_device_askey_dopinder",
+        "revision": "refs/heads/lineage-23.2",
         "fetch_lfs": true,
         "fetch_submodules": false
       }
@@ -4808,7 +5039,7 @@
         "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "dubai": {
@@ -4877,7 +5108,7 @@
         "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "dumpling": {
@@ -5001,9 +5232,15 @@
         "revision": "refs/heads/lineage-23.2",
         "fetch_lfs": true,
         "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_xiaomi_earth",
+        "revision": "refs/heads/lineage-24.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "enchilada": {
@@ -5100,6 +5337,12 @@
         "revision": "refs/heads/lineage-23.2",
         "fetch_lfs": true,
         "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_oneplus_enchilada",
+        "revision": "refs/heads/lineage-24.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
       }
     },
     "default_branch": "lineage-22.2",
@@ -5147,7 +5390,7 @@
         "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-22.2",
+    "default_branch": "lineage-23.2",
     "period": "W"
   },
   "equuleus": {
@@ -5273,7 +5516,7 @@
         "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "evert": {
@@ -5384,6 +5627,21 @@
     "default_branch": "lineage-23.2",
     "period": "W"
   },
+  "fairlady": {
+    "name": "fairlady",
+    "vendor": "oneplus",
+    "build_type": "userdebug",
+    "branches": {
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_oneplus_fairlady",
+        "revision": "refs/heads/lineage-24.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      }
+    },
+    "default_branch": "lineage-24.0",
+    "period": "W"
+  },
   "fajita": {
     "name": "fajita",
     "vendor": "oneplus",
@@ -5472,6 +5730,12 @@
         "revision": "refs/heads/lineage-23.2",
         "fetch_lfs": true,
         "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_oneplus_fajita",
+        "revision": "refs/heads/lineage-24.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
       }
     },
     "default_branch": "lineage-22.2",
@@ -5537,7 +5801,7 @@
         "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "flame": {
@@ -5630,7 +5894,7 @@
         "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "fogo": {
@@ -5669,7 +5933,7 @@
         "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "fogos": {
@@ -5714,7 +5978,7 @@
         "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "foster": {
@@ -5799,6 +6063,12 @@
         "revision": "refs/heads/lineage-23.2",
         "fetch_lfs": true,
         "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_nvidia_foster",
+        "revision": "refs/heads/lineage-24.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
       }
     },
     "default_branch": "lineage-22.2",
@@ -5880,9 +6150,36 @@
         "revision": "refs/heads/lineage-23.2",
         "fetch_lfs": true,
         "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_nvidia_foster_tab",
+        "revision": "refs/heads/lineage-24.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
       }
     },
     "default_branch": "lineage-22.2",
+    "period": "W"
+  },
+  "frankel": {
+    "name": "frankel",
+    "vendor": "google",
+    "build_type": "userdebug",
+    "branches": {
+      "lineage-23.2": {
+        "repo_url": "https://github.com/LineageOS/android_device_google_frankel",
+        "revision": "refs/heads/lineage-23.2",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_google_frankel",
+        "revision": "refs/heads/lineage-24.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      }
+    },
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "fuxi": {
@@ -5907,9 +6204,36 @@
         "revision": "refs/heads/lineage-23.2",
         "fetch_lfs": true,
         "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_xiaomi_fuxi",
+        "revision": "refs/heads/lineage-24.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
+    "period": "W"
+  },
+  "g0s": {
+    "name": "g0s",
+    "vendor": "samsung",
+    "build_type": "userdebug",
+    "branches": {
+      "lineage-23.2": {
+        "repo_url": "https://github.com/LineageOS/android_device_samsung_g0s",
+        "revision": "refs/heads/lineage-23.2",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_samsung_g0s",
+        "revision": "refs/heads/lineage-24.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      }
+    },
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "g710n": {
@@ -6051,9 +6375,15 @@
         "revision": "refs/heads/lineage-23.2",
         "fetch_lfs": true,
         "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_xiaomi_gauguin",
+        "revision": "refs/heads/lineage-24.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "gemini": {
@@ -6161,7 +6491,7 @@
         "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "ginkgo": {
@@ -6216,9 +6546,15 @@
         "revision": "refs/heads/lineage-23.2",
         "fetch_lfs": true,
         "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_xiaomi_ginkgo",
+        "revision": "refs/heads/lineage-24.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "giulia": {
@@ -6372,9 +6708,15 @@
         "revision": "refs/heads/lineage-23.2",
         "fetch_lfs": true,
         "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_samsung_gta4l",
+        "revision": "refs/heads/lineage-24.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "gta4lwifi": {
@@ -6429,9 +6771,15 @@
         "revision": "refs/heads/lineage-23.2",
         "fetch_lfs": true,
         "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_samsung_gta4lwifi",
+        "revision": "refs/heads/lineage-24.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "gta4xl": {
@@ -6830,7 +7178,7 @@
         "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "gts7lwifi": {
@@ -6881,7 +7229,109 @@
         "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
+    "period": "W"
+  },
+  "gts7xl": {
+    "name": "gts7xl",
+    "vendor": "samsung",
+    "build_type": "userdebug",
+    "branches": {
+      "lineage-21": {
+        "repo_url": "https://github.com/LineageOS/android_device_samsung_gts7xl",
+        "revision": "refs/heads/lineage-21",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      },
+      "lineage-22.1": {
+        "repo_url": "https://github.com/LineageOS/android_device_samsung_gts7xl",
+        "revision": "refs/heads/lineage-22.1",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      },
+      "lineage-22.2": {
+        "repo_url": "https://github.com/LineageOS/android_device_samsung_gts7xl",
+        "revision": "refs/heads/lineage-22.2",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      },
+      "lineage-23.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_samsung_gts7xl",
+        "revision": "refs/heads/lineage-23.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      },
+      "lineage-23.1": {
+        "repo_url": "https://github.com/LineageOS/android_device_samsung_gts7xl",
+        "revision": "refs/heads/lineage-23.1",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      },
+      "lineage-23.2": {
+        "repo_url": "https://github.com/LineageOS/android_device_samsung_gts7xl",
+        "revision": "refs/heads/lineage-23.2",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_samsung_gts7xl",
+        "revision": "refs/heads/lineage-24.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      }
+    },
+    "default_branch": "lineage-24.0",
+    "period": "W"
+  },
+  "gts7xlwifi": {
+    "name": "gts7xlwifi",
+    "vendor": "samsung",
+    "build_type": "userdebug",
+    "branches": {
+      "lineage-21": {
+        "repo_url": "https://github.com/LineageOS/android_device_samsung_gts7xlwifi",
+        "revision": "refs/heads/lineage-21",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      },
+      "lineage-22.1": {
+        "repo_url": "https://github.com/LineageOS/android_device_samsung_gts7xlwifi",
+        "revision": "refs/heads/lineage-22.1",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      },
+      "lineage-22.2": {
+        "repo_url": "https://github.com/LineageOS/android_device_samsung_gts7xlwifi",
+        "revision": "refs/heads/lineage-22.2",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      },
+      "lineage-23.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_samsung_gts7xlwifi",
+        "revision": "refs/heads/lineage-23.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      },
+      "lineage-23.1": {
+        "repo_url": "https://github.com/LineageOS/android_device_samsung_gts7xlwifi",
+        "revision": "refs/heads/lineage-23.1",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      },
+      "lineage-23.2": {
+        "repo_url": "https://github.com/LineageOS/android_device_samsung_gts7xlwifi",
+        "revision": "refs/heads/lineage-23.2",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_samsung_gts7xlwifi",
+        "revision": "refs/heads/lineage-24.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      }
+    },
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "guacamole": {
@@ -6972,9 +7422,15 @@
         "revision": "refs/heads/lineage-23.2",
         "fetch_lfs": true,
         "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_oneplus_guacamole",
+        "revision": "refs/heads/lineage-24.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "guacamoleb": {
@@ -7053,9 +7509,15 @@
         "revision": "refs/heads/lineage-23.2",
         "fetch_lfs": true,
         "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_oneplus_guacamoleb",
+        "revision": "refs/heads/lineage-24.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "guam": {
@@ -7112,7 +7574,28 @@
         "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
+    "period": "W"
+  },
+  "guamna": {
+    "name": "guamna",
+    "vendor": "motorola",
+    "build_type": "userdebug",
+    "branches": {
+      "lineage-23.2": {
+        "repo_url": "https://github.com/LineageOS/android_device_motorola_guamna",
+        "revision": "refs/heads/lineage-23.2",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_motorola_guamna",
+        "revision": "refs/heads/lineage-24.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      }
+    },
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "guamp": {
@@ -7175,7 +7658,7 @@
         "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "gunnar": {
@@ -7916,7 +8399,7 @@
         "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "haydn": {
@@ -8028,9 +8511,15 @@
         "revision": "refs/heads/lineage-23.2",
         "fetch_lfs": true,
         "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_lenovo_heart",
+        "revision": "refs/heads/lineage-24.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "hotdog": {
@@ -8115,9 +8604,15 @@
         "revision": "refs/heads/lineage-23.2",
         "fetch_lfs": true,
         "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_oneplus_hotdog",
+        "revision": "refs/heads/lineage-24.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "hotdogb": {
@@ -8190,9 +8685,36 @@
         "revision": "refs/heads/lineage-23.2",
         "fetch_lfs": true,
         "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_oneplus_hotdogb",
+        "revision": "refs/heads/lineage-24.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
+    "period": "W"
+  },
+  "hummer": {
+    "name": "hummer",
+    "vendor": "oneplus",
+    "build_type": "userdebug",
+    "branches": {
+      "lineage-23.2": {
+        "repo_url": "https://github.com/LineageOS/android_device_oneplus_hummer",
+        "revision": "refs/heads/lineage-23.2",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_oneplus_hummer",
+        "revision": "refs/heads/lineage-24.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      }
+    },
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "husky": {
@@ -8249,7 +8771,7 @@
         "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "ibiza": {
@@ -8270,7 +8792,37 @@
         "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
+    "period": "W"
+  },
+  "iceland": {
+    "name": "iceland",
+    "vendor": "oneplus",
+    "build_type": "userdebug",
+    "branches": {
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_oneplus_iceland",
+        "revision": "refs/heads/lineage-24.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      }
+    },
+    "default_branch": "lineage-24.0",
+    "period": "W"
+  },
+  "infiniti": {
+    "name": "infiniti",
+    "vendor": "oneplus",
+    "build_type": "userdebug",
+    "branches": {
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_oneplus_infiniti",
+        "revision": "refs/heads/lineage-24.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      }
+    },
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "ingot": {
@@ -8327,7 +8879,7 @@
         "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "instantnoodle": {
@@ -8408,7 +8960,7 @@
         "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "instantnoodlep": {
@@ -8489,7 +9041,7 @@
         "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "joan": {
@@ -8678,7 +9230,7 @@
         "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "kebab": {
@@ -8759,7 +9311,7 @@
         "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "kiev": {
@@ -8818,6 +9370,12 @@
       "lineage-23.2": {
         "repo_url": "https://github.com/LineageOS/android_device_motorola_kiev",
         "revision": "refs/heads/lineage-23.2",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_motorola_kiev",
+        "revision": "refs/heads/lineage-24.0",
         "fetch_lfs": true,
         "fetch_submodules": false
       }
@@ -8907,9 +9465,15 @@
         "revision": "refs/heads/lineage-23.2",
         "fetch_lfs": true,
         "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_sony_kirin",
+        "revision": "refs/heads/lineage-24.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "komodo": {
@@ -8960,7 +9524,7 @@
         "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "l01k": {
@@ -9063,9 +9627,54 @@
         "revision": "refs/heads/lineage-23.2",
         "fetch_lfs": true,
         "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_motorola_lamu",
+        "revision": "refs/heads/lineage-24.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
+    "period": "W"
+  },
+  "lancelot": {
+    "name": "lancelot",
+    "vendor": "xiaomi",
+    "build_type": "userdebug",
+    "branches": {
+      "lineage-18.1": {
+        "repo_url": "https://github.com/LineageOS/android_device_xiaomi_lancelot",
+        "revision": "refs/heads/lineage-18.1",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      },
+      "lineage-20": {
+        "repo_url": "https://github.com/LineageOS/android_device_xiaomi_lancelot",
+        "revision": "refs/heads/lineage-20",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      },
+      "lineage-21": {
+        "repo_url": "https://github.com/LineageOS/android_device_xiaomi_lancelot",
+        "revision": "refs/heads/lineage-21",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      },
+      "lineage-23.2": {
+        "repo_url": "https://github.com/LineageOS/android_device_xiaomi_lancelot",
+        "revision": "refs/heads/lineage-23.2",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_xiaomi_lancelot",
+        "revision": "refs/heads/lineage-24.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      }
+    },
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "larry": {
@@ -9102,9 +9711,54 @@
         "revision": "refs/heads/lineage-23.2",
         "fetch_lfs": true,
         "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_oneplus_larry",
+        "revision": "refs/heads/lineage-24.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
+    "period": "W"
+  },
+  "laurel_sprout": {
+    "name": "laurel_sprout",
+    "vendor": "xiaomi",
+    "build_type": "userdebug",
+    "branches": {
+      "lineage-22.2": {
+        "repo_url": "https://github.com/LineageOS/android_device_xiaomi_laurel_sprout",
+        "revision": "refs/heads/lineage-22.2",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      },
+      "lineage-23.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_xiaomi_laurel_sprout",
+        "revision": "refs/heads/lineage-23.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      },
+      "lineage-23.1": {
+        "repo_url": "https://github.com/LineageOS/android_device_xiaomi_laurel_sprout",
+        "revision": "refs/heads/lineage-23.1",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      },
+      "lineage-23.2": {
+        "repo_url": "https://github.com/LineageOS/android_device_xiaomi_laurel_sprout",
+        "revision": "refs/heads/lineage-23.2",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_xiaomi_laurel_sprout",
+        "revision": "refs/heads/lineage-24.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      }
+    },
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "lemonade": {
@@ -9185,7 +9839,7 @@
         "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "lemonadep": {
@@ -9266,7 +9920,7 @@
         "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "lemonades": {
@@ -9329,7 +9983,7 @@
         "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "lexus": {
@@ -9352,6 +10006,12 @@
       "lineage-23.2": {
         "repo_url": "https://github.com/LineageOS/android_device_oneplus_lexus",
         "revision": "refs/heads/lineage-23.2",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_oneplus_lexus",
+        "revision": "refs/heads/lineage-24.0",
         "fetch_lfs": true,
         "fetch_submodules": false
       }
@@ -9403,6 +10063,12 @@
       "lineage-23.2": {
         "repo_url": "https://github.com/LineageOS/android_device_xiaomi_lisa",
         "revision": "refs/heads/lineage-23.2",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_xiaomi_lisa",
+        "revision": "refs/heads/lineage-24.0",
         "fetch_lfs": true,
         "fetch_submodules": false
       }
@@ -9594,9 +10260,15 @@
         "revision": "refs/heads/lineage-23.2",
         "fetch_lfs": true,
         "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_realme_luigi",
+        "revision": "refs/heads/lineage-24.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "lynx": {
@@ -9659,7 +10331,7 @@
         "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "m5": {
@@ -9708,6 +10380,12 @@
         "revision": "refs/heads/lineage-22.2",
         "fetch_lfs": true,
         "fetch_submodules": false
+      },
+      "lineage-23.2": {
+        "repo_url": "https://github.com/LineageOS/android_device_bananapi_m5",
+        "revision": "refs/heads/lineage-23.2",
+        "fetch_lfs": true,
+        "fetch_submodules": false
       }
     },
     "default_branch": "lineage-22.2",
@@ -9753,9 +10431,15 @@
         "revision": "refs/heads/lineage-23.2",
         "fetch_lfs": true,
         "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_samsung_m52xq",
+        "revision": "refs/heads/lineage-24.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "m5_tab": {
@@ -9831,9 +10515,15 @@
         "revision": "refs/heads/lineage-23.2",
         "fetch_lfs": true,
         "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_xiaomi_marble",
+        "revision": "refs/heads/lineage-24.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "marlin": {
@@ -9951,6 +10641,12 @@
         "revision": "refs/heads/lineage-23.2",
         "fetch_lfs": true,
         "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_xiaomi_mars",
+        "revision": "refs/heads/lineage-24.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
       }
     },
     "default_branch": "lineage-23.2",
@@ -10016,7 +10712,7 @@
         "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "mata": {
@@ -10128,9 +10824,48 @@
         "revision": "refs/heads/lineage-23.2",
         "fetch_lfs": true,
         "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_xiaomi_mayfly",
+        "revision": "refs/heads/lineage-24.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
+    "period": "W"
+  },
+  "merlinx": {
+    "name": "merlinx",
+    "vendor": "xiaomi",
+    "build_type": "userdebug",
+    "branches": {
+      "lineage-20": {
+        "repo_url": "https://github.com/LineageOS/android_device_xiaomi_merlinx",
+        "revision": "refs/heads/lineage-20",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      },
+      "lineage-21": {
+        "repo_url": "https://github.com/LineageOS/android_device_xiaomi_merlinx",
+        "revision": "refs/heads/lineage-21",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      },
+      "lineage-23.2": {
+        "repo_url": "https://github.com/LineageOS/android_device_xiaomi_merlinx",
+        "revision": "refs/heads/lineage-23.2",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_xiaomi_merlinx",
+        "revision": "refs/heads/lineage-24.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      }
+    },
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "mermaid": {
@@ -10213,6 +10948,12 @@
       "lineage-23.2": {
         "repo_url": "https://github.com/LineageOS/android_device_sony_mermaid",
         "revision": "refs/heads/lineage-23.2",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_sony_mermaid",
+        "revision": "refs/heads/lineage-24.0",
         "fetch_lfs": true,
         "fetch_submodules": false
       }
@@ -10301,7 +11042,7 @@
         "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "miatoll": {
@@ -10391,7 +11132,7 @@
         "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "mondrian": {
@@ -10422,9 +11163,15 @@
         "revision": "refs/heads/lineage-23.2",
         "fetch_lfs": true,
         "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_xiaomi_mondrian",
+        "revision": "refs/heads/lineage-24.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "munch": {
@@ -10458,6 +11205,27 @@
       }
     },
     "default_branch": "lineage-23.2",
+    "period": "W"
+  },
+  "mustang": {
+    "name": "mustang",
+    "vendor": "google",
+    "build_type": "userdebug",
+    "branches": {
+      "lineage-23.2": {
+        "repo_url": "https://github.com/LineageOS/android_device_google_mustang",
+        "revision": "refs/heads/lineage-23.2",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_google_mustang",
+        "revision": "refs/heads/lineage-24.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      }
+    },
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "nairo": {
@@ -10510,6 +11278,12 @@
       "lineage-23.2": {
         "repo_url": "https://github.com/LineageOS/android_device_motorola_nairo",
         "revision": "refs/heads/lineage-23.2",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_motorola_nairo",
+        "revision": "refs/heads/lineage-24.0",
         "fetch_lfs": true,
         "fetch_submodules": false
       }
@@ -10689,6 +11463,27 @@
         "revision": "refs/heads/lineage-22.2",
         "fetch_lfs": true,
         "fetch_submodules": false
+      },
+      "lineage-23.2": {
+        "repo_url": "https://github.com/LineageOS/android_device_freebox_nicepool",
+        "revision": "refs/heads/lineage-23.2",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      }
+    },
+    "default_branch": "lineage-22.2",
+    "period": "W"
+  },
+  "nicepool_rtk": {
+    "name": "nicepool_rtk",
+    "vendor": "freebox",
+    "build_type": "userdebug",
+    "branches": {
+      "lineage-22.2": {
+        "repo_url": "https://github.com/LineageOS/android_device_freebox_nicepool_rtk",
+        "revision": "refs/heads/lineage-22.2",
+        "fetch_lfs": true,
+        "fetch_submodules": false
       }
     },
     "default_branch": "lineage-22.2",
@@ -10724,7 +11519,7 @@
         "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "nio": {
@@ -10805,7 +11600,7 @@
         "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "nuwa": {
@@ -10836,9 +11631,15 @@
         "revision": "refs/heads/lineage-23.2",
         "fetch_lfs": true,
         "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_xiaomi_nuwa",
+        "revision": "refs/heads/lineage-24.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "nx": {
@@ -11070,9 +11871,15 @@
         "revision": "refs/heads/lineage-22.2",
         "fetch_lfs": true,
         "fetch_submodules": false
+      },
+      "lineage-23.2": {
+        "repo_url": "https://github.com/LineageOS/android_device_nubia_nx659j",
+        "revision": "refs/heads/lineage-23.2",
+        "fetch_lfs": true,
+        "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-22.2",
+    "default_branch": "lineage-23.2",
     "period": "W"
   },
   "nx_tab": {
@@ -11195,6 +12002,69 @@
     "default_branch": "lineage-22.2",
     "period": "W"
   },
+  "odin2": {
+    "name": "odin2",
+    "vendor": "ayn",
+    "build_type": "userdebug",
+    "branches": {
+      "lineage-23.2": {
+        "repo_url": "https://github.com/LineageOS/android_device_ayn_odin2",
+        "revision": "refs/heads/lineage-23.2",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_ayn_odin2",
+        "revision": "refs/heads/lineage-24.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      }
+    },
+    "default_branch": "lineage-24.0",
+    "period": "W"
+  },
+  "odin2portal": {
+    "name": "odin2portal",
+    "vendor": "ayn",
+    "build_type": "userdebug",
+    "branches": {
+      "lineage-23.2": {
+        "repo_url": "https://github.com/LineageOS/android_device_ayn_odin2portal",
+        "revision": "refs/heads/lineage-23.2",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_ayn_odin2portal",
+        "revision": "refs/heads/lineage-24.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      }
+    },
+    "default_branch": "lineage-24.0",
+    "period": "W"
+  },
+  "odin2thor": {
+    "name": "odin2thor",
+    "vendor": "ayn",
+    "build_type": "userdebug",
+    "branches": {
+      "lineage-23.2": {
+        "repo_url": "https://github.com/LineageOS/android_device_ayn_odin2thor",
+        "revision": "refs/heads/lineage-23.2",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_ayn_odin2thor",
+        "revision": "refs/heads/lineage-24.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      }
+    },
+    "default_branch": "lineage-24.0",
+    "period": "W"
+  },
   "odin_m0": {
     "name": "odin_m0",
     "vendor": "ayn",
@@ -11271,6 +12141,12 @@
         "revision": "refs/heads/lineage-22.2",
         "fetch_lfs": true,
         "fetch_submodules": false
+      },
+      "lineage-23.2": {
+        "repo_url": "https://github.com/LineageOS/android_device_hardkernel_odroidc4",
+        "revision": "refs/heads/lineage-23.2",
+        "fetch_lfs": true,
+        "fetch_submodules": false
       }
     },
     "default_branch": "lineage-22.2",
@@ -11319,6 +12195,27 @@
       }
     },
     "default_branch": "lineage-22.2",
+    "period": "W"
+  },
+  "ohm": {
+    "name": "ohm",
+    "vendor": "amlogic",
+    "build_type": "userdebug",
+    "branches": {
+      "lineage-23.2": {
+        "repo_url": "https://github.com/LineageOS/android_device_amlogic_ohm",
+        "revision": "refs/heads/lineage-23.2",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_amlogic_ohm",
+        "revision": "refs/heads/lineage-24.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      }
+    },
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "oriole": {
@@ -11393,7 +12290,7 @@
         "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "oscar": {
@@ -11442,9 +12339,36 @@
         "revision": "refs/heads/lineage-23.2",
         "fetch_lfs": true,
         "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_realme_oscar",
+        "revision": "refs/heads/lineage-24.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
+    "period": "W"
+  },
+  "oscarc": {
+    "name": "oscarc",
+    "vendor": "realme",
+    "build_type": "userdebug",
+    "branches": {
+      "lineage-23.2": {
+        "repo_url": "https://github.com/LineageOS/android_device_realme_oscarc",
+        "revision": "refs/heads/lineage-23.2",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_realme_oscarc",
+        "revision": "refs/heads/lineage-24.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      }
+    },
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "oscaro": {
@@ -11481,9 +12405,36 @@
         "revision": "refs/heads/lineage-23.2",
         "fetch_lfs": true,
         "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_oneplus_oscaro",
+        "revision": "refs/heads/lineage-24.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
+    "period": "W"
+  },
+  "oscarru": {
+    "name": "oscarru",
+    "vendor": "realme",
+    "build_type": "userdebug",
+    "branches": {
+      "lineage-23.2": {
+        "repo_url": "https://github.com/LineageOS/android_device_realme_oscarru",
+        "revision": "refs/heads/lineage-23.2",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_realme_oscarru",
+        "revision": "refs/heads/lineage-24.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      }
+    },
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "otter": {
@@ -11540,7 +12491,7 @@
         "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "panther": {
@@ -11603,7 +12554,7 @@
         "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "payton": {
@@ -11741,7 +12692,7 @@
         "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "pdx206": {
@@ -11804,7 +12755,7 @@
         "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "pdx214": {
@@ -11867,7 +12818,7 @@
         "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "pdx215": {
@@ -11930,7 +12881,7 @@
         "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "pdx223": {
@@ -11957,7 +12908,7 @@
         "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "pdx224": {
@@ -11984,7 +12935,7 @@
         "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "pdx225": {
@@ -12021,9 +12972,15 @@
         "revision": "refs/heads/lineage-23.2",
         "fetch_lfs": true,
         "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_sony_pdx225",
+        "revision": "refs/heads/lineage-24.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "pdx234": {
@@ -12080,7 +13037,7 @@
         "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "pdx235": {
@@ -12117,9 +13074,15 @@
         "revision": "refs/heads/lineage-23.2",
         "fetch_lfs": true,
         "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_sony_pdx235",
+        "revision": "refs/heads/lineage-24.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "pdx237": {
@@ -12176,7 +13139,7 @@
         "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "pdx245": {
@@ -12189,9 +13152,15 @@
         "revision": "refs/heads/lineage-23.2",
         "fetch_lfs": true,
         "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_sony_pdx245",
+        "revision": "refs/heads/lineage-24.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "pdx257": {
@@ -12204,9 +13173,15 @@
         "revision": "refs/heads/lineage-23.2",
         "fetch_lfs": true,
         "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_sony_pdx257",
+        "revision": "refs/heads/lineage-24.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "peridot": {
@@ -12311,6 +13286,27 @@
     "default_branch": "lineage-22.2",
     "period": "W"
   },
+  "piloti": {
+    "name": "piloti",
+    "vendor": "realme",
+    "build_type": "userdebug",
+    "branches": {
+      "lineage-23.2": {
+        "repo_url": "https://github.com/LineageOS/android_device_realme_piloti",
+        "revision": "refs/heads/lineage-23.2",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_realme_piloti",
+        "revision": "refs/heads/lineage-24.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      }
+    },
+    "default_branch": "lineage-24.0",
+    "period": "W"
+  },
   "pioneer": {
     "name": "pioneer",
     "vendor": "sony",
@@ -12411,9 +13407,36 @@
         "revision": "refs/heads/lineage-23.2",
         "fetch_lfs": true,
         "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_sony_pioneer",
+        "revision": "refs/heads/lineage-24.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
+    "period": "W"
+  },
+  "pista": {
+    "name": "pista",
+    "vendor": "realme",
+    "build_type": "userdebug",
+    "branches": {
+      "lineage-23.2": {
+        "repo_url": "https://github.com/LineageOS/android_device_realme_pista",
+        "revision": "refs/heads/lineage-23.2",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_realme_pista",
+        "revision": "refs/heads/lineage-24.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      }
+    },
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "polaris": {
@@ -12585,6 +13608,12 @@
         "revision": "refs/heads/lineage-23.2",
         "fetch_lfs": true,
         "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_nvidia_porg",
+        "revision": "refs/heads/lineage-24.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
       }
     },
     "default_branch": "lineage-22.2",
@@ -12658,6 +13687,12 @@
       "lineage-23.2": {
         "repo_url": "https://github.com/LineageOS/android_device_nvidia_porg_tab",
         "revision": "refs/heads/lineage-23.2",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_nvidia_porg_tab",
+        "revision": "refs/heads/lineage-24.0",
         "fetch_lfs": true,
         "fetch_submodules": false
       }
@@ -12806,7 +13841,7 @@
         "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "pstar": {
@@ -12875,7 +13910,7 @@
         "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "pyrite": {
@@ -12896,7 +13931,7 @@
         "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "pyxis": {
@@ -13020,6 +14055,12 @@
         "revision": "refs/heads/lineage-23.2",
         "fetch_lfs": true,
         "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_nvidia_quill",
+        "revision": "refs/heads/lineage-24.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
       }
     },
     "default_branch": "lineage-22.2",
@@ -13101,9 +14142,36 @@
         "revision": "refs/heads/lineage-23.2",
         "fetch_lfs": true,
         "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_nvidia_quill_tab",
+        "revision": "refs/heads/lineage-24.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
       }
     },
     "default_branch": "lineage-22.2",
+    "period": "W"
+  },
+  "r0s": {
+    "name": "r0s",
+    "vendor": "samsung",
+    "build_type": "userdebug",
+    "branches": {
+      "lineage-23.2": {
+        "repo_url": "https://github.com/LineageOS/android_device_samsung_r0s",
+        "revision": "refs/heads/lineage-23.2",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_samsung_r0s",
+        "revision": "refs/heads/lineage-24.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      }
+    },
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "r8q": {
@@ -13179,9 +14247,15 @@
         "revision": "refs/heads/lineage-23.2",
         "fetch_lfs": true,
         "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_samsung_r8s",
+        "revision": "refs/heads/lineage-24.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "racer": {
@@ -13234,6 +14308,12 @@
       "lineage-23.2": {
         "repo_url": "https://github.com/LineageOS/android_device_motorola_racer",
         "revision": "refs/heads/lineage-23.2",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_motorola_racer",
+        "revision": "refs/heads/lineage-24.0",
         "fetch_lfs": true,
         "fetch_submodules": false
       }
@@ -13326,6 +14406,12 @@
         "revision": "refs/heads/lineage-22.2",
         "fetch_lfs": true,
         "fetch_submodules": false
+      },
+      "lineage-23.2": {
+        "repo_url": "https://github.com/LineageOS/android_device_radxa_radxa02",
+        "revision": "refs/heads/lineage-23.2",
+        "fetch_lfs": true,
+        "fetch_submodules": false
       }
     },
     "default_branch": "lineage-22.2",
@@ -13392,9 +14478,36 @@
         "revision": "refs/heads/lineage-22.2",
         "fetch_lfs": true,
         "fetch_submodules": false
+      },
+      "lineage-23.2": {
+        "repo_url": "https://github.com/LineageOS/android_device_radxa_radxa0_tab",
+        "revision": "refs/heads/lineage-23.2",
+        "fetch_lfs": true,
+        "fetch_submodules": false
       }
     },
     "default_branch": "lineage-22.2",
+    "period": "W"
+  },
+  "rango": {
+    "name": "rango",
+    "vendor": "google",
+    "build_type": "userdebug",
+    "branches": {
+      "lineage-23.2": {
+        "repo_url": "https://github.com/LineageOS/android_device_google_rango",
+        "revision": "refs/heads/lineage-23.2",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_google_rango",
+        "revision": "refs/heads/lineage-24.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      }
+    },
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "raven": {
@@ -13469,7 +14582,7 @@
         "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "redfin": {
@@ -13542,9 +14655,15 @@
         "revision": "refs/heads/lineage-23.2",
         "fetch_lfs": true,
         "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_google_redfin",
+        "revision": "refs/heads/lineage-24.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "renoir": {
@@ -13591,6 +14710,12 @@
       "lineage-23.2": {
         "repo_url": "https://github.com/LineageOS/android_device_xiaomi_renoir",
         "revision": "refs/heads/lineage-23.2",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_xiaomi_renoir",
+        "revision": "refs/heads/lineage-24.0",
         "fetch_lfs": true,
         "fetch_submodules": false
       }
@@ -13658,7 +14783,7 @@
         "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "rhodep": {
@@ -13703,7 +14828,7 @@
         "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "river": {
@@ -13809,9 +14934,15 @@
         "revision": "refs/heads/lineage-23.2",
         "fetch_lfs": true,
         "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_xiaomi_rosemary",
+        "revision": "refs/heads/lineage-24.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "rs988": {
@@ -13947,9 +15078,15 @@
         "revision": "refs/heads/lineage-23.2",
         "fetch_lfs": true,
         "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_motorola_rtwo",
+        "revision": "refs/heads/lineage-24.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "sabrina": {
@@ -13996,6 +15133,12 @@
       "lineage-22.2": {
         "repo_url": "https://github.com/LineageOS/android_device_google_sabrina",
         "revision": "refs/heads/lineage-22.2",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      },
+      "lineage-23.2": {
+        "repo_url": "https://github.com/LineageOS/android_device_google_sabrina",
+        "revision": "refs/heads/lineage-23.2",
         "fetch_lfs": true,
         "fetch_submodules": false
       }
@@ -14243,7 +15386,7 @@
         "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "salami": {
@@ -14306,7 +15449,7 @@
         "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "sargo": {
@@ -14564,7 +15707,7 @@
         "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "sif": {
@@ -14625,6 +15768,12 @@
         "revision": "refs/heads/lineage-23.2",
         "fetch_lfs": true,
         "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_nvidia_sif",
+        "revision": "refs/heads/lineage-24.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
       }
     },
     "default_branch": "lineage-22.2",
@@ -14676,9 +15825,36 @@
         "revision": "refs/heads/lineage-23.2",
         "fetch_lfs": true,
         "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_xiaomi_socrates",
+        "revision": "refs/heads/lineage-24.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
+    "period": "W"
+  },
+  "stallion": {
+    "name": "stallion",
+    "vendor": "google",
+    "build_type": "userdebug",
+    "branches": {
+      "lineage-23.2": {
+        "repo_url": "https://github.com/LineageOS/android_device_google_stallion",
+        "revision": "refs/heads/lineage-23.2",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_google_stallion",
+        "revision": "refs/heads/lineage-24.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      }
+    },
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "style3lm": {
@@ -14772,9 +15948,30 @@
         "revision": "refs/heads/lineage-23.2",
         "fetch_lfs": true,
         "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_google_sunfish",
+        "revision": "refs/heads/lineage-24.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
+    "period": "W"
+  },
+  "sunstone": {
+    "name": "sunstone",
+    "vendor": "amazon",
+    "build_type": "userdebug",
+    "branches": {
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_amazon_sunstone",
+        "revision": "refs/heads/lineage-24.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      }
+    },
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "surya": {
@@ -14872,6 +16069,12 @@
       "lineage-23.2": {
         "repo_url": "https://github.com/LineageOS/android_device_xiaomi_sweet",
         "revision": "refs/heads/lineage-23.2",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_xiaomi_sweet",
+        "revision": "refs/heads/lineage-24.0",
         "fetch_lfs": true,
         "fetch_submodules": false
       }
@@ -15020,7 +16223,7 @@
         "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "tegu": {
@@ -15053,7 +16256,7 @@
         "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "thor": {
@@ -15084,9 +16287,15 @@
         "revision": "refs/heads/lineage-23.2",
         "fetch_lfs": true,
         "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_xiaomi_thor",
+        "revision": "refs/heads/lineage-24.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "thyme": {
@@ -15120,6 +16329,27 @@
       }
     },
     "default_branch": "lineage-23.2",
+    "period": "W"
+  },
+  "tifa": {
+    "name": "tifa",
+    "vendor": "sdmc",
+    "build_type": "userdebug",
+    "branches": {
+      "lineage-23.2": {
+        "repo_url": "https://github.com/LineageOS/android_device_sdmc_tifa",
+        "revision": "refs/heads/lineage-23.2",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_sdmc_tifa",
+        "revision": "refs/heads/lineage-24.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      }
+    },
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "timelm": {
@@ -15197,7 +16427,7 @@
         "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "trident": {
@@ -15287,7 +16517,7 @@
         "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "tucana": {
@@ -15316,6 +16546,12 @@
       "lineage-23.2": {
         "repo_url": "https://github.com/LineageOS/android_device_xiaomi_tucana",
         "revision": "refs/heads/lineage-23.2",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_xiaomi_tucana",
+        "revision": "refs/heads/lineage-24.0",
         "fetch_lfs": true,
         "fetch_submodules": false
       }
@@ -15365,7 +16601,7 @@
         "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "umi": {
@@ -15408,6 +16644,12 @@
         "revision": "refs/heads/lineage-23.2",
         "fetch_lfs": true,
         "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_xiaomi_umi",
+        "revision": "refs/heads/lineage-24.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
       }
     },
     "default_branch": "lineage-23.2",
@@ -15441,9 +16683,15 @@
         "revision": "refs/heads/lineage-23.2",
         "fetch_lfs": true,
         "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_xiaomi_unicorn",
+        "revision": "refs/heads/lineage-24.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "ursa": {
@@ -15864,6 +17112,12 @@
         "revision": "refs/heads/lineage-23.2",
         "fetch_lfs": true,
         "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_xiaomi_venus",
+        "revision": "refs/heads/lineage-24.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
       }
     },
     "default_branch": "lineage-23.2",
@@ -15891,9 +17145,15 @@
         "revision": "refs/heads/lineage-23.2",
         "fetch_lfs": true,
         "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_xiaomi_vermeer",
+        "revision": "refs/heads/lineage-24.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "violet": {
@@ -16023,9 +17283,15 @@
         "revision": "refs/heads/lineage-23.2",
         "fetch_lfs": true,
         "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_sony_voyager",
+        "revision": "refs/heads/lineage-24.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "vs995": {
@@ -16161,6 +17427,12 @@
         "revision": "refs/heads/lineage-22.2",
         "fetch_lfs": true,
         "fetch_submodules": false
+      },
+      "lineage-23.2": {
+        "repo_url": "https://github.com/LineageOS/android_device_askey_wade",
+        "revision": "refs/heads/lineage-23.2",
+        "fetch_lfs": true,
+        "fetch_submodules": false
       }
     },
     "default_branch": "lineage-22.2",
@@ -16192,6 +17464,12 @@
       "lineage-23.2": {
         "repo_url": "https://github.com/LineageOS/android_device_oneplus_waffle",
         "revision": "refs/heads/lineage-23.2",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_oneplus_waffle",
+        "revision": "refs/heads/lineage-24.0",
         "fetch_lfs": true,
         "fetch_submodules": false
       }
@@ -16274,6 +17552,27 @@
     "default_branch": "lineage-22.2",
     "period": "W"
   },
+  "winglm": {
+    "name": "winglm",
+    "vendor": "lge",
+    "build_type": "userdebug",
+    "branches": {
+      "lineage-23.2": {
+        "repo_url": "https://github.com/LineageOS/android_device_lge_winglm",
+        "revision": "refs/heads/lineage-23.2",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_lge_winglm",
+        "revision": "refs/heads/lineage-24.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      }
+    },
+    "default_branch": "lineage-23.2",
+    "period": "W"
+  },
   "x1s": {
     "name": "x1s",
     "vendor": "samsung",
@@ -16296,9 +17595,30 @@
         "revision": "refs/heads/lineage-23.2",
         "fetch_lfs": true,
         "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_samsung_x1s",
+        "revision": "refs/heads/lineage-24.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
+    "period": "W"
+  },
+  "xaga": {
+    "name": "xaga",
+    "vendor": "xiaomi",
+    "build_type": "userdebug",
+    "branches": {
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_xiaomi_xaga",
+        "revision": "refs/heads/lineage-24.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
+      }
+    },
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "xpeng": {
@@ -16361,7 +17681,7 @@
         "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "xz2c": {
@@ -16461,9 +17781,15 @@
         "revision": "refs/heads/lineage-23.2",
         "fetch_lfs": true,
         "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_samsung_y2s",
+        "revision": "refs/heads/lineage-24.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "z3s": {
@@ -16488,9 +17814,15 @@
         "revision": "refs/heads/lineage-23.2",
         "fetch_lfs": true,
         "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_samsung_z3s",
+        "revision": "refs/heads/lineage-24.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "zeus": {
@@ -16521,9 +17853,15 @@
         "revision": "refs/heads/lineage-23.2",
         "fetch_lfs": true,
         "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_xiaomi_zeus",
+        "revision": "refs/heads/lineage-24.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "zippo": {
@@ -16590,9 +17928,15 @@
         "revision": "refs/heads/lineage-23.2",
         "fetch_lfs": true,
         "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_lenovo_zippo",
+        "revision": "refs/heads/lineage-24.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   },
   "zizhan": {
@@ -16623,9 +17967,15 @@
         "revision": "refs/heads/lineage-23.2",
         "fetch_lfs": true,
         "fetch_submodules": false
+      },
+      "lineage-24.0": {
+        "repo_url": "https://github.com/LineageOS/android_device_xiaomi_zizhan",
+        "revision": "refs/heads/lineage-24.0",
+        "fetch_lfs": true,
+        "fetch_submodules": false
       }
     },
-    "default_branch": "lineage-23.2",
+    "default_branch": "lineage-24.0",
     "period": "W"
   }
 }

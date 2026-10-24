@@ -43,6 +43,7 @@ let
     "22.2" = 15;
     "23.0" = 16;
     "23.2" = 16;
+    "24.0" = 17;
   };
   deviceMetadata = lib.importJSON ./devices.json;
   supportedDevices = attrNames deviceMetadata;

@@ -20,7 +20,3 @@ index 0c2e179e..4c35eac9 100644
  endef
 
  # Make an external module target
-diff --git a/build/tasks/kernel.mk b/build/tasks/kernel.mk
-index 9189864d..0c98a91d 100644
---- a/build/tasks/kernel.mk
-+++ b/build/tasks/kernel.mk
